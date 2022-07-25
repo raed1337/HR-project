@@ -1,0 +1,375 @@
+B-greeting I-greeting o o o o o o B-problem o o B-reason o I-reason I-reason
+B-positive o o o B-policy o o o o o B-problem I-policy
+o o o B-age I-age I-age
+o o o B-problem o o o o o B-negative o o o o o o o o
+o o o B-negative I-negative o o B-otherreason I-otherreason o o I-otherreason
+o o B-negative o o o o
+o o o o o B-offer I-offer B-problem B-reason I-reason
+o o B-sanction I-sanction o o
+o o o B-experience I-experience
+o o o o B-goal o o
+B-negative B-thank
+B-greeting I-greeting o o o o o o o o B-problem o o B-reason I-reason o o o o B-goal o o o o B-problem o o
+B-employeename o B-policy o o B-negative o B-problem o o o o o
+o o o B-age I-age I-age
+o o o B-reason I-reason o o o B-problem o o o o o o o o B-negative o o o o
+B-positive o o o o B-negative B-otherreason o o o o o o o o o o o B-negative o o o o o o o o o o
+B-positive o o B-negative o o o o o o o o o o
+o B-negative I-negative o o o o o o o o o o o o o o o o
+o o o o B-sanction I-sanction I-sanction
+B-employeename o o o o o o o o B-experience I-experience I-experience I-experience I-experience
+o o o o B-goal o o o o o B-negative o o o o o o o o
+o o o B-goal B-employeename
+B-greeting I-greeting o o o o o o o o B-problem o o B-reason I-reason o o o o B-goal o o o o B-problem o o
+B-employeename o B-policy o o B-negative o B-problem o o o o o
+o o o B-age I-age I-age
+o o o B-reason I-reason o o o B-problem o o o o o o o o B-negative o o o o
+B-positive o o o o B-negative B-otherreason o o o o o o o o o o o B-negative o o o o o o o o o o
+B-positive o o B-negative o o o o o o o o o o
+o B-negative I-negative o o o o o o o o o o o o o o o o
+o o o o B-sanction I-sanction I-sanction
+B-employeename o o o o o o o o B-experience I-experience I-experience I-experience I-experience
+o o o o B-goal o o o o o B-negative o o o o o o o o
+o o B-goal o o o B-problem o I-problem I-problem
+B-greeting I-greeting o o o o o o o B-negative I-negative B-problem I-problem I-problem I-problem o o o o B-goal I-goal o o
+o o B-negative o o o o B-problem B-policy o o o o o
+o o o B-age I-age I-age
+o o o o o o o o o o B-reason I-reason I-reason I-reason o o o o o
+o o o B-negative I-negative o o o o o o o o o o o B-otherreason o o o o o o o o
+o o o o o o o o o o o B-reason I-reason I-reason o o o B-personalproblem o o o o o o o o o B-negative B-otherreason o o o o
+o B-offer o o o o o B-problem o o
+o o o B-sanction I-sanction
+o o o o o o o o o o B-experience I-experience
+o o o o B-goal o o o o o o B-problem o o o o
+o o o B-goal o o o o B-problem
+B-greeting I-greeting B-employeename B-problem o I-problem B-reason I-reason o o o o B-goal o o o o o o
+o o B-policy o B-employeename o o B-negative B-problem I-problem I-problem I-problem o o o
+o o o B-age I-age I-age
+o o o o B-reason o I-reason o B-problem o o o o o o B-reason I-reason I-reason o o o o o o o
+o o o o B-negative I-negative B-otherreason o o o o o
+o B-negative I-negative o o o o o o o o o o B-personalproblem I-personalproblem I-personalproblem I-personalproblem
+o B-negative I-negative o o o o o o o o o o o o
+B-employeename o o o o B-sanction o o o
+B-employeename o o o o o B-experience I-experience
+o o o o B-goal B-employeename o o o o o o o o o
+o o B-goal B-employeename o o B-problem I-problem
+B-greeting I-greeting o o o B-problem I-problem o o o o o
+B-positive o o B-policy o B-policy o o o o o
+o o o B-age I-age I-age
+B-employeename o B-negative o B-reason I-reason o o o o B-reason o B-problem
+B-negative I-negative o o o o o
+o B-negative I-negative o
+o o o o o B-offer I-offer I-offer I-offer I-offer
+o o o o B-sanction I-sanction o o o B-offer o B-problem B-reason I-reason o o o o B-problem
+o o o o o o o o B-experience I-experience
+B-positive o o o o B-offer I-offer I-offer o o o o o B-goal o o
+B-negative B-thank
+B-greeting I-greeting o o o o o o o o B-problem o o o o o
+o o o B-policy o B-problem o o B-policy
+o o o B-age I-age I-age
+o o o o o o o B-reason o o o o o o o o
+o o B-negative I-negative B-otherreason o B-problem I-problem I-problem I-problem
+o B-negative I-negative o o o o
+o o o o B-offer I-offer I-offer o I-offer I-offer
+B-positive o o o B-sanction I-sanction I-sanction o
+o o o B-experience I-experience
+o o o o B-goal o
+B-negative B-thank
+B-greeting I-greeting o o o o o o o o B-problem o o o o o
+o o o B-policy o B-problem o o B-policy
+o o o B-age I-age I-age
+o o o o o o o B-reason o o o o o o o o
+o o B-negative I-negative B-otherreason o B-problem I-problem I-problem I-problem
+o B-negative I-negative o o o o
+o o o o B-offer I-offer I-offer o I-offer I-offer
+B-positive o o o B-sanction I-sanction I-sanction o
+o o o B-experience I-experience
+o o o o B-goal o
+B-negative B-thank
+B-greeting I-greeting o o o o B-problem I-problem I-problem
+B-positive o o B-policy o o o B-policy o o o o o
+o o o B-age I-age I-age
+o o o o o o o o o B-reason I-reason I-reason I-reason I-reason
+B-negative I-negative o o o o o o o o o o o o
+o o B-employeename o B-personalproblem o B-negative o B-reason I-reason I-reason I-reason I-reason
+o B-offer o o o o o o o o o o B-offer I-offer I-offer I-offer
+B-negative o o o o o o o B-offer B-problem I-problem I-problem I-problem I-problem
+B-employeename o B-experience I-experience o o o o o
+B-positive I-greeting o o o o o B-offer B-problem I-problem I-problem
+B-negative B-thank
+B-greeting o o o o o B-problem I-problem I-problem I-problem o o o
+o o B-policy o o o o o o B-negative o o B-problem I-problem
+o o o B-age I-age I-age
+o o B-negative o B-reason I-reason I-reason
+B-negative o B-negative I-negative o o o o B-otherreason
+B-negative o o o
+o B-offer o o B-offer o I-offer I-offer
+B-positive o o o o B-sanction I-sanction o o o
+B-employeename o o o o o o B-experience I-experience
+B-positive I-greeting o o o o B-goal B-employeename o o B-negative I-negative o o
+B-negative B-thank
+B-greeting o o o o o o o B-problem
+B-positive B-employeename o o B-policy o o o o
+o o o B-age I-age I-age
+o o B-negative o o B-reason I-reason
+B-negative o B-negative I-negative o o o o B-otherreason
+o o B-negative o o
+o o o o o o B-offer I-offer I-offer o o o
+o o B-sanction o o o o o o
+B-employeename o o o o o o o B-experience I-experience
+o o o o B-goal o o o o o o o o o
+B-negative B-thank
+B-greeting I-greeting o o o o o B-problem o o o o o o o o o o o
+B-positive o o B-policy o o o o o B-policy
+o o o B-age I-age I-age
+o o o o o B-reason I-reason I-reason I-reason o B-negative I-negative o o o B-reason I-reason o o
+o o o o o B-negative I-negative B-otherreason I-otherreason o I-otherreason o o o o o o o o o o o o
+B-negative o o o
+o o o o o o B-offer I-offer I-offer o o o o o o o o o o o o
+o o o o B-sanction o B-problem I-problem I-problem I-problem o o
+o o o o o o B-experience I-experience
+B-positive I-greeting o o o o B-goal I-goal I-goal
+B-negative B-thank
+B-greeting I-greeting o o o o o o o B-negative B-problem I-problem o o o o o o o o
+o o o o o o o o B-policy o o o o o o o o o o o o o o o
+o o o B-age I-age I-age
+o o o B-reason I-reason o o o o o o o o o B-reason o o B-negative I-negative o o o o o o o B-problem I-problem
+o o o B-negative B-otherreason o o o o
+B-positive o o o o o o o o o
+o o o o o B-offer I-offer I-offer o o o o o o
+o o o B-sanction I-sanction I-sanction o o B-problem o o o o o B-problem I-problem
+o o o o o o o o B-experience I-experience
+o o o o o o o o B-experience I-experience o o o o o B-goal I-goal I-goal
+o o B-goal o o
+B-greeting I-greeting o o o o o o o o B-problem I-problem I-problem I-problem o o o o o o o o o B-goal o o
+o o o B-policy o o o B-policy o o o o
+o o o B-age I-age I-age
+o o o o o o o B-reason I-reason I-reason I-reason o o o o
+B-negative
+o o o o o o o o o B-problem o o o o B-personalproblem I-personalproblem I-personalproblem I-personalproblem o o o B-reason I-reason I-reason I-reason
+o o o o o o o o o o o o o o o
+o o o o B-sanction o o o o o o o o o o o o o o
+o B-experience I-experience
+o o o B-goal o o o o B-negative I-negative o o o
+o o B-goal o o o o o o o o o B-problem I-problem
+B-greeting I-greeting B-employeename o B-negative B-problem I-problem I-problem I-problem o o o o o o o o o o o o B-goal o
+B-positive o B-policy I-policy o o o o o o o o o o o o
+o o o B-age I-age I-age
+B-employeename o B-negative o o B-reason I-reason
+B-employeename o o o o B-otherreason o
+o o B-negative o o o B-negative o o
+o B-offer I-offer I-offer o o o o o B-negative I-negative o o o
+o o o o B-sanction I-sanction o o o o o
+o B-experience I-experience
+o o o o B-goal B-employeename o o
+o o o o o o B-goal B-employeename
+B-greeting I-greeting B-employeename B-problem o o o o o o o o o o o o o o
+B-positive B-employeename o B-policy o o B-policy o B-problem o o o o o o o o
+o o o B-age I-age I-age
+o o o o o o B-reason I-reason I-reason I-reason o o o
+B-negative o o o
+o o o o o o B-otherreason I-otherreason
+o B-negative I-negative o o o o
+o o o o B-sanction I-sanction I-sanction o B-negative I-negative o o o o o
+o o o o o o B-experience I-experience
+o o o o o B-goal B-employeename I-goal I-goal
+o o o o o o o o o o o o o o o B-problem
+B-greeting I-greeting o o o o o o B-problem I-problem o o o o B-negative o o o o
+B-positive B-employeename o o B-policy o o B-negative B-problem o I-problem
+o o o B-age I-age I-age
+o o o o o o o o o o o o B-negative B-reason I-reason I-reason I-reason
+o o B-negative o o B-otherreason I-otherreason o o o
+B-negative o o o
+o o o o B-offer I-offer o I-offer I-offer o o o o
+o o B-sanction I-sanction o o o o o o o B-employeename o o B-problem o I-problem o I-problem
+B-employeename o o o o o o o B-experience I-experience
+B-positive I-greeting o o B-negative o o o o
+B-negative B-thank
+B-greeting I-greeting o o o o o o B-problem I-problem o o o
+B-positive B-employeename B-policy o o B-negative B-problem o I-problem o I-problem
+o o o B-age I-age I-age
+o B-negative o o o o o o o o o o
+B-negative o o o o o B-negative o B-otherreason o o
+o B-negative I-negative o
+o o B-offer o o o B-policy o o o o o o o o
+o o B-sanction I-sanction I-sanction o B-sanction I-sanction I-sanction o B-employeename o o o o o o o B-negative o
+B-employeename o o o o o o o B-experience I-experience
+o o o o B-goal B-employeename o o o o o o o o o
+B-negative I-negative o o
+B-greeting I-greeting o o o o o o B-problem I-problem o o o
+B-positive B-employeename o B-policy o o B-policy o o o
+o o o B-age I-age I-age
+o o o B-negative I-negative o o o o o o o o o o o o o B-negative B-reason I-reason I-reason
+B-negative o o o o o B-negative o B-otherreason o o
+o B-negative I-negative o
+o B-policy B-employeename o o B-negative o o o o o o o o o
+B-employeename o B-sanction I-sanction o o
+B-employeename o o o o o o o B-experience I-experience
+o o o o B-goal B-employeename o o
+B-negative B-thank
+B-greeting I-greeting o o o o o o B-problem o o I-problem o o I-problem
+o B-policy o o o o B-policy o B-problem o B-problem o o o o
+o o o B-age I-age I-age
+o o o o B-negative o o o B-negative I-negative B-reason I-reason I-reason o o o o o o o o o o o B-problem
+o o o o B-reason I-reason I-reason o o o B-negative I-negative o o o B-problem o o o o
+o B-negative I-negative o o o o o B-problem I-problem
+o B-offer o o o B-negative o o o o
+o o B-negative o o o o B-sanction o o B-problem o o
+o o o B-experience I-experience
+o o o o B-goal o
+B-negative B-thank
+B-employeename o B-problem I-problem I-problem o o B-negative o o o
+B-positive B-employeename o o B-policy o o B-policy o o B-problem I-problem I-problem I-problem
+o o o B-age I-age I-age
+o o o o o o o B-problem I-problem I-problem I-problem o B-policy o o o o
+o o o o B-otherreason o o o o o o B-otherreason I-otherreason
+o o B-negative o o o o o o B-problem I-problem I-problem
+o B-offer o o o o B-problem I-problem o o o o o B-negative I-negative o o o o o o o o o o o o o o o B-negative I-negative B-problem I-problem I-problem I-problem
+B-negative o o o o o o
+B-employeename o o o o o o o B-experience I-experience
+B-goal I-goal I-goal o B-goal I-goal I-goal
+o o o o o o B-employeename o o B-problem o o
+B-greeting I-greeting B-employeename o o B-problem I-problem B-reason I-reason o o B-negative o o o o o o o o
+o o B-policy o o o o B-negative B-problem I-problem I-problem B-reason I-reason I-reason
+o o o B-age I-age I-age
+o o o o o o o o o o o o o o B-negative I-negative o o o B-negative o o o o
+o o o B-otherreason I-otherreason I-otherreason I-otherreason
+o o o o o o
+o o B-negative o o o o
+o o o B-sanction I-sanction I-sanction o o o
+o B-experience I-experience
+B-goal o o
+o o o o o o o o o
+B-employeename o B-negative B-problem I-problem I-problem I-problem o o o o o o B-sanction o o o B-negative o o o o o
+B-employeename B-policy I-policy I-policy o B-problem o o
+o o o B-age I-age I-age
+o o o o o o o o o o o o o o o o o o o o o o o o B-sanction o o B-problem I-problem
+B-negative o o o o o o o o
+o o o o o o o o o o
+o o o o o o o o o o o o
+B-positive o o o B-sanction I-sanction I-sanction o B-problem I-problem o o o
+B-employeename o o o o o o B-experience I-experience o o o B-negative o
+o o o B-goal o o
+o o B-goal o o o B-problem I-problem o B-positive o
+B-greeting I-greeting B-employeename o B-problem o B-reason I-reason o o B-negative o o o B-problem I-problem
+B-positive o B-policy o o o o o B-policy o o B-problem
+o o o B-age I-age I-age
+o o o o o o o B-problem I-problem I-problem I-problem o o o
+o o o o B-negative B-otherreason o o o o o o o o o o o o o o o o o o o B-negative o o o o
+B-negative o o o
+o o B-negative o o o o o o o o o o o B-negative o o
+o o o o o o B-sanction I-sanction
+o B-experience I-experience o o o o o o
+o o o B-goal B-employeename
+o o B-goal o o
+B-greeting I-greeting o o o o o o o B-problem I-problem I-problem I-problem o o o B-negative o B-problem I-problem o
+B-positive o o B-policy o o o o B-negative o B-problem I-problem I-problem B-reason I-reason I-reason I-reason o B-reason I-reason I-reason o o o
+o o o B-age I-age I-age
+o o o o o o o o o o o B-negative o o o o o o
+B-negative o o B-negative o o o o o o o o o o o o o o o o o
+B-negative o o o
+o o B-offer o o B-problem I-problem o o o B-negative o o o o o o o o o o
+B-positive o o o B-sanction I-sanction o o B-problem I-problem
+o o o o o o o o B-experience I-experience
+o o o o B-goal o o
+o o o o o o o o B-goal o o
+B-greeting I-greeting o o o o o o o B-problem I-problem I-problem I-problem o o o B-negative o B-problem I-problem o
+B-positive o o B-policy o o o o B-negative o B-problem I-problem I-problem B-reason I-reason I-reason I-reason o B-reason I-reason I-reason o o o
+o o o B-age I-age I-age
+o o o o o o o o o o o B-negative o o o o o o
+B-negative o o B-negative o o o o o o o o o o o o o o o o o
+B-negative o o o
+o o B-offer o o B-problem I-problem o o o B-negative o o o o o o o o o o
+B-positive o o o B-sanction I-sanction o o B-problem I-problem
+o o o o o o o o B-experience I-experience
+o o o o B-goal o o
+o o o o o o o o B-goal o o
+B-greeting I-greeting o o o o o B-negative I-negative B-problem I-problem I-problem I-problem I-problem o o o o B-negative o o o o o o
+o o o B-policy o o o o o o B-problem o o o o o o
+o o o B-age I-age I-age
+o o o B-negative o o o o o o o B-negative I-negative o o
+o o B-negative o
+o o o o o B-personalproblem o o o o o o o o o o B-negative o o B-problem I-problem
+o o B-negative o o o o o o o o B-negative o o
+o o o B-sanction o o o o o o B-problem I-problem
+o o o o o o o B-experience I-experience
+o o o o o B-goal I-goal I-goal o B-negative I-negative o o o o o
+o o o o o o o o B-goal I-goal I-goal
+B-greeting I-greeting o o o o o o o B-problem o
+o o B-policy o o o B-policy o o o o o o o B-problem I-problem I-problem
+o o o B-age I-age I-age
+o o o o o B-policy o o o o o o o o o o B-personalproblem I-personalproblem o o o o o o o o o B-problem I-problem o o o B-policy o o o o o B-policy o o o o o o o o o o o o o o
+o o B-negative o o o o o o o B-problem o B-negative B-policy o o o o o o o B-problem I-problem I-problem
+o o o o B-otherreason o o o B-personalproblem o o o B-personalproblem
+o B-negative I-negative o o o o o o o B-policy o o o o o o o o o o o o B-personalproblem I-personalproblem o o o o
+B-negative o o o o o o o o o o
+o o o o o o o o B-experience I-experience
+o o o o B-goal I-goal I-goal
+o o o o o B-problem I-problem o o o o o o o o B-personalproblem o o B-personalproblem o
+B-greeting I-greeting o o o o o o o B-problem o
+B-positive o B-policy o o o o o o o o o o o o o B-problem I-problem o o o
+o o o B-age I-age I-age
+o o o o o o B-personalproblem I-personalproblem o o o o o o o o B-policy o o o o o o o o o o o o o o o o o B-problem o o o o o o o o o B-negative o o o o o o B-policy o o o o o o
+o o B-negative o o o o o o B-problem o B-negative B-policy o o o o o o o B-problem I-problem I-problem
+o o o o B-otherreason o o o B-personalproblem o o B-personalproblem o o o o
+o B-negative I-negative o o o o o o o B-policy o o o o o o o o o o o o B-personalproblem I-personalproblem o o o o
+o o o o B-sanction I-sanction o o B-problem I-problem o o o
+o o o o o o o o B-experience I-experience
+o o o o B-goal I-goal I-goal
+o o o o o B-problem I-problem o o o o o o o o B-personalproblem o o B-personalproblem o
+B-greeting I-greeting o o o o o B-problem I-problem I-problem I-problem I-problem I-problem I-problem o o o B-negative o o o B-problem
+B-positive o B-policy o o B-policy
+o o o B-age I-age I-age
+o o o o o o o o B-negative o o o o o o o o o B-personalproblem o o o o o o o o o o B-policy o o o o o o B-negative o B-problem o o B-reason I-reason I-reason
+o o o o B-negative o o B-policy o o o o o o o o o o o
+o o o o o o o o o o o o B-personalproblem o o o
+o B-negative I-negative o o o o o o o o o o o o
+o o B-sanction I-sanction o o o o o o o
+o o o o o o o o B-experience I-experience
+o o o o o B-goal I-goal I-goal
+o o o o o o o B-goal o o o o
+o o o o o o B-problem I-problem I-problem o o o o o o o o o o o
+B-positive o o B-policy o o o o o B-policy
+o o o B-age I-age I-age
+o o o o o o o o o o B-negative I-negative o o o B-reason I-reason o o
+o o o o o B-negative I-negative o o o o o o B-negative o o o o o o o o o
+B-negative o o o
+o o o o o o B-offer I-offer I-offer o o o o o o o o o o o o
+o o o o B-sanction o B-problem I-problem o o o o
+o o o o o o B-experience I-experience
+B-positive I-greeting o o o o B-goal I-goal I-goal
+B-negative B-thank
+B-greeting I-greeting B-employeename o o B-problem I-problem I-problem o o o o o o o B-negative o o o o o o o o B-problem I-problem I-problem o o B-problem o o
+B-employeename B-policy o B-policy o B-problem I-problem I-problem
+o o o B-age I-age I-age
+B-negative o B-negative I-negative o o
+o o o o B-employeename o o o B-otherreason o o o
+o B-negative I-negative o o
+o o o o o B-sanction I-sanction I-sanction o o o
+o o o B-sanction I-sanction o o o o o o B-problem o o o o o o
+o o o B-experience I-experience
+o o o o o o o B-negative B-problem I-problem I-problem I-problem o o o o
+B-negative B-thank
+B-greeting I-greeting B-employeename o o B-problem I-problem I-problem o o o o o o o B-negative o o o o o o o o B-problem I-problem I-problem o o B-problem o o
+o o B-negative o o o o B-policy o B-problem o o o o o
+o o o B-age I-age I-age
+B-negative o o o o o o o o o o
+o o o o B-negative B-otherreason o o o o o o o o o o o o
+o B-negative I-negative o o
+o B-negative I-negative o o o o o
+o o o o o B-employeename o o B-problem I-problem I-problem o o o o o o
+B-employeename o o o o o o o B-experience I-experience
+o o o o o o o o o B-problem
+B-negative B-thank
+B-greeting I-greeting o o o o o o B-negative B-problem I-problem I-problem o o o o o o o B-problem I-problem o o o o o o o B-goal I-goal I-goal o
+B-positive o o o B-policy o o B-policy o B-problem
+o o o B-age I-age I-age
+B-negative o o B-negative I-negative o o
+o o o o o o o o o o o o o o o o
+o B-negative I-negative o o o B-negative I-negative o o
+B-negative o o o o o o o o
+o o o o B-sanction I-sanction I-sanction o B-problem o o
+o o o o o o o B-experience I-experience
+o o o o o o B-goal o o
+B-negative B-thank
+eof

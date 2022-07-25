@@ -1,0 +1,76 @@
+{
+  
+  "C3-1": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["work_schedule.R1"],
+            "Law":["work_schedule.R2","work_schedule.R3"]
+    }
+  },
+  "C3-2": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":[],
+            "Law":["work_schedule.R2","work_schedule.R3"]
+    }
+  },
+  "C3-3": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["work_schedule.R1"],
+            "Law":["work_schedule.R4","work_schedule.R5"]
+    }
+  },
+  "C3-4": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+            "Law":["work_schedule.R4","work_schedule.R5"]
+    }
+  },
+    "C3-5": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["work_schedule.R1"],
+            "Law":["work_schedule.R6"]
+    }
+  },
+    "C3-6": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+            "Law":["work_schedule.R6"]
+    }
+  },
+    "C3-7": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+            "Law":["work_schedule.R7","work_schedule.R8"]
+    }
+  },
+    "C3-8": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+            "Law":["work_schedule.R21","work_schedule.R22","work_schedule.R23"]
+    }
+  },
+    "C3-9": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+            "Law":["work_schedule.R14","work_schedule.R15"]
+    }
+  },
+    "C3-10": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+            "Law":["work_schedule.R9","work_schedule.R10","work_schedule.R11","work_schedule.R12","work_schedule.R13"]
+    }
+  },
+    "C3-11": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+             "Law":["work_schedule.R16","work_schedule.R17","work_schedule.R18","work_schedule.R19","work_schedule.R20"]
+    }
+  },
+    "C3-12": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+             "Law":["work_schedule.R24","work_schedule.R25","work_schedule.R26"]
+    }
+  }
+  
+}

@@ -1,0 +1,490 @@
+{
+    "DataFrameColumns": {
+        "problem": {
+            "incompetence": 1
+        },
+        "experience": "Number",
+        "current_position_duration_less_than_3": {
+            "a": 1
+        },
+        "current_position_duration_between_3_and_1": {
+            "b": 1
+        },
+        "current_position_duration_more_than_1": {
+            "c": 1
+        },
+        "has_training": "Binary",
+        "has_tools": "Binary",
+        "has_probationary_eval": "Binary",
+        "has_performance_eval": "Binary",
+        "performance_improvement_discussed": "Binary",
+        "performance_improvement_method_verbal": {
+            "a": 1,
+            "verbal": 1
+        },
+        "performance_improvement_method_written": {
+            "b": 1,
+            "written": 1
+        },
+        "position_obtainment_method_applied": {
+            "a": 1
+        },
+        "position_obtainment_method_no_posting": {
+            "b": 1
+        },
+        "position_obtainment_method_idk": {
+            "c": 1
+        },
+        "was_successful_in_prev_post_yes": {
+            "a": 1
+        },
+        "was_successful_in_prev_post_no": {
+            "b": 1
+        },
+        "was_successful_in_prev_post_only_position": {
+            "c": 1
+        },
+        "has_disciplinary_record": "Binary",
+        "is_careless": "Binary",
+        "has_disciplinary_for_carelessness": "Binary",
+        "recent_disciplinary_action_verbal": {
+            "a": 1,
+            "verbal": 1
+        },
+        "recent_disciplinary_action_written": {
+            "b": 1,
+            "written": 1
+        },
+        "recent_disciplinary_action_short_term": {
+            "c": 1,
+            "short_term_suspension": 1
+        },
+        "recent_disciplinary_action_long_term": {
+            "d": 1,
+            "long_term_suspension": 1
+        },
+        "recent_disciplinary_action_another": {
+            "e": 1
+        },
+        "dissatisfaction_duration_recent": {
+            "a": 1
+        },
+        "dissatisfaction_duration_long": {
+            "b": 1
+        },
+        "performance_dissasatisfaction_discussed": "Binary",
+        "performance_dissasatisfaction_discussed_method_verbal": {
+            "a": 1
+        },
+        "performance_dissasatisfaction_discussed_method_written": {
+            "b": 1
+        },
+        "aware_of_requirements": "Binary",
+        "aware_of_requirements_method_verbal": {
+            "a": 1
+        },
+        "aware_of_requirements_method_written": {
+            "b": 1
+        },
+        "job_requirement_change": "Binary",
+        "job_requirement_change_communicated": "Binary",
+        "job_requirement_change_communication_method_verbal": {
+            "a": 1
+        },
+        "job_requirement_change_communication_method_written": {
+            "b": 1
+        },
+        "new_manager": "Binary",
+        "new_manager_duration_less_than_3": {
+            "a": 1
+        },
+        "new_manager_duration_less_between_3_and_1": {
+            "b": 1
+        },
+        "new_manager_duration_more_than_1": {
+            "c": 1
+        },
+        "new_manager_expectations_conveyed": "Binary",
+        "lead_time_for_accommodation": "Binary",
+        "poor_performance_production": "Number",
+        "poor_performance_colleagues": "Number",
+        "poor_performance_others": "Number",
+        "poor_performance_customers": "Number",
+        "realized_poor_performance": "Binary",
+        "realized_poor_performance_reason_medical": {
+            "a": 1
+        },
+        "realized_poor_performance_reason_personal": {
+            "b": 1
+        },
+        "realized_poor_performance_reason_too_much_work": {
+            "c": 1
+        },
+        "realized_poor_performance_reason_bad_environment": {
+            "d": 1
+        },
+        "realized_poor_performance_reason_work_org": {
+            "e": 1
+        },
+        "realized_poor_performance_reason_unclear_criteria": {
+            "f": 1
+        },
+        "realized_poor_performance_reason_insufficient_skill": {
+            "g": 1
+        },
+        "realized_poor_performance_reason_another": {
+            "h": 1
+        },
+        "realized_poor_performance_reason_beilieve": "Binary",
+        "has_medical_problem": "Binary",
+        "has_medical_problem_eval": "Binary",
+        "has_medical_problem_confirmed": "Binary",
+        "has_medical_problem_handicap": "Binary",
+        "has_medical_problem_accommodation": "Binary",
+        "has_medical_problem_accommodation_unreasonable": "Binary",
+        "work_related_help": "Binary",
+        "work_related_help_steps_none": {
+            "a": 1
+        },
+        "work_related_help_steps_plan": {
+            "b": 1
+        },
+        "work_related_help_steps_goals_reasonable": "Binary",
+        "work_related_help_steps_goals_measurable": "Binary",
+        "work_related_help_steps_goals_support": "Binary",
+        "work_related_help_steps_goals_time_frame": "Binary",
+        "work_related_help_steps_goals_consequence": "Binary",
+        "action_plan_improvement": "Binary",
+        "goal": {
+            "correct_goal": 1,
+            "terminate_goal": 2
+        }
+    },
+    "KeyWords": {
+        "incompetence": [
+            "incompetence",
+            "incompetent"
+        ],
+        "verbal": [
+            "verbal warnings",
+            "verbally warned",
+            "verbal warning",
+            "verbally",
+            "verbal warning",
+            "verbal",
+            "verbal warning"
+        ],
+        "temporary": [
+            "temporary"
+        ],
+        "permanent": [
+            "permanent"
+        ],
+        "written": [
+            "written",
+            "one written",
+            "two written",
+            "three written",
+            "4 written",
+            "5 written",
+            "warning",
+            "warnings",
+            "notice"
+        ],
+        "short_term_suspension": [
+            "short term suspension",
+            "short term"
+        ],
+        "long_term_suspension": [
+            "long term suspension",
+            "long term"
+        ],
+        "suspension": [
+            "suspension",
+            "suspended",
+            "suspensions"
+        ],
+        "terminate_goal": [
+            "terminate",
+            "fire",
+            "get rid",
+            "end",
+            "terminate contract",
+            "end contract"
+        ],
+        "correct_goal": [
+            "address situation",
+            "correct situation",
+            "correct performance",
+            "correct",
+            "correct behaviour"
+        ],
+        "a": [
+            "a",
+            "A"
+        ],
+        "b": [
+            "b",
+            "B"
+        ],
+        "c": [
+            "c",
+            "C"
+        ],
+        "d": [
+            "d",
+            "D"
+        ],
+        "e": [
+            "e",
+            "E"
+        ],
+        "f": [
+            "f",
+            "F"
+        ],
+        "g": [
+            "g",
+            "G"
+        ],
+        "h": [
+            "h",
+            "H"
+        ],
+        "i": [
+            "i",
+            "I"
+        ],
+        "j": [
+            "j",
+            "J"
+        ]
+    },
+    "Mapping": {
+        "main_problem": [
+            "RequestProblemConfirmation"
+        ],
+        "problem": [
+            "RequestConfirmProblem"
+        ],
+        "experience": [
+            "RequestSeniority"
+        ],
+        "current_position_duration_less_than_3": [
+            "RequestLengthOfService"
+        ],
+        "current_position_duration_between_3_and_1": [
+            "RequestLengthOfService"
+        ],
+        "current_position_duration_more_than_1": [
+            "RequestLengthOfService"
+        ],
+        "has_training": [
+            "RequestIsTraining"
+        ],
+        "has_tools": [
+            "RequestIsNewTools"
+        ],
+        "has_probationary_eval": [
+            "RequestIsProbationEvaluation"
+        ],
+        "has_performance_eval": [
+            "RequestIsPerformanceEvaluation"
+        ],
+        "performance_improvement_discussed": [
+            "RequestIsPerformanceImprovementDiscussed"
+        ],
+        "performance_improvement_method_verbal": [
+            "RequestPerformanceImprovementDiscussedMethod"
+        ],
+        "performance_improvement_method_written": [
+            "RequestPerformanceImprovementDiscussedMethod"
+        ],
+        "position_obtainment_method_applied": [
+            "RequestReasonForPositionObtain"
+        ],
+        "position_obtainment_method_no_posting": [
+            "RequestReasonForPositionObtain"
+        ],
+        "position_obtainment_method_idk": [
+            "RequestReasonForPositionObtain"
+        ],
+        "was_successful_in_prev_post_yes": [
+            "RequestPastPositionPerformance"
+        ],
+        "was_successful_in_prev_post_no": [
+            "RequestPastPositionPerformance"
+        ],
+        "was_successful_in_prev_post_only_position": [
+            "RequestPastPositionPerformance"
+        ],
+        "has_disciplinary_record": [
+            "RequestIsDisciplinaryRecord"
+        ],
+        "is_careless": [
+            "RequestIsDisciplinaryRecord"
+        ],
+        "has_disciplinary_for_carelessness": [
+            "RequestIsPerformanceDisciplinaryRecord"
+        ],
+        "recent_disciplinary_action_verbal": [
+            "RequestPerformanceDisciplinaryRecordAction"
+        ],
+        "recent_disciplinary_action_written": [
+            "RequestPerformanceDisciplinaryRecordAction"
+        ],
+        "recent_disciplinary_action_short_term": [
+            "RequestPerformanceDisciplinaryRecordAction"
+        ],
+        "recent_disciplinary_action_long_term": [
+            "RequestPerformanceDisciplinaryRecordAction"
+        ],
+        "recent_disciplinary_action_another": [
+            "RequestPerformanceDisciplinaryRecordAction"
+        ],
+        "dissatisfaction_duration_recent": [
+            "RequestPerformanceDisciplinaryRecordDuration"
+        ],
+        "dissatisfaction_duration_long": [
+            "RequestPerformanceDisciplinaryRecordDuration"
+        ],
+        "performance_dissasatisfaction_discussed": [
+            "RequestIsPerformanceUnsatisfactionDiscussed"
+        ],
+        "performance_dissasatisfaction_discussed_method_verbal": [
+            "RequestPerformanceUnsatisfactionDiscussedMethod"
+        ],
+        "performance_dissasatisfaction_discussed_method_written": [
+            "RequestPerformanceUnsatisfactionDiscussedMethod"
+        ],
+        "aware_of_requirements": [
+            "RequestIsEmployeeInformedOfRequirement"
+        ],
+        "aware_of_requirements_method_verbal": [
+            "RequestEmployeeInformedOfRequirementMethod"
+        ],
+        "aware_of_requirements_method_written": [
+            "RequestEmployeeInformedOfRequirementMethod"
+        ],
+        "job_requirement_change": [
+            "RequestIsCompanyRequirementChange"
+        ],
+        "job_requirement_change_communicated": [
+            "RequestIsCompanyRequirementChangePoorCommunication"
+        ],
+        "job_requirement_change_communication_method_verbal": [
+            "RequestCompanyRequirementChangeMethod"
+        ],
+        "job_requirement_change_communication_method_written": [
+            "RequestCompanyRequirementChangeMethod"
+        ],
+        "new_manager": [
+            "RequestIsNewManager"
+        ],
+        "new_manager_duration_less_than_3": [
+            "RequestNewManagerDuration"
+        ],
+        "new_manager_duration_less_between_3_and_1": [
+            "RequestNewManagerDuration"
+        ],
+        "new_manager_duration_more_than_1": [
+            "RequestNewManagerDuration"
+        ],
+        "new_manager_expectations_conveyed": [
+            "RequestIsNewManagerExpectationClear"
+        ],
+        "lead_time_for_accommodation": [
+            "RequestIsNewManagerRequirementLeadTime"
+        ],
+        "poor_performance_production": [
+            "RequestProductionEffectScale"
+        ],
+        "poor_performance_colleagues": [
+            "RequestColleagueEffectScale"
+        ],
+        "poor_performance_others": [
+            "RequestSuppliersEffectScale"
+        ],
+        "poor_performance_customers": [
+            "RequestCustomerEffectScale"
+        ],
+        "realized_poor_performance": [
+            "RequestIsEmployeeIncompetenceAware"
+        ],
+        "realized_poor_performance_reason_medical": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_personal": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_too_much_work": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_bad_environment": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_work_org": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_unclear_criteria": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_insufficient_skill": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_another": [
+            "RequestEmployeeIncompetenceAwareReason"
+        ],
+        "realized_poor_performance_reason_beilieve": [
+            "RequestIsEmployeeIncompetenceAwareMedical"
+        ],
+        "has_medical_problem": [
+            "RequestIsEmployeeIncompetenceMedical"
+        ],
+        "has_medical_problem_eval": [
+            "RequestIsEmployeeIncompetenceMedicalEmployerEval"
+        ],
+        "has_medical_problem_confirmed": [
+            "RequestIsEmployeeIncompetenceMedicalEmployerEvalNegative"
+        ],
+        "has_medical_problem_handicap": [
+            "RequestIsEmployeeIncompetenceMedicalHandicap"
+        ],
+        "has_medical_problem_accommodation": [
+            "RequestIsEmployeeIncompetenceMedicalHandicapAcommodation"
+        ],
+        "has_medical_problem_accommodation_unreasonable": [
+            "RequestIsEmployeeIncompetenceMedicalHandicapUnsreasonableAcommodation"
+        ],
+        "work_related_help": [
+            "RequestIsProblemWorkRealted"
+        ],
+        "work_related_help_steps_none": [
+            "RequestProblemCorrectionSteps"
+        ],
+        "work_related_help_steps_plan": [
+            "RequestProblemCorrectionSteps"
+        ],
+        "work_related_help_steps_goals_reasonable": [
+            "RequestIsProblemCorrectionActionReasonableGoals"
+        ],
+        "work_related_help_steps_goals_measurable": [
+            "RequestIsProblemCorrectionActionMeasurableGoals"
+        ],
+        "work_related_help_steps_goals_support": [
+            "RequestIsProblemCorrectionActionSupporteGoals"
+        ],
+        "work_related_help_steps_goals_time_frame": [
+            "RequestIsProblemCorrectionActionTimeGoals"
+        ],
+        "work_related_help_steps_goals_consequence": [
+            "RequestIsProblemCorrectionActionConsequenceGoals"
+        ],
+        "action_plan_improvement": [
+            "RequestIsProblemCorrectionImprovement"
+        ],
+        "goal": [
+            "RequestGoal"
+        ]
+    }
+}

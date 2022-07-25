@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/moham/Documents/Hermes/nlu/model/_step_17160_epochs_130.ckpt"
+all_model_checkpoint_paths: "/Users/moham/Documents/Hermes/nlu/model/_step_16632_epochs_126.ckpt"
+all_model_checkpoint_paths: "/Users/moham/Documents/Hermes/nlu/model/_step_16764_epochs_127.ckpt"
+all_model_checkpoint_paths: "/Users/moham/Documents/Hermes/nlu/model/_step_16896_epochs_128.ckpt"
+all_model_checkpoint_paths: "/Users/moham/Documents/Hermes/nlu/model/_step_17028_epochs_129.ckpt"
+all_model_checkpoint_paths: "/Users/moham/Documents/Hermes/nlu/model/_step_17160_epochs_130.ckpt"

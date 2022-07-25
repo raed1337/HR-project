@@ -1,0 +1,521 @@
+{
+    "MainProblemCategory": "insuborditnation",
+    "SubCategories": {
+        "Manager Instruction": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.RequestIsFirstTime",
+                "Insubordination.RequestIsIncidentMultipleTimes",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestInsubordinationDamageScale",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Refusal Manager Instructions": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.RequestIsFirstTime",
+                "Insubordination.RequestIsIncidentMultipleTimes",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestInsubordinationDamageScale",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Refusal Managers Instructions": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.RequestIsFirstTime",
+                "Insubordination.RequestIsIncidentMultipleTimes",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestInsubordinationDamageScale",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Manager Expectations": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.RequestIsFirstTime",
+                "Insubordination.RequestIsIncidentMultipleTimes",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestInsubordinationDamageScale",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Compliance Managers Expectation": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.RequestIsFirstTime",
+                "Insubordination.RequestIsIncidentMultipleTimes",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestInsubordinationDamageScale",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Compliance Managers Expectations": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.RequestIsFirstTime",
+                "Insubordination.RequestIsIncidentMultipleTimes",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestInsubordinationDamageScale",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Insubordination Lack Respect Manager": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.Disrespect.RequestDisrespectDetails",
+                "Insubordination.Disrespect.RequestIsInsult",
+                "LackOfRespect.Customer.RequestIsPhysicalFight",
+                "Insubordination.Disrespect.RequestIsOtherPeople",
+                "Insubordination.Disrespect.RequestIsCustomerPresent",
+                "Insubordination.Disrespect.RequestIsSupplierPresent",
+                "LackOfRespect.Customer.RequestIsWitness",
+                "Insubordination.Disrespect.RequestIsEmployeeFirstTime",
+                "Insubordination.Disrespect.RequestIsSupervisorFirstTime",
+                "Insubordination.Disrespect.RequestIsEmployeeAngerIssue",
+                "Insubordination.Disrespect.RequestIsEmployeeProvoked",
+                "Insubordination.Disrespect.RequestIsWorkAbnormal",
+                "Insubordination.Disrespect.RequestIsBadNews",
+                "Insubordination.Disrespect.RequestIsHealthIssue",
+                "Insubordination.Disrespect.RequestIsHarrasment",
+                "Insubordination.Disrespect.RequestIsSuperiorResponsible",
+                "Insubordination.Disrespect.RequestIsApology",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Respect Manager": {
+            "QuestionSet": [
+                "Insubordination.RequestName",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Insubordination.RequestIsDescriptionClear",
+                "Insubordination.RequestIsEmployeeAware",
+                "Insubordination.RequestIncidentTime",
+                "Insubordination.Disrespect.RequestDisrespectDetails",
+                "Insubordination.Disrespect.RequestIsInsult",
+                "LackOfRespect.Customer.RequestIsPhysicalFight",
+                "Insubordination.Disrespect.RequestIsOtherPeople",
+                "Insubordination.Disrespect.RequestIsCustomerPresent",
+                "Insubordination.Disrespect.RequestIsSupplierPresent",
+                "LackOfRespect.Customer.RequestIsWitness",
+                "Insubordination.Disrespect.RequestIsEmployeeFirstTime",
+                "Insubordination.Disrespect.RequestIsSupervisorFirstTime",
+                "Insubordination.Disrespect.RequestIsEmployeeAngerIssue",
+                "Insubordination.Disrespect.RequestIsEmployeeProvoked",
+                "Insubordination.Disrespect.RequestIsWorkAbnormal",
+                "Insubordination.Disrespect.RequestIsBadNews",
+                "Insubordination.Disrespect.RequestIsHealthIssue",
+                "Insubordination.Disrespect.RequestIsHarrasment",
+                "Insubordination.Disrespect.RequestIsSuperiorResponsible",
+                "Insubordination.Disrespect.RequestIsApology",
+                "Insubordination.RequestIsPatternOrHabit",
+                "Insubordination.RequestIsTeamMorale",
+                "Insubordination.RequestIsTeamHealthDanger",
+                "Insubordination.RequestIsExplanation",
+                "Insubordination.RequestIsPersonalHealthProblem",
+                "Insubordination.RequestIsContradictorySupervision",
+                "Insubordination.RequestIsContradictoryOthers",
+                "Insubordination.RequestIsContradictoryDirective",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Insubordination.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Insubordination.RequestIsPerformanceChange",
+                "Insubordination.RequestIsIntervene",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Insubordination.RequestIsDescriptionClear": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Insubordination.RequestIsEmployeeAware"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Insubordination.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

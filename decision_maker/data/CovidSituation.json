@@ -1,0 +1,148 @@
+{
+    "C1-1": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R0",
+                "Covid_situation.R1",
+                "Covid_situation.R2",
+                "Covid_situation.R3"
+            ],
+            "Policy Adoption": [
+                "Covid_situation.R4"
+            ],
+            "Medical Accommodation Section": [
+                "Covid_situation.R6",
+                "Covid_situation.R7"
+            ],
+            "Correct behaviour with progressive disciplinary sanctions": [
+                "Covid_situation.R8",
+                "Covid_situation.R9",
+                "Covid_situation.R16"
+            ]
+        }
+    },
+    "C1-2": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R0",
+                "Covid_situation.R1",
+                "Covid_situation.R2",
+                "Covid_situation.R3"
+            ],
+            "Correct behaviour with progressive disciplinary sanctions": [
+                "Covid_situation.R8",
+                "Covid_situation.R11",
+                "Covid_situation.R12",
+                "Covid_situation.R13",
+                "Covid_situation.R16"
+            ]
+        }
+    },
+    "C1-3": {
+        "FR": "b",
+        "ENG": {
+            "Warning": [
+                "Covid_situation.R0",
+                "Covid_situation.R17",
+                "Covid_situation.R2",
+                "Covid_situation.R18"
+            ],
+            "Termination": [
+                "Covid_situation.R21"
+            ]
+        }
+    },
+    "C2-1": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R0",
+                "Covid_situation.R1",
+                "Covid_situation.R2",
+                "Covid_situation.R3"
+            ],
+            "Policy Adoption": [
+                "Covid_situation.R4"
+            ],
+            "Correct behaviour with progressive disciplinary sanctions": [
+                "Covid_situation.R8",
+                "Covid_situation.R11",
+                "Covid_situation.R16"
+            ]
+        }
+    },
+    "C2-2": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R0",
+                "Covid_situation.R1",
+                "Covid_situation.R2",
+                "Covid_situation.R3"
+            ],
+            "Medical Accommodation Section": [
+                "Covid_situation.R6",
+                "Covid_situation.R7"
+            ],
+            "Correct behaviour with progressive disciplinary sanctions": [
+                "Covid_situation.R16"
+            ]
+        }
+    },
+    "C2-3": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R0",
+                "Covid_situation.R1",
+                "Covid_situation.R2",
+                "Covid_situation.R3"
+            ],
+            "Medical Accommodation Section": [
+                "Covid_situation.R6",
+                "Covid_situation.R7"
+            ],
+            "Warning": [
+                "Covid_situation.R0",
+                "Covid_situation.R17",
+                "Covid_situation.R2",
+                "Covid_situation.R18"
+            ],
+            "Termination": [
+                "Covid_situation.R21"
+            ]
+        }
+    },
+    "C3-1": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R22",
+                "Covid_situation.R23",
+                "Covid_situation.R24",
+                "Covid_situation.R25",
+                "Covid_situation.R26"
+            ]
+        }
+    },
+    "C3-2": {
+        "FR": "b",
+        "ENG": {
+            "General Rules": [
+                "Covid_situation.R22",
+                "Covid_situation.R23",
+                "Covid_situation.R24",
+                "Covid_situation.R25",
+                "Covid_situation.R26"
+            ],
+            "Policy Adoption": [
+                "Covid_situation.R27"
+            ],
+            "Medical Accommodation Section": [
+                "Covid_situation.R29"
+            ]
+        }
+    }
+}

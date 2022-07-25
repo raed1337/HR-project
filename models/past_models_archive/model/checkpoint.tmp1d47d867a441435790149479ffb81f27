@@ -1,0 +1,4 @@
+model_checkpoint_path: "_step_141_epochs_3.ckpt"
+all_model_checkpoint_paths: "_step_47_epochs_1.ckpt"
+all_model_checkpoint_paths: "_step_94_epochs_2.ckpt"
+all_model_checkpoint_paths: "_step_141_epochs_3.ckpt"

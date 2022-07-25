@@ -1,0 +1,2503 @@
+{
+    "dia_acts": {
+        "Common.RequestProblem": {
+            "nl": {
+                "agent": "Hi Manager. How can I help you today?",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestProblemConfirmation": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Could you please validate the subject related to the problem. \n01. Absence\n02. Leave or holidays \n03. Related to work Time \n04. Harassement \n05. Lack of respect \n06. Insubordination \n07. Performance",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.FinalDesicion": {
+            "nl": {
+                "agent": "Following my recommendation, what do you want to do now? \nM) Proceed with the progressive disciplinary sanctions \nO) Terminate the employment",
+                "user": ""
+            },
+            "inform_slots": [
+                "goal",
+                "option"
+            ],
+            "inform_condition": "end"
+        },
+        "Common.RequestConfirmProblem": {
+            "nl": {
+                "agent": "Please specify, to the best of your ability, the nature of the absenteeism problem with your employee. \n01. Unjustified or unauthorized absence \n02. Absenteeism \n03. Employee Lateness \n04. Being late at workstation \n05. Theft of time \n06. Absence day off or vacation refusal",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestSeniority": {
+            "nl": {
+                "agent": "What is the employee's length of service with the organization (in months)?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestContractType": {
+            "nl": {
+                "agent": "Is this person temporary or permanent?",
+                "user": ""
+            },
+            "inform_slots": [
+                "contract"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestWorkPosition": {
+            "nl": {
+                "agent": "What is this person's position?",
+                "user": ""
+            },
+            "inform_slots": [
+                "workplace",
+                "position"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestPolicyExist": {
+            "nl": {
+                "agent": "Do you have a policy in place regarding absences and lateness?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Common.RequestIsDisciplinaryRecord": {
+            "nl": {
+                "agent": "Is there a disciplinary record on this employee?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestOtherSanctions": {
+            "nl": {
+                "agent": "What are the latest disciplinary actions for reasons other than the current incident? \nA) Verbal warning\nB) Written warning\nC) 1-day suspension \nD) 2-day suspension \nE) 3-day suspension \nF) 4-day suspension \nG) 5-day suspension",
+                "user": ""
+            },
+            "inform_slots": [
+                "sanction",
+                "problem"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestPastSanctionTime": {
+            "nl": {
+                "agent": "How long ago was the last disciplinary intervention?",
+                "user": ""
+            },
+            "inform_slots": [
+                "number",
+                "time"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestIsCurrentSanction": {
+            "nl": {
+                "agent": "Has the employee been sanctioned in the past for the current incident type?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestCurrentSanction": {
+            "nl": {
+                "agent": "What was the disciplinary measures for the current incident? \nA) Verbal warning\nB) Written warning\nC) 1-day suspension \nD) 2-day suspension \nE) 3-day suspension \nF) 4-day suspension \nG) 5-day suspension",
+                "user": ""
+            },
+            "inform_slots": [
+                "sanction",
+                "problem"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestIsPerformance": {
+            "nl": {
+                "agent": "Are you satisfied with his/her performance and attitude?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestGoal": {
+            "nl": {
+                "agent": "What is your intention with this employee?\nA) Correct his/her behaviour with progressive disciplinary sanctions \nB) Terminate the employment",
+                "user": ""
+            },
+            "inform_slots": [
+                "goal",
+                "option"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestConcern": {
+            "nl": {
+                "agent": "Perfect, thank you.",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Common.RequestConfirmConcern": {
+            "nl": {
+                "agent": "Please confirm the information you have provided. \n01. Employee length of service \n02. Employee contract type \n03. Employee position \n04. Employee policy in place \n05. Employee disciplinary record \n06. Employee past disciplinary actions \n07. Employee current disciplinary actions \n08. Employee performance \n09. Employee intention \n10. Employee concern",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Absence.RequestName": {
+            "nl": {
+                "agent": "Alright, please have the employee file in hand. I will be asking questions in regards to the employee's past disciplinary record and the situation in question.\n\nFirst, Who is the employee absent from work?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname"
+            ],
+            "inform_condition": "and"
+        },
+        "Absence.RequestAbsenceDay": {
+            "nl": {
+                "agent": "Which day of the week was the employee absent?",
+                "user": ""
+            },
+            "inform_slots": [
+                "weekday"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestIsPolicy": {
+            "nl": {
+                "agent": "Do you have a policy in place regarding absences and lateness?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsFirstAbsence": {
+            "nl": {
+                "agent": "Is this the first time the employee has been absent?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsJustification": {
+            "nl": {
+                "agent": "Has the employee at any time given reasonable justification and apologized ?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsPattern": {
+            "nl": {
+                "agent": "Have you observed any pattern in the employee's absences (e.g.: absences on Friday or Monday)?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestDamageScale": {
+            "nl": {
+                "agent": "Did the employee's absence have any negative or significant impacts or damages for the company? \nOn a scale from 1 to 5, please confirm the severity of the damages?",
+                "user": ""
+            },
+            "inform_slots": [
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Absence.RequestIsTeamImpact": {
+            "nl": {
+                "agent": "Did the employee's absence had a negative impact on the team's morale?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsPersonalMatters": {
+            "nl": {
+                "agent": "Is the employee subject to difficult personal issues, such as \n- Substance addiction problem\n- Health or medical issue\n- Family or parental issue\n- Divorce\n- Death or funeral\n- Family or parental issues",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsCompanyPastPractice": {
+            "nl": {
+                "agent": "Is there a precedent or past practice not to punish an employee for unjustified absences? ",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsLaborLawReasons": {
+            "nl": {
+                "agent": "Does the employee qualify for another leave provided for in the Act Respecting Labor Standards below?\n- Statutory general holidays\n- Annual vacations\n- Accidents and illnesses (illness or accident not related to work)\n- Parental or family obligations\n- Parental leave\n- Wedding or civil union\n- Death and funeral\n- Suicide\n- Disappearance of a minor child\n- Leave for organ or tissue donation\n- Leave for a reservist\n- Victim of crime\n- Victim of domestic or sexual violence",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absence.RequestIsReasons": {
+            "nl": {
+                "agent": "Did an accident, incident occur, which may have contributed or led to this unauthorized absence? ",
+                "user": ""
+            },
+            "inform_slots": [
+                "position",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absenteism.RequestAbsenceRatio": {
+            "nl": {
+                "agent": "Does the employee exceed the average ratio of the absence of his co-workers?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absenteism.RequestAbsenceFerequency": {
+            "nl": {
+                "agent": "Has this been the case for several months?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absenteism.RequestIsJustificationMedical": {
+            "nl": {
+                "agent": "Does the employee have a medical condition that justifies and explains his absences?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absenteism.RequestIsNegativePrognosis": {
+            "nl": {
+                "agent": "Has the employer's doctor made a negative prognosis for the employee's future ability to perform normal work in the future?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absenteism.RequestIsDisability": {
+            "nl": {
+                "agent": "Does the condition of the employee constitute a \"disability\" according to the meaning of the Charter of human rights and freedoms?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Absenteism.RequestIsAccommodation": {
+            "nl": {
+                "agent": "Does he have any necessity for reasonable accommodation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "DayOff.RequestTime": {
+            "nl": {
+                "agent": "When did the employee request a day off or vacation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "number",
+                "time"
+            ],
+            "inform_condition": "or"
+        },
+        "DayOff.RequestJustification": {
+            "nl": {
+                "agent": "Did the employee offer a reason or explanation to support his request?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "DayOff.RequestIsFrequency": {
+            "nl": {
+                "agent": "Does the employee have a habit of asking for days off or vacation at the last minute?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "DayOff.RequestIsEmployeeReplace": {
+            "nl": {
+                "agent": "Can the employee be easily replaced during the requested leave or vacation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "DayOff.RequestCounter": {
+            "nl": {
+                "agent": "Did the employee have any days off or vacation left at the time of the request?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "DayOff.RequestIsImpact": {
+            "nl": {
+                "agent": "Did the employee complaint from workload?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestTimeTheft": {
+            "nl": {
+                "agent": "How much time was stolen?",
+                "user": ""
+            },
+            "inform_slots": [
+                "number",
+                "time"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsFirstAbsence": {
+            "nl": {
+                "agent": "Is this the first time that the employee has stolen working time?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestAbsenceFrequency": {
+            "nl": {
+                "agent": "Did it happen several times that the employee has stolen work time?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsFailure": {
+            "nl": {
+                "agent": "Can't be it a failure to respect the work schedule?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestDamageProduction": {
+            "nl": {
+                "agent": "Did the employee theft of time cause any prejudice to production or work in progress?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsKnown": {
+            "nl": {
+                "agent": "Is the theft of time known to co-workers?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsTeamImpact": {
+            "nl": {
+                "agent": "Did the employee's theft of time have a negative impact on the team's morale?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsBehavior": {
+            "nl": {
+                "agent": "Did the employee's theft of time have a negative impact on the team's morale?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsNegligent": {
+            "nl": {
+                "agent": "Has the employer been negligent in its management of respecting schedules and working hours?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "TheftOfTime.RequestIsCompanyPractice": {
+            "nl": {
+                "agent": "Is there a precedent or past practice not to punish an employee for theft of time?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestName": {
+            "nl": {
+                "agent": "Alright, please have the employee file in hand. I will be asking questions in regards to the employee's past disciplinary record and the situation in question.\n\nFirst, Who is the employee late to work?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname"
+            ],
+            "inform_condition": "and"
+        },
+        "Lateness.RequestLateDay": {
+            "nl": {
+                "agent": "Which day of the week is frequently the employee late?",
+                "user": ""
+            },
+            "inform_slots": [
+                "weekday"
+            ],
+            "inform_condition": "and"
+        },
+        "Lateness.RequestTimeSlot": {
+            "nl": {
+                "agent": "During which time slot was the employee late??",
+                "user": ""
+            },
+            "inform_slots": [
+                "time"
+            ],
+            "inform_condition": "and"
+        },
+        "Lateness.RequestPeriod": {
+            "nl": {
+                "agent": "How long has the employee been late?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsFirstLate": {
+            "nl": {
+                "agent": "Is this the first time the employee has been late?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestDamageProduction": {
+            "nl": {
+                "agent": "Did the employee coming in late cause any prejudice to production or work in progress?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestNotification": {
+            "nl": {
+                "agent": "Did the employee notify his/her lateness as soon as possible?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsTeamImpact": {
+            "nl": {
+                "agent": "Did the employee's lateness have a negative impact on the team's morale?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsWeatherReason": {
+            "nl": {
+                "agent": "Are there weather conditions that can explain and justify the employee lateness?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsFamilyReason": {
+            "nl": {
+                "agent": "Is there a family situation that can explain and justify the employee's being late?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsTrafficReason": {
+            "nl": {
+                "agent": "Is there traffic or transport condition that can explain and justify the employee's being late?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsCompanyPractice": {
+            "nl": {
+                "agent": "Is there a precedent or past practice not to punish an employee for employee lateness?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Lateness.RequestIsJustificationMedical": {
+            "nl": {
+                "agent": "Does the employee have a medical condition that justifies and explains his lateness?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LatenessWorkstation.RequestIsWorkConditionReason": {
+            "nl": {
+                "agent": "Are there working conditions, cafeteria service e.g. that can explain and justify the employee lateness?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LatenessWorkstation.RequestIsWorkProductionReason": {
+            "nl": {
+                "agent": "Are there working conditions, cafeteria service e.g. that can explain and justify the employee lateness?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestName": {
+            "nl": {
+                "agent": "Who is the victim of harassment?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname"
+            ],
+            "inform_condition": "and"
+        },
+        "Harassment.Common.RequestIsPolicy": {
+            "nl": {
+                "agent": "Do you have a policy in place regarding the prevention of harassment, in accordance with section 81.19 of the LNT?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsPolicyPublic": {
+            "nl": {
+                "agent": "Have these policies been made public, i.e., in the workplace, by the employer?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsPolicyDistributed": {
+            "nl": {
+                "agent": "Has the employer distributed a copy of its harassment policy to all employees?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsPolicyReminder": {
+            "nl": {
+                "agent": "Does the employer regularly remind all employees of its policy?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestProvePolicyIsKnown": {
+            "nl": {
+                "agent": "Can you prove that the person subject of the complaint was aware of this policy, either through a meeting or by receiving it in writing?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsComplaint": {
+            "nl": {
+                "agent": "Did the victim file a complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsComplaintInWriting": {
+            "nl": {
+                "agent": "Has the complaint been made in writing?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestComplaintTime": {
+            "nl": {
+                "agent": "When was the complaint filed?",
+                "user": ""
+            },
+            "inform_slots": [
+                "number",
+                "time"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsInvestigation": {
+            "nl": {
+                "agent": "Has the investigation process started?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsFirstTimeComplaint": {
+            "nl": {
+                "agent": "Is this the first time that the victim has filed a complaint in such matter?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestTimeDifference": {
+            "nl": {
+                "agent": "How much time has elapsed between the filing of the complaint and the start of the investigation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsWarned": {
+            "nl": {
+                "agent": "Did the victim warn the person concerned by the complaint to stop his/her behaviour?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsActCeased": {
+            "nl": {
+                "agent": "If so, has the employee targeted by the complaint ceased to act towards the victim?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestMeasureTime": {
+            "nl": {
+                "agent": "When exactly were these interim measures put in place?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsMeasureNotConsidered": {
+            "nl": {
+                "agent": "If so, why were such interim measures not considered necessary?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Harassment.Common.RequestComplaintName": {
+            "nl": {
+                "agent": "Who is the person subject of the complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsComplaintFirstTime": {
+            "nl": {
+                "agent": "Is this the first time this person has been the subject of a harassment complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsExplanation": {
+            "nl": {
+                "agent": "Did the employee provide an explanation for his behaviour?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsApology": {
+            "nl": {
+                "agent": "Did the person subject of the complaint offered an explanation or apology?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsWitness": {
+            "nl": {
+                "agent": "Are there any witnesses to the conduct alleged in the complaint? ",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsWitnessMet": {
+            "nl": {
+                "agent": "Have these witnesses been met?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsWitnessVerified": {
+            "nl": {
+                "agent": "Have all the facts and allegations contained in the complaint been verified?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Harassment.Common.RequestIsMisjudgement": {
+            "nl": {
+                "agent": "Is it possible that the person subject of the complaint suffers from a condition that would render or would have rendered him/her, at the time of the relevant events, incapable of judging the nature of his/her actions or words?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.RequestConfirmProblem": {
+            "nl": {
+                "agent": "Please specify, to the best of your ability, the nature of the problem with your employee. \n01. Lack of respect towards colleagues \n02. Lack of courtesy towards customers",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.RequestDisrespecteeName": {
+            "nl": {
+                "agent": "Who is the victim of disrespect?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname"
+            ],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.Colleagues.RequestDateOfHire": {
+            "nl": {
+                "agent": "What is the date of hire of the individual in question (most recent if rehired by your company) (in months)?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.Colleagues.RequestIsPolicy": {
+            "nl": {
+                "agent": "Do you have a policy on respect in the workplace and on the prevention of psychological harassment, in conformity with section 81.19 of the Act respecting labour standards?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Colleagues.RequestIsOffenderPersistant": {
+            "nl": {
+                "agent": "Is this the first time the person subject of the complaint has been disrespectful to the victim even though the victim has not previously made a formal complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Colleagues.RequestIsAware": {
+            "nl": {
+                "agent": "If this is not the first time, were you aware of this disrespect for the victim?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Colleagues.RequestIsVictimDiscuss": {
+            "nl": {
+                "agent": "If you were informed of the situation, did you discuss it with the person subject of the complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Colleagues.RequestVictimProtect": {
+            "nl": {
+                "agent": "Since the filing of the complaint, have measures been put in place to protect the victim?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.RequestDisrespector": {
+            "nl": {
+                "agent": "Who is the person concerned by the complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname"
+            ],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.RequestDisrespectorDateOfHire": {
+            "nl": {
+                "agent": "What is the date of hire of the individual subject of a disrespectful complaint (most recent if rehired by your company) (in months)?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.RequestIsComplaintFirstTime": {
+            "nl": {
+                "agent": "Is this the first time this person has been the subject of a disrespectful complaint?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.RequestRepeatOffender": {
+            "nl": {
+                "agent": "On the contrary, is the person targeted a repeat offender in such a matter?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.RequestIsProtectedGroups": {
+            "nl": {
+                "agent": "If it is not the first time, has the person complained about disrespected a particular class of people because of their disability, sexual orientation, race, colour, ethnic or national origin, or religion?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.RequestIsIntervention": {
+            "nl": {
+                "agent": "Are you in the habit of not intervening when someone is disrespectful to their co-workers?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.RequestIsJustDismissal": {
+            "nl": {
+                "agent": "In your opinion, do you have sufficient evidence to establish just and sufficient cause to dismiss this person?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestName": {
+            "nl": {
+                "agent": "Who is the person who has been disrespectful to a customer?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname",
+                "name"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestCustomer": {
+            "nl": {
+                "agent": "Who is the customer victim of the lack of courtesy on the part of the person employee?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.Customer.RequestIsRegularCustomer": {
+            "nl": {
+                "agent": "Is this a customer who comes into your business regularly?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsCustomerDifficult": {
+            "nl": {
+                "agent": "If so, have your other employees ever said that serving this customer was difficult?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestEmployeeName": {
+            "nl": {
+                "agent": "Who are the people involved in the event?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.Customer.RequestIsPolicyInformed": {
+            "nl": {
+                "agent": "Has the person employee been made aware of the policy and expectations?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestEmployeeJustification": {
+            "nl": {
+                "agent": "What were the explanations provided by the person employee, if any, to explain his/her behaviour and the incident with the customer?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.Customer.RequestIsEmployeeProvoked": {
+            "nl": {
+                "agent": "Was the person employee provoked by the customer to say something inappropriate?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact": {
+            "nl": {
+                "agent": "Did the person employee react without provocation from the customer?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsPhysicalFight": {
+            "nl": {
+                "agent": "Was there physical contact between the protagonists?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsRecording": {
+            "nl": {
+                "agent": "Were there recording means on sites such as a camera, a cell phone or other which would have made it possible to capture the events?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestDescription": {
+            "nl": {
+                "agent": "Can you describe the altercation that occurred between the person employee and the customer (length of the discussions, words spoken, tone of voice, etc.)?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "LackOfRespect.Customer.RequestIsWitness": {
+            "nl": {
+                "agent": "Are there any witnesses?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestWitnessName": {
+            "nl": {
+                "agent": "Who are the witnesses?",
+                "user": ""
+            },
+            "inform_slots": [
+                "name",
+                "empname"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsWitnessCollected": {
+            "nl": {
+                "agent": "Have you collected the versions of the witnesses?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsWitnessSame": {
+            "nl": {
+                "agent": "Are the witnesses versions similar to the person employee?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsEmployeeApologize": {
+            "nl": {
+                "agent": "Did the person employee spontaneously apologize to the customer victim of lack of courtesy?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsEmployeeFirstTime": {
+            "nl": {
+                "agent": "Is this the first time this person employee has been disrespectful of this particular customer or another customer?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LackOfRespect.Customer.RequestIsIntervention": {
+            "nl": {
+                "agent": "Are you in the habit of not intervening when someone is disrespectful to customers?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "WorkTime.Common.RequestConfirmProblem": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject related to work time for which you need to address:\n1) Job abandonment\n2) Abuse of work\n3) Work schedule",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "WorkTime.WorkSchedule.RequestProblemCategory": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject related to work schedule for which you need information:\n1) Presence at work\n2) Work breaks\n3) Weekly rest period\n4) Standard work week\n5) Work overtime\n6) Right to refuse to work overtime\n7) Staggered work hours\n8) Young workers\n9) Cigarette breaks",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "WorkTime.WorkSchedule.RequestIsPolicy": {
+            "nl": {
+                "agent": "Do you have a policy in place regarding working hours, breaks and lunch time?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "WorkTime.WorkSchedule.RequestIsAware": {
+            "nl": {
+                "agent": "Has the employee been made aware of policies and expectations regarding working hours, breaks and lunch time?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "WorkTime.WorkSchedule.RequestIsLegal": {
+            "nl": {
+                "agent": "Is your policy in line with the law?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LeaveOrHolidays.Common.RequestConfirmProblem": {
+            "nl": {
+                "agent": "Please specify, to the best of your ability, the nature of the absenteeism problem with your employee. \n01. Annual vacation \n02. Events Not Covered by Law \n03. Non-Work Accidents & Sickness \n04. Specific Situations \n05. Statutory holidays \n06. Family obligations",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.StatutoryHolidays.RequestProblemCategory": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject related to the management of statutory holidays in Quebec for which you need information:\n1) Statutory holidays list in Quebec\n2) Working on a statutory holiday\n3) Pay the statutory holiday indemnity \n4) Pay the statutory holiday indemnity to a part-time employee \n5) Pay the statutory holiday indemnity to an employee on annual vacation\n6) Calculation of the statutory holiday indemnity\n7) Calculation of the statutory holiday indemnity to an employee on annual vacation",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.Common.RequestIsPolicy": {
+            "nl": {
+                "agent": "Do you have a policy in place regarding taking days off and vacation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LeaveOrHolidays.Common.RequestIsAware": {
+            "nl": {
+                "agent": "Has the employee been made aware of policies and expectations regarding taking days off and vacation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LeaveOrHolidays.Common.RequestIsLegal": {
+            "nl": {
+                "agent": "Is your policy in line with the law?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "LeaveOrHolidays.FamilyObligation.RequestProblemCategory": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject related to family obligations for which you need information:\n1) Wedding or civil union\n2) Parental or family obligations\n3) Death or funeral",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation": {
+            "nl": {
+                "agent": "Please select the type of parental or family obligations: \n1) Family obligations related to the care, health or education of one's child or spouse's child\n2) The need to fulfill family obligations as a caregiver to a parent or other person whose health condition requires in case of illness or accident\n3) For organ or tissue donation\n4) As a result of domestic or sexual violence or a criminal act.\n5) None of the above",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.FamilyObligation.RequestDuration": {
+            "nl": {
+                "agent": "Is it a short-duration or long-duration leave?\nA) Short-duration leave (1 to 10 days)\nB) Long-duration leave (more than 10 days)",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration": {
+            "nl": {
+                "agent": "Please specify the nature of the long-duration parental or family obligations for which you would like information: \na) Presence required for a relative seriously ill or has had serious accident \nb) Presence required for a minor child seriously ill or has had a serious accident \nc) Disappearance of a minor child\nd) Death of a minor child\ne) Death of a relative by suicide\nf) Death of a relative as a result of a criminal act\ng) Birth or adoption of a child or termination of pregnancy",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.EventsNotCoveredByLaw.RequestProblemCategory": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject  for which you need information:\n1- Divorce\n2- Move\n3- Birthday",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.NonWorkRelatedAccidentOrIllness.RequestProblemCategory": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject  for which you need information:\n1- Non–work-related accident or illness\n2- Length of absence that is protected\n3- Pay for days of absence with pay",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "LeaveOrHolidays.SpecificSituation.RequestProblemCategory": {
+            "nl": {
+                "agent": "Please specify the nature of the absenteeism problem with your employee.\n1- Leave for reservists\n2- Leave in the event of a termination of pregnancy\n3- Leave for organ or tissue donation\n4- Victims of crime\n5- Victims of domestic or sexual violence",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "Insubordination.RequestConfirmProblem": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Just to be sure, could you please validate the subject for which you need information: \n01 - Insubordination - Refusal to follow manager's instructions \n02 - Insubordination - Non-compliance with manager's expectations \n03 - Insubordination - Lack of respect towards a manager",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "Insubordination.RequestName": {
+            "nl": {
+                "agent": "Alright, please have this person's file in hand. I'm going to ask you some questions about his/her disciplinary record and the current situation.\nWho is the person in question?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname",
+                "name"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsDescriptionClear": {
+            "nl": {
+                "agent": "Is it clear in the job description that the person must perform the work requested by his/her supervisor as long as it is not contrary to law or endangers his or her health and safety in the workplace?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsEmployeeAware": {
+            "nl": {
+                "agent": "Has the person been made aware of the expectations mentioned in the job description?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIncidentTime": {
+            "nl": {
+                "agent": "When did it happen?",
+                "user": ""
+            },
+            "inform_slots": [
+                "time",
+                "number"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsFirstTime": {
+            "nl": {
+                "agent": "Is this the first time the person has refused to follow the directives?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsIncidentMultipleTimes": {
+            "nl": {
+                "agent": "Did this incident happen several times?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsPatternOrHabit": {
+            "nl": {
+                "agent": "Is this a habit or a pattern of the person?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestInsubordinationDamageScale": {
+            "nl": {
+                "agent": "What are the negative consequences of the person's insubordination for the company? \nRate the severity of the situation from 1 (not very serious) to 5 (very serious).",
+                "user": ""
+            },
+            "inform_slots": [
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Insubordination.RequestIsTeamMorale": {
+            "nl": {
+                "agent": "Does the refusal to follow the directives have a negative impact on the team's moral?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsTeamHealthDanger": {
+            "nl": {
+                "agent": "Did the refusal to follow the directives endanger the health and safety of the person or the co-workers?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsExplanation": {
+            "nl": {
+                "agent": "Did the person provide a reasonable explanation for his/her behaviour?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsPersonalHealthProblem": {
+            "nl": {
+                "agent": "Is there a health or safety explanation that can justify the person's refusal to comply with his/her supervisor's directives?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsContradictorySupervision": {
+            "nl": {
+                "agent": "Is it possible that the person received a contradictory directive from another supervisor?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsCurrentSanction": {
+            "nl": {
+                "agent": "Has this person ever been disciplined for insubordination?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsContradictoryOthers": {
+            "nl": {
+                "agent": "Is it possible that the person received a request that conflicted with the directive from a customer, subcontractor or supplier?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsContradictoryDirective": {
+            "nl": {
+                "agent": "Is it possible that the directive was not clear or contradictory?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsPerformanceChange": {
+            "nl": {
+                "agent": "Has his/her performance and attitude changed recently?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.RequestIsIntervene": {
+            "nl": {
+                "agent": "Are you in the habit of not intervening when someone is being insubordinate?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestDisrespectDetails": {
+            "nl": {
+                "agent": "How did the person disrespect the superior?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Insubordination.Disrespect.RequestIsInsult": {
+            "nl": {
+                "agent": "Were there any insults or name calling?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsOtherPeople": {
+            "nl": {
+                "agent": "Were there other persons present at the event?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsCustomerPresent": {
+            "nl": {
+                "agent": "Were there any customers present at the event?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsSupplierPresent": {
+            "nl": {
+                "agent": "Were there any suppliers present at the event?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsEmployeeFirstTime": {
+            "nl": {
+                "agent": "Is this the first of such incident for the person?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsSupervisorFirstTime": {
+            "nl": {
+                "agent": "Is this the first time the supervisor has experienced disrespect from a person employee?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsSupervisorProblematic": {
+            "nl": {
+                "agent": "Is the supervisor involved often involved in similar situations?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsEmployeeAngerIssue": {
+            "nl": {
+                "agent": "Is the person known to be angry?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsEmployeeProvoked": {
+            "nl": {
+                "agent": "Has the person been provoked?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsWorkAbnormal": {
+            "nl": {
+                "agent": "Was the situation at work abnormal?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsBadNews": {
+            "nl": {
+                "agent": "Did the person just get some really bad news?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsHealthIssue": {
+            "nl": {
+                "agent": "Does the person have any health issues that may explain  his/her mood swings?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsHarrasment": {
+            "nl": {
+                "agent": "Is the person the victim of harassment from his/her superior?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsSuperiorResponsible": {
+            "nl": {
+                "agent": "Is the superior somehow responsible of the lack of respect?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Insubordination.Disrespect.RequestIsApology": {
+            "nl": {
+                "agent": "Did the person admit his/her wrongs and apologize?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestConfirmProblem": {
+            "nl": {
+                "agent": "I will be able to help you with your request. Could you please validate the subject related to the Problem. \n01. Incompetence",
+                "user": ""
+            },
+            "inform_slots": [
+                "problem"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestName": {
+            "nl": {
+                "agent": "Alright, please have this person's file in hand. I'm going to ask you some questions about his disciplinary record and the current situation.\nWho is the person with performance problems?",
+                "user": ""
+            },
+            "inform_slots": [
+                "empname",
+                "name"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestWorkPosition": {
+            "nl": {
+                "agent": "What position does the employee occupy in the company?",
+                "user": ""
+            },
+            "inform_slots": [
+                "workplace",
+                "position"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestLengthOfService": {
+            "nl": {
+                "agent": "How long has the person been in his/her current position? \nA) Less than 3 months \nB) Between 3 months and less than 1 year \nC) More than 1 year",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsTraining": {
+            "nl": {
+                "agent": "Did he/she have training for his/her new position? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsNewTools": {
+            "nl": {
+                "agent": "Were new tools provided to the individual for his/her new position? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestNoToolsOrTrainingReason": {
+            "nl": {
+                "agent": "Why was the person not given training or new tools for his/her new position?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsProbationEvaluation": {
+            "nl": {
+                "agent": "Was there an evaluation of his/her probationary period? \nA) Yes \nB) No \n(Note: If the person has been in the new position for ''between 3 months to less than 1 year'')",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsPerformanceEvaluation": {
+            "nl": {
+                "agent": "Has the individual had any performance evaluations? \nA) Yes \nB) No \n(Note: If the person has been in the new position for ''more than 1 year'')",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsPerformanceImprovementDiscussed": {
+            "nl": {
+                "agent": "Have you discussed improving his/her performance? \nA) Yes \nB) No ",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestPerformanceImprovementDiscussedMethod": {
+            "nl": {
+                "agent": "In what way was it told to improve his/her performance? \nA) Verbally \nB) In writing",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestPerformanceImprovementNotDiscussedReason": {
+            "nl": {
+                "agent": "If no, why didn't you discuss improving his/her performance? ",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestReasonForPositionObtain": {
+            "nl": {
+                "agent": "How did the person get this position? \nA) He/she applied for the position. \nB) The employer gave him/her the job without posting. \nC) It's been too long, I don't know.",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestPastPositionPerformance": {
+            "nl": {
+                "agent": "Prior to his/her current position, was the person successful in his/her other positions? \nA) Yes \nB) No \nC) He/she was hired to do this job. The current position is the only position she has held.",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsNonWorkDisciplinaryRecord": {
+            "nl": {
+                "agent": "Does this person have a disciplinary record?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsDisciplinaryRecord": {
+            "nl": {
+                "agent": "Are this person's performance problems due to carelessness, inattention or unwillingness on his/her part? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsPerformanceDisciplinaryRecord": {
+            "nl": {
+                "agent": "Does this person have a disciplinary record regarding their job performance due to carelessness, inattention or unwillingness on the part of the employee? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestPerformanceDisciplinaryRecordAction": {
+            "nl": {
+                "agent": "What were the most recent disciplinary actions for work performance problems due to carelessness, inattention or unwillingness on the part of the employee? \nA) Verbal warning \nB) Written warning \nC) Short-term suspension \nD) Long-term suspension \nE) Another action ",
+                "user": ""
+            },
+            "inform_slots": [
+                "option",
+                "sanction"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestPerformanceDisciplinaryRecordDuration": {
+            "nl": {
+                "agent": "How long has the employer been dissatisfied with this person's performance? \n A) It is recent (less than a month) \n B) For some time (more than one month)",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsPerformanceUnsatisfactionDiscussed": {
+            "nl": {
+                "agent": "Have you told this person that his/her performance was not satisfactory? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestPerformanceUnsatisfactionDiscussedMethod": {
+            "nl": {
+                "agent": "In what way was it said that his/her performance was not satisfactory? \nA) Verbally \nB) In writing",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsEmployeeInformedOfRequirement": {
+            "nl": {
+                "agent": "Did the individual know what was expected of them for his/her position and the company requirements related to his/her position? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestEmployeeInformedOfRequirementMethod": {
+            "nl": {
+                "agent": "How did you communicated the company's requirements related to his/her position: \nA) Verbally \nB) In writing",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestEmployeeNotInformedOfRequirementReason": {
+            "nl": {
+                "agent": "Why he/she is not aware of the expectations and requirements of the company related to his/her position?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsCompanyRequirementChange": {
+            "nl": {
+                "agent": "Are there any changes in the company in terms of job requirements from the past? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsCompanyRequirementChangePoorCommunication": {
+            "nl": {
+                "agent": "If yes, were the new business requirements properly communicated? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestCompanyRequirementChangeMethod": {
+            "nl": {
+                "agent": "How did you communicate the new job requirements? \nA) Verbally \nB) In writing",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsNewManager": {
+            "nl": {
+                "agent": "Is this a new managerial person who is responsible for this person? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestNewManagerDuration": {
+            "nl": {
+                "agent": "For how long? \nA) Less than 3 months \nB) Between 3 months and less than 1 year \nC) More than 1 year ",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsNewManagerExpectationClear": {
+            "nl": {
+                "agent": "If they were different from the past, were the expectations of this new manager conveyed to them? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsNewManagerRequirementLeadTime": {
+            "nl": {
+                "agent": "Was there any lead time to accommodate the new requirements? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestProductionEffectScale": {
+            "nl": {
+                "agent": "What are the negative consequences of her poor performance? \nRate the severity of the situation, from 1 (less severe or not applicable) to 5 (very severe).\n On the production ",
+                "user": ""
+            },
+            "inform_slots": [
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestColleagueEffectScale": {
+            "nl": {
+                "agent": "On co-workers",
+                "user": ""
+            },
+            "inform_slots": [
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestSuppliersEffectScale": {
+            "nl": {
+                "agent": "On suppliers or subcontractors ",
+                "user": ""
+            },
+            "inform_slots": [
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestCustomerEffectScale": {
+            "nl": {
+                "agent": "On customers",
+                "user": ""
+            },
+            "inform_slots": [
+                "number"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceAware": {
+            "nl": {
+                "agent": "Has the individual realized that his/her performance is not satisfactory? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestEmployeeIncompetenceAwareReason": {
+            "nl": {
+                "agent": "If so, what reason did he/she gives for it? \nA) Personal medical condition \nB) Personal problems \nC) Too much work \nD) Work environment not conducive to good performance \nE) Work organization \nF) Unclear expectations and performance criteria \nG) Insufficient skills \nH) Another reason",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceAwareMedical": {
+            "nl": {
+                "agent": "Do you believe the poor performance is caused by a medical condition or personal problems? \nA) Yes \nB) No, it is related to his or her competence.",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceMedical": {
+            "nl": {
+                "agent": "Does this person have a medical condition or personal problems that warrant poor performance? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEval": {
+            "nl": {
+                "agent": "Did the employer obtain its own medical evaluation that justified this individual's poor performance? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEvalNegative": {
+            "nl": {
+                "agent": "Did the employer's physician make a negative prognosis of this individual's future ability to perform satisfactory work? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicap": {
+            "nl": {
+                "agent": "Does this person's condition constitute a ''handicap'' within the meaning of the Charter of Rights and Freedoms, that is, a disadvantage that limits him/her physically, mentally or psychologically? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapAcommodation": {
+            "nl": {
+                "agent": "Does it need a reasonable accommodation, i.e., a solution to the current poor performance? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapUnsreasonableAcommodation": {
+            "nl": {
+                "agent": "Is the accommodation unreasonable, i.e., a difficult expense for your business to absorb, an undue hindrance to the smooth operation of your business, or a significant infringement on the safety and rights of your other employees? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsProblemWorkRealted": {
+            "nl": {
+                "agent": "If the reason is related to the work itself (organization, work overload, or environment) or to his/her competence, did he/she seeks help from the manager? \nA) Yes \nB) No",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestProblemCorrectionSteps": {
+            "nl": {
+                "agent": "If yes, what steps have been taken to help him/her improve? \nA) None \nB) Action plan built with her containing goals and offer of assistance from the manager",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestProblemCorrectionActionPlan": {
+            "nl": {
+                "agent": "Was the action plan: \nA) Verbal \nB) Written",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsProblemCorrectionActionReasonableGoals": {
+            "nl": {
+                "agent": "If so did the action plan contain \n 1. Reasonable goals",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsProblemCorrectionActionMeasurableGoals": {
+            "nl": {
+                "agent": "2. Measurable goals",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsProblemCorrectionActionSupporteGoals": {
+            "nl": {
+                "agent": "3. Technical support if needed",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsProblemCorrectionActionTimeGoals": {
+            "nl": {
+                "agent": "4. A reasonable time frame to achieve results",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestIsProblemCorrectionActionConsequenceGoals": {
+            "nl": {
+                "agent": "5. Consequence for not achieving the requested improvement",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestProblemCorrectionNoStepsReason": {
+            "nl": {
+                "agent": "Why were no steps taken to help him/her improve?",
+                "user": ""
+            },
+            "inform_slots": [],
+            "inform_condition": "and"
+        },
+        "Incompetence.RequestIsProblemCorrectionImprovement": {
+            "nl": {
+                "agent": "As a result of the action plan, has there been improvement?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Incompetence.RequestGoal": {
+            "nl": {
+                "agent": "What decision did you make regarding this person? \nA) Maintain employment and improve job performance \nB) Terminate employment",
+                "user": ""
+            },
+            "inform_slots": [
+                "goal"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.PersonalProblemDetail": {
+            "nl": {
+                "agent": "What is the difficult personal problem of this person employee? \nH) Substance abuse problem \nI) Health or medical problems \nJ) Divorce \nK) Death or funeral \nL) Family or parental problems \nM) Other",
+                "user": ""
+            },
+            "inform_slots": [
+                "option"
+            ],
+            "inform_condition": "and"
+        },
+        "Common.RequestIsDiabled": {
+            "nl": {
+                "agent": "Does the condition of the person employee constitute a ''disability'' according to the meaning of the Charter of human rights and freedoms?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestIsAccomodation": {
+            "nl": {
+                "agent": "Does he have any necessity for reasonable accommodation?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        },
+        "Common.RequestIsAccomodationUnreasonable": {
+            "nl": {
+                "agent": "Is the accommodation unreasonable?",
+                "user": ""
+            },
+            "inform_slots": [
+                "positive",
+                "negative"
+            ],
+            "inform_condition": "or"
+        }
+    }
+}

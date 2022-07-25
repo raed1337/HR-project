@@ -1,0 +1,281 @@
+{
+    "DataFrameColumns": {
+        "problem": {
+            "lack_of_respect_towards_colleagues": 1,
+            "lack_of_respect_towards_customers": 2
+        },
+        "contract": {
+            "temporary": 1,
+            "permanent": 2
+        },
+        "experience": "Number",
+        "regular_customer": "Binary",
+        "problematic_customer": "Binary",
+        "cutomer_provoked": "Binary",
+        "physical_fight": "Binary",
+        "recording": "Binary",
+        "personal_issues": "Binary",
+        "policy": "Binary",
+        "policy_is_public": "Binary",
+        "policy_is_distributed": "Binary",
+        "policy_is_reminded": "Binary",
+        "policy_is_received": "Binary",
+        "complaint": "Binary",
+        "complaint_in_writing": "Binary",
+        "investigation": "Binary",
+        "complaint_is_first_time": "Binary",
+        "comlaint_is_first_disrespect": "Binary",
+        "complaint_is_aware": "Binary",
+        "complaint_is_discussed": "Binary",
+        "complaint_is_warned": "Binary",
+        "victim_is_protected": "Binary",
+        "offender_date_of_hire": "Number",
+        "offender_is_first_time": "Binary",
+        "offender_repeat": "Binary",
+        "offender_protected_group": "Binary",
+        "offender_apology": "Binary",
+        "witness": "Binary",
+        "witness_met": "Binary",
+        "witness_verified": "Binary",
+        "offender_trauma": "Binary",
+        "offender_is_disciplinary": "Binary",
+        "other_sanctions_verbal": {
+            "verbal": 1
+        },
+        "other_sanctions_written": {
+            "written": 1
+        },
+        "other_sanctions_suspension": {
+            "suspension": 1
+        },
+        "past_sanction_time": "Number",
+        "offender_disrespect_discipline": "Binary",
+        "current_sanctions_verbal": {
+            "verbal": 1
+        },
+        "current_sanctions_written": {
+            "written": 1
+        },
+        "current_sanctions_suspension": {
+            "suspension": 1
+        },
+        "good_employee": "Binary",
+        "intervene": "Binary",
+        "just_dismissal": "Binary",
+        "goal": {
+            "correct_goal": 1,
+            "terminate_goal": 2
+        }
+    },
+    "KeyWords": {
+        "lack_of_respect_towards_colleagues": [
+            "lack of respect towards colleagues",
+            "lack of respect towards co workers",
+            "lack of respect towards co-workers",
+            "lack of respect towards other employees",
+            "lack of respect towards employees",
+            "lack of respect colleagues",
+            "lack of respect co workers",
+            "lack of respect co-workers",
+            "lack of respect other employees",
+            "lack of respect employees",
+            "lack respect colleagues",
+            "lack respect co workers",
+            "lack respect co-workers",
+            "lack respect other employees",
+            "lack respect employees"
+        ],
+        "lack_of_respect_towards_customers": [
+            "lack respect customer",
+            "lack respect customers",
+            "lack courtesy customer",
+            "lack courtesy customers",
+            "lack of respect customer",
+            "lack of respect customers",
+            "lack of courtesy customer",
+            "lack of courtesy customers"
+        ],
+        "verbal": [
+            "verbal warnings",
+            "verbally warned",
+            "verbal warning",
+            "verbally",
+            "verbal warning",
+            "verbal",
+            "verbal warning"
+        ],
+        "temporary": [
+            "temporary"
+        ],
+        "permanent": [
+            "permanent"
+        ],
+        "written": [
+            "written",
+            "one written",
+            "two written",
+            "three written",
+            "4 written",
+            "5 written",
+            "notice"
+        ],
+        "suspension": [
+            "suspension",
+            "suspended",
+            "suspensions"
+        ],
+        "terminate_goal": [
+            "terminate",
+            "fire",
+            "get rid",
+            "end",
+            "terminate contract",
+            "end contract"
+        ],
+        "correct_goal": [
+            "correct his/her behaviour",
+            "disciplinary sanctions",
+            "address situation",
+            "correct situation",
+            "correct performance",
+            "correct",
+            "correct behaviour"
+        ]
+    },
+    "Mapping": {
+        "main_problem": [
+            "RequestProblemConfirmation"
+        ],
+        "problem": [
+            "RequestConfirmProblem"
+        ],
+        "contract": [
+            "RequestContractType"
+        ],
+        "experience": [
+            "RequestDateOfHire"
+        ],
+        "regular_customer": [
+            "RequestIsRegularCustomer"
+        ],
+        "problematic_customer": [
+            "RequestIsCustomerDifficult"
+        ],
+        "cutomer_provoked": [
+            "RequestIsEmployeeProvoked"
+        ],
+        "physical_fight": [
+            "RequestIsPhysicalFight"
+        ],
+        "recording": [
+            "RequestIsRecording"
+        ],
+        "personal_issues": [
+            "RequestIsPersonalMatters"
+        ],
+        "policy": [
+            "RequestIsPolicy",
+            "RequestIsPolicyInformed"
+        ],
+        "policy_is_public": [
+            "RequestIsPolicyPublic"
+        ],
+        "policy_is_distributed": [
+            "RequestIsPolicyDistributed"
+        ],
+        "policy_received": [
+            "RequestProvePolicyIsKnown"
+        ],
+        "policy_is_reminded": [
+            "RequestIsPolicyReminder"
+        ],
+        "policy_is_received": [
+            "RequestProvePolicyIsKnown"
+        ],
+        "complaint": [
+            "RequestIsComplaint"
+        ],
+        "complaint_in_writing": [
+            "RequestIsComplaintInWriting"
+        ],
+        "investigation": [
+            "RequestIsInvestigation"
+        ],
+        "complaint_is_first_time": [
+            "RequestIsFirstTimeComplaint"
+        ],
+        "comlaint_is_first_disrespect": [
+            "RequestIsOffenderPersistant"
+        ],
+        "complaint_is_aware": [
+            "RequestIsAware"
+        ],
+        "complaint_is_discussed": [
+            "RequestIsVictimDiscuss"
+        ],
+        "complaint_is_warned": [
+            "RequestIsWarned"
+        ],
+        "victim_is_protected": [
+            "RequestVictimProtect"
+        ],
+        "offender_date_of_hire": [
+            "RequestDisrespectorDateOfHire"
+        ],
+        "offender_is_first_time": [
+            "RequestIsComplaintFirstTime",
+            "RequestIsEmployeeFirstTime"
+        ],
+        "offender_repeat": [
+            "RequestRepeatOffender"
+        ],
+        "offender_protected_group": [
+            "RequestIsProtectedGroups"
+        ],
+        "offender_apology": [
+            "RequestIsApology",
+            "RequestIsEmployeeApologize"
+        ],
+        "witness": [
+            "RequestIsWitness"
+        ],
+        "witness_met": [
+            "RequestIsWitnessMet",
+            "RequestIsWitnessCollected"
+        ],
+        "witness_verified": [
+            "RequestIsWitnessVerified",
+            "RequestIsWitnessSame"
+        ],
+        "offender_trauma": [
+            "RequestIsMisjudgement"
+        ],
+        "offender_is_disciplinary": [
+            "RequestIsDisciplinaryRecord"
+        ],
+        "offender_disrespect_discipline": [
+            "RequestIsCurrentSanction"
+        ],
+        "current_sanctions": [
+            "RequestCurrentSanction"
+        ],
+        "past_sanction_time": [
+            "RequestPastSanctionTime"
+        ],
+        "other_sanctions": [
+            "RequestOtherSanctions"
+        ],
+        "good_employee": [
+            "RequestIsPerformance"
+        ],
+        "intervene": [
+            "RequestIsIntervention"
+        ],
+        "just_dismissal": [
+            "RequestIsJustDismissal"
+        ],
+        "goal": [
+            "RequestGoal"
+        ]
+    }
+}

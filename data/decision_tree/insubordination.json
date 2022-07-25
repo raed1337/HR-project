@@ -1,0 +1,283 @@
+{
+    "DataFrameColumns": {
+        "problem": {
+            "refusal_manager_instructions": 1,
+            "compliance_manager_expectations": 2,
+            "lack_of_respect_manager": 3
+        },
+        "contract": {
+            "temporary": 1,
+            "permanent": 2
+        },
+        "experience": "Number",
+        "clear_decription": "Binary",
+        "employee_aware": "Binary",
+        "first_time": "Binary",
+        "incident_multiple_times": "Binary",
+        "pattern_or_habit": "Binary",
+        "damage_scale": "Number",
+        "team_morale": "Binary",
+        "team_health_danger": "Binary",
+        "is_explanation": "Binary",
+        "personal_health_problem": "Binary",
+        "contradictory_supervision": "Binary",
+        "contradictory_others": "Binary",
+        "contradictory_diirective": "Binary",
+        "is_insult": "Binary",
+        "is_physical_fight": "Binary",
+        "is_other_people": "Binary",
+        "is_customer_present": "Binary",
+        "is_supplier_present": "Binary",
+        "is_witness": "Binary",
+        "is_employee_first_time": "Binary",
+        "is_supervisor_first_time": "Binary",
+        "is_supervisor_problematic": "Binary",
+        "is_employee_anger_issue": "Binary",
+        "is_employee_provoked": "Binary",
+        "is_work_abnormal": "Binary",
+        "is_bad_news": "Binary",
+        "is_health_issue": "Binary",
+        "is_harrasment": "Binary",
+        "is_superior_responsible": "Binary",
+        "is_apology": "Binary",
+        "disciplinary_record": "Binary",
+        "other_sanctions_verbal": {
+            "verbal": 1
+        },
+        "other_sanctions_written": {
+            "written": 1
+        },
+        "other_sanctions_suspension": {
+            "suspension": 1
+        },
+        "past_sanction_time": "Number",
+        "current_sanctions_verbal": {
+            "verbal": 1
+        },
+        "current_sanctions_written": {
+            "written": 1
+        },
+        "current_sanctions_suspension": {
+            "suspension": 1
+        },
+        "good_employee": "Binary",
+        "intervene": "Binary",
+        "just_dismissal": "Binary",
+        "is_performance_change": "Binary",
+        "goal": {
+            "correct_goal": 1,
+            "terminate_goal": 2
+        }
+    },
+    "KeyWords": {
+        "refusal_manager_instructions": [
+            "refusal to follow manager instruction",
+            "refusal to follow manager instructions",
+            "refusal to follow managers instruction",
+            "refusal to follow managers instructions",
+            "refusal managers instructions",
+            "refusal managers instruction",
+            "refusal manager instruction",
+            "refusal manager instructions",
+            "refusal managers instructions"
+        ],
+        "compliance_manager_expectations": [
+            "compliance manager expectations",
+            "compliance manager expectation",
+            "compliance managers expectations",
+            "compliance managers expectation",
+            "non compliance manager expectations",
+            "non compliance manager expectation",
+            "non compliance managers expectations",
+            "non compliance managers expectation"
+        ],
+        "lack_of_respect_manager": [
+            "lack of respect manager",
+            "lack respect manager",
+            "insubordination lack respect manager"
+        ],
+        "verbal": [
+            "verbal warnings",
+            "verbally warned",
+            "verbal warning",
+            "verbally",
+            "verbal warning",
+            "verbal",
+            "verbal warning"
+        ],
+        "temporary": [
+            "temporary"
+        ],
+        "permanent": [
+            "permanent"
+        ],
+        "written": [
+            "written",
+            "one written",
+            "two written",
+            "three written",
+            "4 written",
+            "5 written",
+            "notice"
+        ],
+        "suspension": [
+            "suspension",
+            "suspended",
+            "suspensions"
+        ],
+        "terminate_goal": [
+            "terminate",
+            "fire",
+            "get rid",
+            "end",
+            "terminate contract",
+            "end contract"
+        ],
+        "correct_goal": [
+            "correct his/her behaviour",
+            "disciplinary sanctions",
+            "address situation",
+            "correct situation",
+            "correct performance",
+            "correct",
+            "correct behaviour"
+        ]
+    },
+    "Mapping": {
+        "main_problem": [
+            "RequestProblemConfirmation"
+        ],
+        "problem": [
+            "RequestConfirmProblem"
+        ],
+        "contract": [
+            "RequestContractType"
+        ],
+        "experience": [
+            "RequestDateOfHire"
+        ],
+        "clear_decription": [
+            "RequestIsDescriptionClear"
+        ],
+        "employee_aware": [
+            "RequestIsEmployeeAware"
+        ],
+        "first_time": [
+            "RequestIsFirstTime"
+        ],
+        "incident_multiple_times": [
+            "RequestIsIncidentMultipleTimes"
+        ],
+        "pattern_or_habit": [
+            "RequestIsPatternOrHabit"
+        ],
+        "damage_scale": [
+            "RequestInsubordinationDamageScale"
+        ],
+        "team_morale": [
+            "RequestIsTeamMorale"
+        ],
+        "team_health_danger": [
+            "RequestIsTeamHealthDanger"
+        ],
+        "is_explanation": [
+            "RequestIsExplanation"
+        ],
+        "personal_health_problem": [
+            "RequestIsPersonalHealthProblem"
+        ],
+        "contradictory_supervision": [
+            "RequestIsContradictorySupervision"
+        ],
+        "contradictory_others": [
+            "RequestIsContradictoryOthers"
+        ],
+        "contradictory_diirective": [
+            "RequestIsContradictoryDirective"
+        ],
+        "is_insult": [
+            "RequestIsInsult"
+        ],
+        "is_physical_fight": [
+            "RequestIsPhysicalFight"
+        ],
+        "is_other_people": [
+            "RequestIsOtherPeople"
+        ],
+        "is_customer_present": [
+            "RequestIsCustomerPresent"
+        ],
+        "is_supplier_present": [
+            "RequestIsSupplierPresent"
+        ],
+        "is_witness": [
+            "RequestIsWitness"
+        ],
+        "is_employee_first_time": [
+            "RequestIsEmployeeFirstTime"
+        ],
+        "is_supervisor_first_time": [
+            "RequestIsSupervisorFirstTime"
+        ],
+        "is_supervisor_problematic": [
+            "RequestIsSupervisorProblematic"
+        ],
+        "is_employee_anger_issue": [
+            "RequestIsEmployeeAngerIssue"
+        ],
+        "is_employee_provoked": [
+            "RequestIsEmployeeProvoked"
+        ],
+        "is_work_abnormal": [
+            "RequestIsWorkAbnormal"
+        ],
+        "is_bad_news": [
+            "RequestIsBadNews"
+        ],
+        "is_health_issue": [
+            "RequestIsHealthIssue"
+        ],
+        "is_harrasment": [
+            "RequestIsHarrasment"
+        ],
+        "is_superior_responsible": [
+            "RequestIsSuperiorResponsible"
+        ],
+        "is_apology": [
+            "RequestIsApology"
+        ],
+        "disciplinary_record": [
+            "RequestIsDisciplinaryRecord"
+        ],
+        "offender_is_disciplinary": [
+            "RequestIsDisciplinaryRecord"
+        ],
+        "offender_disrespect_discipline": [
+            "RequestIsCurrentSanction"
+        ],
+        "current_sanctions": [
+            "RequestCurrentSanction"
+        ],
+        "past_sanction_time": [
+            "RequestPastSanctionTime"
+        ],
+        "other_sanctions": [
+            "RequestOtherSanctions"
+        ],
+        "good_employee": [
+            "RequestIsPerformance"
+        ],
+        "intervene": [
+            "RequestIsIntervene"
+        ],
+        "is_performance_change": [
+            "RequestIsPerformanceChange"
+        ],
+        "just_dismissal": [
+            "RequestIsJustDismissal"
+        ],
+        "goal": [
+            "RequestGoal"
+        ]
+    }
+}

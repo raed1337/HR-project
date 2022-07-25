@@ -1,0 +1,941 @@
+{
+    "MainProblemCategory": "disrespect",
+    "SubCategories": {
+        "Lack Respect Colleagues": {
+            "QuestionSet": [
+                "LackOfRespect.RequestDisrespecteeName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Colleagues.RequestIsPolicy",
+                "Harassment.Common.RequestIsPolicyPublic",
+                "Harassment.Common.RequestIsPolicyDistributed",
+                "Harassment.Common.RequestIsPolicyReminder",
+                "Harassment.Common.RequestProvePolicyIsKnown",
+                "Harassment.Common.RequestIsComplaint",
+                "Harassment.Common.RequestIsComplaintInWriting",
+                "Harassment.Common.RequestComplaintTime",
+                "Harassment.Common.RequestIsInvestigation",
+                "Harassment.Common.RequestIsFirstTimeComplaint",
+                "Harassment.Common.RequestTimeDifference",
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant",
+                "LackOfRespect.Colleagues.RequestIsAware",
+                "LackOfRespect.Colleagues.RequestIsVictimDiscuss",
+                "Harassment.Common.RequestIsWarned",
+                "LackOfRespect.Colleagues.RequestVictimProtect",
+                "Harassment.Common.RequestMeasureTime",
+                "Harassment.Common.RequestIsMeasureNotConsidered",
+                "LackOfRespect.RequestDisrespector",
+                "LackOfRespect.RequestDisrespectorDateOfHire",
+                "LackOfRespect.RequestIsComplaintFirstTime",
+                "LackOfRespect.RequestRepeatOffender",
+                "LackOfRespect.RequestIsProtectedGroups",
+                "Harassment.Common.RequestIsApology",
+                "Harassment.Common.RequestIsWitness",
+                "Harassment.Common.RequestIsWitnessMet",
+                "Harassment.Common.RequestIsWitnessVerified",
+                "Harassment.Common.RequestIsMisjudgement",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Colleagues.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsPolicyPublic",
+                            "Harassment.Common.RequestIsPolicyDistributed",
+                            "Harassment.Common.RequestIsPolicyReminder",
+                            "Harassment.Common.RequestProvePolicyIsKnown"
+                        ]
+                    }
+                },
+                "LackOfRespect.RequestIsComplaintFirstTime": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.RequestRepeatOffender",
+                            "LackOfRespect.RequestIsProtectedGroups"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsComplaint": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsComplaintInWriting",
+                            "Harassment.Common.RequestComplaintTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsInvestigation": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestTimeDifference"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsAware",
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsAware": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestVictimProtect": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsMeasureNotConsidered"
+                        ]
+                    },
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestMeasureTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsWitnessMet"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Courtesy Colleagues": {
+            "QuestionSet": [
+                "LackOfRespect.RequestDisrespecteeName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Colleagues.RequestIsPolicy",
+                "Harassment.Common.RequestIsPolicyPublic",
+                "Harassment.Common.RequestIsPolicyDistributed",
+                "Harassment.Common.RequestIsPolicyReminder",
+                "Harassment.Common.RequestProvePolicyIsKnown",
+                "Harassment.Common.RequestIsComplaint",
+                "Harassment.Common.RequestIsComplaintInWriting",
+                "Harassment.Common.RequestComplaintTime",
+                "Harassment.Common.RequestIsInvestigation",
+                "Harassment.Common.RequestIsFirstTimeComplaint",
+                "Harassment.Common.RequestTimeDifference",
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant",
+                "LackOfRespect.Colleagues.RequestIsAware",
+                "LackOfRespect.Colleagues.RequestIsVictimDiscuss",
+                "Harassment.Common.RequestIsWarned",
+                "LackOfRespect.Colleagues.RequestVictimProtect",
+                "Harassment.Common.RequestMeasureTime",
+                "Harassment.Common.RequestIsMeasureNotConsidered",
+                "LackOfRespect.RequestDisrespector",
+                "LackOfRespect.RequestDisrespectorDateOfHire",
+                "LackOfRespect.RequestIsComplaintFirstTime",
+                "LackOfRespect.RequestRepeatOffender",
+                "LackOfRespect.RequestIsProtectedGroups",
+                "Harassment.Common.RequestIsApology",
+                "Harassment.Common.RequestIsWitness",
+                "Harassment.Common.RequestIsWitnessMet",
+                "Harassment.Common.RequestIsWitnessVerified",
+                "Harassment.Common.RequestIsMisjudgement",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Colleagues.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsPolicyPublic",
+                            "Harassment.Common.RequestIsPolicyDistributed",
+                            "Harassment.Common.RequestIsPolicyReminder",
+                            "Harassment.Common.RequestProvePolicyIsKnown"
+                        ]
+                    }
+                },
+                "LackOfRespect.RequestIsComplaintFirstTime": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.RequestRepeatOffender",
+                            "LackOfRespect.RequestIsProtectedGroups"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsComplaint": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsComplaintInWriting",
+                            "Harassment.Common.RequestComplaintTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsInvestigation": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestTimeDifference"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsAware",
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsAware": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestVictimProtect": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsMeasureNotConsidered"
+                        ]
+                    },
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestMeasureTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsWitnessMet"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Respect Colleague": {
+            "QuestionSet": [
+                "LackOfRespect.RequestDisrespecteeName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Colleagues.RequestIsPolicy",
+                "Harassment.Common.RequestIsPolicyPublic",
+                "Harassment.Common.RequestIsPolicyDistributed",
+                "Harassment.Common.RequestIsPolicyReminder",
+                "Harassment.Common.RequestProvePolicyIsKnown",
+                "Harassment.Common.RequestIsComplaint",
+                "Harassment.Common.RequestIsComplaintInWriting",
+                "Harassment.Common.RequestComplaintTime",
+                "Harassment.Common.RequestIsInvestigation",
+                "Harassment.Common.RequestIsFirstTimeComplaint",
+                "Harassment.Common.RequestTimeDifference",
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant",
+                "LackOfRespect.Colleagues.RequestIsAware",
+                "LackOfRespect.Colleagues.RequestIsVictimDiscuss",
+                "Harassment.Common.RequestIsWarned",
+                "LackOfRespect.Colleagues.RequestVictimProtect",
+                "Harassment.Common.RequestMeasureTime",
+                "Harassment.Common.RequestIsMeasureNotConsidered",
+                "LackOfRespect.RequestDisrespector",
+                "LackOfRespect.RequestDisrespectorDateOfHire",
+                "LackOfRespect.RequestIsComplaintFirstTime",
+                "LackOfRespect.RequestRepeatOffender",
+                "LackOfRespect.RequestIsProtectedGroups",
+                "Harassment.Common.RequestIsApology",
+                "Harassment.Common.RequestIsWitness",
+                "Harassment.Common.RequestIsWitnessMet",
+                "Harassment.Common.RequestIsWitnessVerified",
+                "Harassment.Common.RequestIsMisjudgement",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Colleagues.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsPolicyPublic",
+                            "Harassment.Common.RequestIsPolicyDistributed",
+                            "Harassment.Common.RequestIsPolicyReminder",
+                            "Harassment.Common.RequestProvePolicyIsKnown"
+                        ]
+                    }
+                },
+                "LackOfRespect.RequestIsComplaintFirstTime": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.RequestRepeatOffender",
+                            "LackOfRespect.RequestIsProtectedGroups"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsComplaint": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsComplaintInWriting",
+                            "Harassment.Common.RequestComplaintTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsInvestigation": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestTimeDifference"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsAware",
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsAware": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestVictimProtect": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsMeasureNotConsidered"
+                        ]
+                    },
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestMeasureTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsWitnessMet"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Courtesy Colleague": {
+            "QuestionSet": [
+                "LackOfRespect.RequestDisrespecteeName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Colleagues.RequestIsPolicy",
+                "Harassment.Common.RequestIsPolicyPublic",
+                "Harassment.Common.RequestIsPolicyDistributed",
+                "Harassment.Common.RequestIsPolicyReminder",
+                "Harassment.Common.RequestProvePolicyIsKnown",
+                "Harassment.Common.RequestIsComplaint",
+                "Harassment.Common.RequestIsComplaintInWriting",
+                "Harassment.Common.RequestComplaintTime",
+                "Harassment.Common.RequestIsInvestigation",
+                "Harassment.Common.RequestIsFirstTimeComplaint",
+                "Harassment.Common.RequestTimeDifference",
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant",
+                "LackOfRespect.Colleagues.RequestIsAware",
+                "LackOfRespect.Colleagues.RequestIsVictimDiscuss",
+                "Harassment.Common.RequestIsWarned",
+                "LackOfRespect.Colleagues.RequestVictimProtect",
+                "Harassment.Common.RequestMeasureTime",
+                "Harassment.Common.RequestIsMeasureNotConsidered",
+                "LackOfRespect.RequestDisrespector",
+                "LackOfRespect.RequestDisrespectorDateOfHire",
+                "LackOfRespect.RequestIsComplaintFirstTime",
+                "LackOfRespect.RequestRepeatOffender",
+                "LackOfRespect.RequestIsProtectedGroups",
+                "Harassment.Common.RequestIsApology",
+                "Harassment.Common.RequestIsWitness",
+                "Harassment.Common.RequestIsWitnessMet",
+                "Harassment.Common.RequestIsWitnessVerified",
+                "Harassment.Common.RequestIsMisjudgement",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Colleagues.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsPolicyPublic",
+                            "Harassment.Common.RequestIsPolicyDistributed",
+                            "Harassment.Common.RequestIsPolicyReminder",
+                            "Harassment.Common.RequestProvePolicyIsKnown"
+                        ]
+                    }
+                },
+                "LackOfRespect.RequestIsComplaintFirstTime": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.RequestRepeatOffender",
+                            "LackOfRespect.RequestIsProtectedGroups"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsComplaint": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsComplaintInWriting",
+                            "Harassment.Common.RequestComplaintTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsInvestigation": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestTimeDifference"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsOffenderPersistant": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsAware",
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestIsAware": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Colleagues.RequestIsVictimDiscuss"
+                        ]
+                    }
+                },
+                "LackOfRespect.Colleagues.RequestVictimProtect": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsMeasureNotConsidered"
+                        ]
+                    },
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestMeasureTime"
+                        ]
+                    }
+                },
+                "Harassment.Common.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Harassment.Common.RequestIsWitnessMet"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Respect Customer": {
+            "QuestionSet": [
+                "LackOfRespect.Customer.RequestName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Customer.RequestCustomer",
+                "LackOfRespect.Customer.RequestIsRegularCustomer",
+                "LackOfRespect.Customer.RequestIsCustomerDifficult",
+                "LackOfRespect.Customer.RequestEmployeeName",
+                "LackOfRespect.Customer.RequestEmployeeJustification",
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked",
+                "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact",
+                "LackOfRespect.Customer.RequestIsPhysicalFight",
+                "LackOfRespect.Customer.RequestIsRecording",
+                "LackOfRespect.Customer.RequestDescription",
+                "LackOfRespect.Customer.RequestIsWitness",
+                "LackOfRespect.Customer.RequestWitnessName",
+                "LackOfRespect.Customer.RequestIsWitnessCollected",
+                "LackOfRespect.Customer.RequestIsWitnessSame",
+                "LackOfRespect.Customer.RequestIsEmployeeApologize",
+                "LackOfRespect.Customer.RequestIsEmployeeFirstTime",
+                "Absence.RequestIsPersonalMatters",
+                "Common.PersonalProblemDetail",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.Customer.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestWitnessName",
+                            "LackOfRespect.Customer.RequestIsWitnessCollected",
+                            "LackOfRespect.Customer.RequestIsWitnessSame"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsRegularCustomer": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsCustomerDifficult"
+                        ]
+                    }
+                },
+                "Absence.RequestIsPersonalMatters": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.PersonalProblemDetail"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Courtesy Customer": {
+            "QuestionSet": [
+                "LackOfRespect.Customer.RequestName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Customer.RequestCustomer",
+                "LackOfRespect.Customer.RequestIsRegularCustomer",
+                "LackOfRespect.Customer.RequestIsCustomerDifficult",
+                "LackOfRespect.Customer.RequestEmployeeName",
+                "LackOfRespect.Customer.RequestEmployeeJustification",
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked",
+                "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact",
+                "LackOfRespect.Customer.RequestIsPhysicalFight",
+                "LackOfRespect.Customer.RequestIsRecording",
+                "LackOfRespect.Customer.RequestDescription",
+                "LackOfRespect.Customer.RequestIsWitness",
+                "LackOfRespect.Customer.RequestWitnessName",
+                "LackOfRespect.Customer.RequestIsWitnessCollected",
+                "LackOfRespect.Customer.RequestIsWitnessSame",
+                "LackOfRespect.Customer.RequestIsEmployeeApologize",
+                "LackOfRespect.Customer.RequestIsEmployeeFirstTime",
+                "Absence.RequestIsPersonalMatters",
+                "Common.PersonalProblemDetail",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.Customer.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestWitnessName",
+                            "LackOfRespect.Customer.RequestIsWitnessCollected",
+                            "LackOfRespect.Customer.RequestIsWitnessSame"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsRegularCustomer": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsCustomerDifficult"
+                        ]
+                    }
+                },
+                "Absence.RequestIsPersonalMatters": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.PersonalProblemDetail"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Respect Customers": {
+            "QuestionSet": [
+                "LackOfRespect.Customer.RequestName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Customer.RequestCustomer",
+                "LackOfRespect.Customer.RequestIsRegularCustomer",
+                "LackOfRespect.Customer.RequestIsCustomerDifficult",
+                "LackOfRespect.Customer.RequestEmployeeName",
+                "LackOfRespect.Customer.RequestEmployeeJustification",
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked",
+                "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact",
+                "LackOfRespect.Customer.RequestIsPhysicalFight",
+                "LackOfRespect.Customer.RequestIsRecording",
+                "LackOfRespect.Customer.RequestDescription",
+                "LackOfRespect.Customer.RequestIsWitness",
+                "LackOfRespect.Customer.RequestWitnessName",
+                "LackOfRespect.Customer.RequestIsWitnessCollected",
+                "LackOfRespect.Customer.RequestIsWitnessSame",
+                "LackOfRespect.Customer.RequestIsEmployeeApologize",
+                "LackOfRespect.Customer.RequestIsEmployeeFirstTime",
+                "Absence.RequestIsPersonalMatters",
+                "Common.PersonalProblemDetail",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.Customer.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestWitnessName",
+                            "LackOfRespect.Customer.RequestIsWitnessCollected",
+                            "LackOfRespect.Customer.RequestIsWitnessSame"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsRegularCustomer": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsCustomerDifficult"
+                        ]
+                    }
+                },
+                "Absence.RequestIsPersonalMatters": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.PersonalProblemDetail"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lack Courtesy Customers": {
+            "QuestionSet": [
+                "LackOfRespect.Customer.RequestName",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "LackOfRespect.Colleagues.RequestDateOfHire",
+                "LackOfRespect.Customer.RequestCustomer",
+                "LackOfRespect.Customer.RequestIsRegularCustomer",
+                "LackOfRespect.Customer.RequestIsCustomerDifficult",
+                "LackOfRespect.Customer.RequestEmployeeName",
+                "LackOfRespect.Customer.RequestEmployeeJustification",
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked",
+                "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact",
+                "LackOfRespect.Customer.RequestIsPhysicalFight",
+                "LackOfRespect.Customer.RequestIsRecording",
+                "LackOfRespect.Customer.RequestDescription",
+                "LackOfRespect.Customer.RequestIsWitness",
+                "LackOfRespect.Customer.RequestWitnessName",
+                "LackOfRespect.Customer.RequestIsWitnessCollected",
+                "LackOfRespect.Customer.RequestIsWitnessSame",
+                "LackOfRespect.Customer.RequestIsEmployeeApologize",
+                "LackOfRespect.Customer.RequestIsEmployeeFirstTime",
+                "Absence.RequestIsPersonalMatters",
+                "Common.PersonalProblemDetail",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "LackOfRespect.Customer.RequestIsIntervention",
+                "LackOfRespect.RequestIsJustDismissal",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LackOfRespect.Customer.RequestIsEmployeeProvoked": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsEmployeeNoProvocationReact"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsWitness": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestWitnessName",
+                            "LackOfRespect.Customer.RequestIsWitnessCollected",
+                            "LackOfRespect.Customer.RequestIsWitnessSame"
+                        ]
+                    }
+                },
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "LackOfRespect.Customer.RequestIsRegularCustomer": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LackOfRespect.Customer.RequestIsCustomerDifficult"
+                        ]
+                    }
+                },
+                "Absence.RequestIsPersonalMatters": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.PersonalProblemDetail"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

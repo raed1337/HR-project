@@ -1,0 +1,274 @@
+{
+  "C1-1": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["annual_vacation.R1","annual_vacation.R2"],
+            "Law":["annual_vacation.R3","annual_vacation.R4","annual_vacation.R5","annual_vacation.R6"]
+    }
+  },
+  "C1-2": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["annual_vacation.R2"],
+            "Law":["annual_vacation.R3","annual_vacation.R4","annual_vacation.R5","annual_vacation.R6"]
+    }
+  },
+  "C2-1": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["event_not_covered.R1","event_not_covered.R2"],
+            "Law":["event_not_covered.R3"]
+    }
+  },
+  "C2-2": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":[],
+            "Law":["event_not_covered.R3"]
+    }
+  },
+  "C3-1": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["wedding_or_civil.R1","wedding_or_civil.R2"],
+            "Law":["wedding_or_civil.R3","wedding_or_civil.R4","wedding_or_civil.R5"]
+    }
+  },
+  "C3-2": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["wedding_or_civil.R2"],
+            "Law":["wedding_or_civil.R3","wedding_or_civil.R4","wedding_or_civil.R5"]
+    }
+  },
+  "C3-3": {
+    "FR": "b",
+    "ENG": {"Policy Adoption":["parental_leave.R1","parental_leave.R2"],
+            "Law":["parental_leave.R3","parental_leave.R4","parental_leave.R5"]
+    }
+  },
+  "C3-4": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["parental_leave.R2"],
+            "Law":["parental_leave.R3","parental_leave.R4","parental_leave.R5"]
+    }
+  },
+    "C3-5": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["parental_leave.R1","parental_leave.R2"],
+            "Law":["parental_leave.R6","parental_leave.R7","parental_leave.R8","parental_leave.R9"]
+    }
+  },
+    "C3-6": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["parental_leave.R2"],
+            "Law":["parental_leave.R6","parental_leave.R7","parental_leave.R8","parental_leave.R9"]
+    }
+  },
+    "C3-7": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["parental_leave.R1","parental_leave.R2"],
+            "Law":["parental_leave.R6","parental_leave.R7","parental_leave.R8","parental_leave.R9"]
+    }
+  },
+    "C3-8": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["parental_leave.R2"],
+            "Law":["parental_leave.R6","parental_leave.R7","parental_leave.R8","parental_leave.R9"]
+    }
+  },
+    "C3-9": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["parental_leave.R1","parental_leave.R2"],
+            "Law":["parental_leave.R10"]
+    }
+  },
+    "C3-10": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["death_funeral.R1","death_funeral.R2"],
+            "Law":["death_funeral.R3","death_funeral.R4","death_funeral.R5","death_funeral.R6"]
+    }
+  },
+    "C3-11": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":[],
+             "Law":["death_funeral.R3","death_funeral.R4","death_funeral.R5","death_funeral.R6"]
+    }
+  },
+    "C4-1": {
+    "FR": "b",
+    "ENG":{"Policy Adoption":["non_work_related.R2"],
+             "Law":["non_work_related.R3","non_work_related.R4"]
+    }
+  },
+    "C4-2": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["non_work_related.R1","non_work_related.R2"],
+             "Law":["non_work_related.R3","non_work_related.R4"]
+    }
+  },
+    "C4-3": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["non_work_related.R2"],
+             "Law":["non_work_related.R3","non_work_related.R4","non_work_related.R5"]
+    }
+  },
+    "C4-4": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["non_work_related.R1","non_work_related.R2"],
+             "Law":["non_work_related.R3","non_work_related.R4","non_work_related.R5"]
+    }
+  },
+    "C4-5": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["non_work_related.R2"],
+             "Law":["non_work_related.R3","non_work_related.R4","non_work_related.R5","non_work_related.R6","non_work_related.R7","non_work_related.R8","non_work_related.R9"]
+    }
+  },
+    "C4-6": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["non_work_related.R1","non_work_related.R2"],
+             "Law":["non_work_related.R3","non_work_related.R4","non_work_related.R5","non_work_related.R6","non_work_related.R7","non_work_related.R8","non_work_related.R9"]
+    }
+  },
+    "C5-1": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R1","specific_situation.R2"],
+             "Law":["specific_situation.R3","non_work_related.R4","specific_situation.R5","specific_situation.R6","specific_situation.R7","specific_situation.R8","specific_situation.R9"]
+    }
+  },
+    "C5-2": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R2"],
+             "Law":["specific_situation.R3","non_work_related.R4","specific_situation.R5","specific_situation.R6","specific_situation.R7","specific_situation.R8","specific_situation.R9"]
+    }
+  },
+    "C5-3": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R1","specific_situation.R2"],
+             "Law":["specific_situation.R10","non_work_related.R11","specific_situation.R13","specific_situation.R13","specific_situation.R14","specific_situation.R15","specific_situation.R16"]
+    }
+  },
+    "C5-4": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R2"],
+             "Law":["specific_situation.R10","non_work_related.R11","specific_situation.R13","specific_situation.R13","specific_situation.R14","specific_situation.R15","specific_situation.R16"]
+    }
+  },
+    "C5-5": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R1","specific_situation.R2"],
+             "Law":["specific_situation.R17","non_work_related.R18","specific_situation.R19","specific_situation.R20","specific_situation.R30"]
+    }
+  },
+    "C5-6": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R2"],
+             "Law":["specific_situation.R17","non_work_related.R18","specific_situation.R19","specific_situation.R20","specific_situation.R30"]
+    }
+  },
+    "C5-7": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R1","specific_situation.R2"],
+             "Law":["specific_situation.R21","non_work_related.R22","specific_situation.R23","specific_situation.R24","specific_situation.R30"]
+    }
+  },
+    "C5-8": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R2"],
+             "Law":["specific_situation.R21","non_work_related.R22","specific_situation.R23","specific_situation.R24","specific_situation.R30"]
+    }
+  },
+    "C5-9": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R1","specific_situation.R2"],
+             "Law":["specific_situation.R25","non_work_related.R26","specific_situation.R27","specific_situation.R28","specific_situation.R29","specific_situation.R30"]
+    }
+  },
+    "C5-10": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["specific_situation.R2"],
+             "Law":["specific_situation.R25","non_work_related.R26","specific_situation.R27","specific_situation.R28","specific_situation.R29","specific_situation.R30"]
+    }
+  },
+    "C7-1": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R3"]
+    }
+  },
+    "C7-2": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R3"]
+    }
+  },
+    "C7-3": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R3","statutory_holiday.R4","statutory_holiday.R5","statutory_holiday.R8","statutory_holiday.R9","statutory_holiday.R10","statutory_holiday.R11"]
+    }
+  },
+    "C7-4": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R3","statutory_holiday.R4","statutory_holiday.R5","statutory_holiday.R8","statutory_holiday.R9","statutory_holiday.R10","statutory_holiday.R11"]
+    }
+  },
+    "C7-5": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R8","statutory_holiday.R9","statutory_holiday.R10","statutory_holiday.R13"]
+    }
+  },
+    "C7-6": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R8","statutory_holiday.R9","statutory_holiday.R10","statutory_holiday.R13"]
+    }
+  },
+    "C7-7": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R6","statutory_holiday.R8","statutory_holiday.R9","statutory_holiday.R10","statutory_holiday.R13"]
+    }
+  },
+    "C7-8": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R6","statutory_holiday.R8","statutory_holiday.R9","statutory_holiday.R10","statutory_holiday.R13"]
+    }
+  },
+    "C7-9": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R7","statutory_holiday.R10"]
+    }
+  },
+    "C7-10": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R7","statutory_holiday.R10"]
+    }
+  },
+    "C7-11": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R8","statutory_holiday.R10","statutory_holiday.R11","statutory_holiday.R12","statutory_holiday.R13","statutory_holiday.R14","statutory_holiday.R15","statutory_holiday.R16","statutory_holiday.R17"]
+    }
+  },
+    "C7-12": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R8","statutory_holiday.R10","statutory_holiday.R11","statutory_holiday.R12","statutory_holiday.R13","statutory_holiday.R14","statutory_holiday.R15","statutory_holiday.R16","statutory_holiday.R17"]
+    }
+  },
+    "C7-13": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R2"],
+             "Law":["statutory_holiday.R7","statutory_holiday.R10","statutory_holiday.R10","statutory_holiday.R11","statutory_holiday.R12","statutory_holiday.R13","statutory_holiday.R14","statutory_holiday.R15","statutory_holiday.R16","statutory_holiday.R17"]
+    }
+  },
+    "C7-14": {
+    "FR": "b",
+    "ENG":  {"Policy Adoption":["statutory_holiday.R1","statutory_holiday.R2"],
+             "Law":["statutory_holiday.R7","statutory_holiday.R10","statutory_holiday.R11","statutory_holiday.R12","statutory_holiday.R13","statutory_holiday.R14","statutory_holiday.R15","statutory_holiday.R16","statutory_holiday.R17"]
+    }
+  }
+  
+  
+}

@@ -1,0 +1,465 @@
+{
+    "MainProblemCategory": "absence",
+    "SubCategories": {
+        "Unauthorized Absence": {
+            "QuestionSet": [
+                "Absence.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Absence.RequestAbsenceDay",
+                "Common.RequestIsPolicy",
+                "Absence.RequestIsFirstAbsence",
+                "Absence.RequestIsJustification",
+                "Absence.RequestIsPattern",
+                "Absence.RequestDamageScale",
+                "Absence.RequestIsTeamImpact",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "Absence.RequestIsCompanyPastPractice",
+                "Absence.RequestIsLaborLawReasons",
+                "Absence.RequestIsReasons",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Absenteism": {
+            "QuestionSet": [
+                "Absence.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Absence.RequestAbsenceDay",
+                "Common.RequestIsPolicy",
+                "Absence.RequestIsFirstAbsence",
+                "Absence.RequestIsJustification",
+                "Absence.RequestIsPattern",
+                "Absence.RequestDamageScale",
+                "Absence.RequestIsTeamImpact",
+                "Absenteism.RequestAbsenceRatio",
+                "Absenteism.RequestAbsenceFerequency",
+                "Absenteism.RequestIsJustificationMedical",
+                "Absenteism.RequestIsNegativePrognosis",
+                "Absenteism.RequestIsDisability",
+                "Absenteism.RequestIsAccommodation",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "Absence.RequestIsCompanyPastPractice",
+                "Absence.RequestIsLaborLawReasons",
+                "Absence.RequestIsReasons",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Absenteism.RequestAbsenceRatio": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Absenteism.RequestAbsenceFerequency"
+                        ]
+                    }
+                },
+                "Absenteism.RequestIsJustificationMedical": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Absenteism.RequestIsNegativePrognosis",
+                            "Absenteism.RequestIsDisability",
+                            "Absenteism.RequestIsAccommodation"
+                        ]
+                    }
+                }
+            }
+        },
+        "Vacation Refusal": {
+            "QuestionSet": [
+                "Absence.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Absence.RequestAbsenceDay",
+                "Common.RequestIsPolicy",
+                "DayOff.RequestTime",
+                "DayOff.RequestJustification",
+                "DayOff.RequestIsFrequency",
+                "Absence.RequestIsPattern",
+                "Absence.RequestDamageScale",
+                "DayOff.RequestIsEmployeeReplace",
+                "DayOff.RequestCounter",
+                "DayOff.RequestIsImpact",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "Absence.RequestIsCompanyPastPractice",
+                "Absence.RequestIsLaborLawReasons",
+                "Absence.RequestIsReasons",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Day Off": {
+            "QuestionSet": [
+                "Absence.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Absence.RequestAbsenceDay",
+                "Common.RequestIsPolicy",
+                "DayOff.RequestTime",
+                "DayOff.RequestJustification",
+                "DayOff.RequestIsFrequency",
+                "Absence.RequestIsPattern",
+                "Absence.RequestDamageScale",
+                "DayOff.RequestIsEmployeeReplace",
+                "DayOff.RequestCounter",
+                "DayOff.RequestIsImpact",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "Absence.RequestIsCompanyPastPractice",
+                "Absence.RequestIsLaborLawReasons",
+                "Absence.RequestIsReasons",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Theft of Time": {
+            "QuestionSet": [
+                "Absence.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Common.RequestIsPolicy",
+                "TheftOfTime.RequestTimeTheft",
+                "TheftOfTime.RequestIsFirstAbsence",
+                "TheftOfTime.RequestAbsenceFrequency",
+                "TheftOfTime.RequestIsFailure",
+                "TheftOfTime.RequestDamageProduction",
+                "Absence.RequestIsPattern",
+                "Absence.RequestDamageScale",
+                "TheftOfTime.RequestIsKnown",
+                "TheftOfTime.RequestIsTeamImpact",
+                "TheftOfTime.RequestIsBehavior",
+                "TheftOfTime.RequestIsNegligent",
+                "Absence.RequestIsJustification",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "TheftOfTime.RequestIsCompanyPractice",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Theft": {
+            "QuestionSet": [
+                "Absence.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Common.RequestIsPolicy",
+                "TheftOfTime.RequestTimeTheft",
+                "TheftOfTime.RequestIsFirstAbsence",
+                "TheftOfTime.RequestAbsenceFrequency",
+                "TheftOfTime.RequestIsFailure",
+                "TheftOfTime.RequestDamageProduction",
+                "Absence.RequestIsPattern",
+                "Absence.RequestDamageScale",
+                "TheftOfTime.RequestIsKnown",
+                "TheftOfTime.RequestIsTeamImpact",
+                "TheftOfTime.RequestIsBehavior",
+                "TheftOfTime.RequestIsNegligent",
+                "Absence.RequestIsJustification",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "TheftOfTime.RequestIsCompanyPractice",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Lateness": {
+            "QuestionSet": [
+                "Lateness.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Lateness.RequestLateDay",
+                "Lateness.RequestTimeSlot",
+                "Common.RequestIsPolicy",
+                "Lateness.RequestPeriod",
+                "Lateness.RequestIsFirstLate",
+                "Lateness.RequestDamageProduction",
+                "Lateness.RequestNotification",
+                "Lateness.RequestIsTeamImpact",
+                "Lateness.RequestIsWeatherReason",
+                "Lateness.RequestIsFamilyReason",
+                "Lateness.RequestIsTrafficReason",
+                "Lateness.RequestIsCompanyPractice",
+                "Absenteism.RequestAbsenceRatio",
+                "Absenteism.RequestAbsenceFerequency",
+                "Lateness.RequestIsJustificationMedical",
+                "Absenteism.RequestIsNegativePrognosis",
+                "Absenteism.RequestIsDisability",
+                "Absenteism.RequestIsAccommodation",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "Absence.RequestIsLaborLawReasons",
+                "Absence.RequestIsReasons",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Lateness.RequestIsJustificationMedical": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Absenteism.RequestIsNegativePrognosis",
+                            "Absenteism.RequestIsDisability",
+                            "Absenteism.RequestIsAccommodation"
+                        ]
+                    }
+                }
+            }
+        },
+        "Workstation": {
+            "QuestionSet": [
+                "Lateness.RequestName",
+                "Common.RequestSeniority",
+                "Common.RequestContractType",
+                "Common.RequestWorkPosition",
+                "Lateness.RequestLateDay",
+                "Lateness.RequestTimeSlot",
+                "Common.RequestIsPolicy",
+                "Lateness.RequestPeriod",
+                "Lateness.RequestIsFirstLate",
+                "Lateness.RequestNotification",
+                "Lateness.RequestDamageProduction",
+                "Absence.RequestDamageScale",
+                "Lateness.RequestIsTeamImpact",
+                "LatenessWorkstation.RequestIsWorkConditionReason",
+                "LatenessWorkstation.RequestIsWorkProductionReason",
+                "Lateness.RequestIsJustificationMedical",
+                "Absenteism.RequestIsNegativePrognosis",
+                "Absenteism.RequestIsDisability",
+                "Absenteism.RequestIsAccommodation",
+                "Common.RequestIsDisciplinaryRecord",
+                "Common.RequestOtherSanctions",
+                "Common.RequestPastSanctionTime",
+                "Common.RequestIsCurrentSanction",
+                "Common.RequestCurrentSanction",
+                "Common.RequestIsPerformance",
+                "Absence.RequestIsPersonalMatters",
+                "Absence.RequestIsCompanyPastPractice",
+                "Absence.RequestIsLaborLawReasons",
+                "Absence.RequestIsReasons",
+                "Common.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Lateness.RequestIsJustificationMedical": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Absenteism.RequestIsNegativePrognosis",
+                            "Absenteism.RequestIsDisability",
+                            "Absenteism.RequestIsAccommodation"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

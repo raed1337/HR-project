@@ -1,0 +1,248 @@
+{
+    "problem": {
+        "1": {
+            "final_goal_terminate": {
+                "experience": {
+                    "True": [
+                        "1-6-3",
+                        "1-6-4",
+                        "1-6-5",
+                        "1-6-6",
+                        "1-6-7",
+                        "1-6-8",
+                        "1-6-9",
+                        "1-7-0"
+                    ],
+                    "False": [
+                        "1-6-3",
+                        "1-6-4",
+                        "1-6-5",
+                        "1-6-6",
+                        "1-6-7",
+                        "1-6-8",
+                        "1-6-9",
+                        "1-7-0"
+                    ]
+                },
+                "False": []
+            },
+            "final_goal_correct": {
+                "True": [
+                    "1-5-1",
+                    "1-5-3",
+                    "1-5-4",
+                    "1-5-9",
+                    "1-5-10",
+                    "1-7-0"
+                ],
+                "False": [
+                    "0-0"
+                ]
+            }
+        },
+        "2": {
+            "final_goal_terminate": {
+                "experience": {
+                    "True": [
+                        "1-6-3",
+                        "1-6-4",
+                        "1-6-5",
+                        "1-6-6",
+                        "1-6-7",
+                        "1-6-8",
+                        "1-6-9",
+                        "1-7-0"
+                    ],
+                    "False": [
+                        "1-6-3",
+                        "1-6-4",
+                        "1-6-5",
+                        "1-6-6",
+                        "1-6-7",
+                        "1-6-8",
+                        "1-6-9",
+                        "1-7-0"
+                    ]
+                },
+                "False": []
+            },
+            "final_goal_correct": {
+                "other_sanctions_verbal": {
+                    "other_sanctions_written": {
+                        "True": [
+                            "1-5-4",
+                            "1-5-5",
+                            "1-5-6",
+                            "1-5-9",
+                            "1-5-10",
+                            "1-7-0"
+                        ],
+                        "False": [
+                            "1-5-3",
+                            "1-5-9",
+                            "1-5-10",
+                            "1-7-0"
+                        ]
+                    },
+                    "False": []
+                },
+                "False": []
+            }
+        },
+        "3": {
+            "final_goal_terminate": {
+                "experience": {
+                    "True": [
+                        "1-6-3",
+                        "1-6-4",
+                        "1-6-5",
+                        "1-6-6",
+                        "1-6-7",
+                        "1-6-8",
+                        "1-6-9",
+                        "1-7-0"
+                    ],
+                    "False": [
+                        "1-6-3",
+                        "1-6-4",
+                        "1-6-5",
+                        "1-6-6",
+                        "1-6-7",
+                        "1-6-8",
+                        "1-6-9",
+                        "1-7-0"
+                    ]
+                },
+                "False": []
+            },
+            "final_goal_correct": {
+                "other_sanctions_verbal": {
+                    "other_sanctions_written": {
+                        "True": [
+                            "1-5-4",
+                            "1-5-5",
+                            "1-5-6",
+                            "1-5-7",
+                            "1-5-8",
+                            "1-5-9",
+                            "1-5-10",
+                            "1-7-0"
+                        ],
+                        "False": [
+                            "1-5-3",
+                            "1-5-9",
+                            "1-5-10",
+                            "1-7-0"
+                        ]
+                    },
+                    "False": []
+                },
+                "False": []
+            }
+        }
+    },
+    "text_mappings": {
+        "1": {
+            "0-0": " ",
+            "1-4.1-1": "It is recommended that a policy for the prevention of psychological harassment and the handling of complaints be drafted, including, among other things, a component concerning conduct manifested by words, acts or gestures of a sexual nature.\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.1-2": "This policy must be communicated to all staff.\nIn particular, you must include: \n1) General objectives of the policy \n2) Its scope \n3) Definition of psychological harassment \n4) The employer's commitment to providing a workplace free of all forms of harassment\n5) Employer's expectations of its employees\n6) Processing of complaints and reports\n7) Principles of intervention by the employer\n8) Examples of psychological or sexual harassment \n9) Persons responsible for the application of the policy\n\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.2-1": "You must regularly remind people of this policy and make sure that all employees are aware of it. It must be posted in several places accessible to all employees.\n\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.3-1": "It is not recommended that a person with more than 2 years of continuous service be terminated without following some gradation of discipline, ranging from a written warning, to increasingly severe suspensions to dismissal. \n\nThe exception would be a very serious offence or a person with a very loaded disciplinary record.\n\nOtherwise, it is best to be cautious and proceed with a gradation of disciplinary sanctions. It must be shown that all measures were applied progressively and that the person was asked to change his/her behaviour and knew the consequences of continuing to do so.\n\nIt is recommended that you consult a lawyer to ensure that you have a record of justifying the dismissal of this person. ",
+            "1-4.3-2": "Since that the person has less than 2 years of continuous service and based on the severity of the incident and the personal disciplinary record, you may:\nM) Proceed with progressive discipline\nO) Terminate the employment \n\n\nCAUTION: IF THE PERSON IS APPROACHING 2 YEARS OF CONTINUOUS SERVICE, THERE ARE ADDITIONAL CHECKS TO BE MADE. \n\nReference: Act respecting labour standards, sections 122 and 124.",
+            "1-4.4": "Warning\nLack of Respect for a Colleague and Psychological Harassment\nLack of respect for a colleague, especially in the case of a first offense, does not generally meet the definition of psychological harassment in the Act respecting labour standards. However, it is sometimes a prelude to more deviant behaviour. \nHowever, the fault is more serious if there has been repetition, if the behaviour has continued despite the victim's request to cease and also if the attacks affect the fundamental rights of the victim.\nRemember, at all times, that allegations of lack of respect to a colleague should always be taken seriously. If it is not harassment, the conduct may still be considered inappropriate and may possibly lead to harassment in the medium term. An upstream intervention is always preferable either by a generalized reminder of the applicable policies and/or a 'personalized' meeting with the employee concerned by the complaint of lack of respect in the workplace. ",
+            "1-4.5-1": "It's recommended that you investigate, as soon as possible, to determine whether the alleged conduct could be characterized as lack of respect for a colleague or more seriously harassment.\nIt will then be necessary to meet the alleged victim, the person targeted by the complaint and the witnesses in order to obtain their explanation before drawing any conclusions and judgments. ",
+            "1-4.5-2": "Remember that the collection of testimonies must relate above all to objective facts (nature of the alleged actions, dates and witnesses).\nHere is a standard questionnaire that you can use (QS - disciplinary investigation",
+            "1-4.5-3": "The conclusions drawn from your investigation will influence the steps that will be taken to correct the situation. For the employee who is the subject of allegations of lack of respect for colleagues, you could:\n(1) Impose a disciplinary sanction based on the results of the investigation and the disciplinary record of the offending employee \n(2) Offer activities and training on respect in the workplace and workplace harassment\n(3) Take other reasonable measures to prevent or stop the lack of respect in the workplace      \nReference: Act respecting labour standards, section 123.15.",
+            "1-4.5-4": "With regard to the alleged victim of lack of respect for colleagues, you could, as the case may be:\n(1) Offer psychological support to the employee who is the victim of the deviant behaviour\n(2) Consider means to limit interactions between the person targeted by the allegations and the victim, particularly if the latter has requested it\nReference: Act respecting labour standards, section 123.15.",
+            "1-4.5-5": "It would also be important to suggest to both parties, the alleged victim and the employee affected by the complaint, to sign a non-disclosure and confidentiality agreement in an attempt to prevent rumours from circulating and reputations being tarnished. \nHere is a template you could use (PIÈCE JOINTE D'UNE ENTENTE NDA).",
+            "1-5-1": "Okay, given the information shared today, these are the options you have. Please note that this recommendation takes into account the severity of this person's actions as well as the gradation of discipline you have already given them. You may impose on him/her: ",
+            "1-5-2": "A) Verbal warning",
+            "1-5-3": "B) Written warning",
+            "1-5-4": "C) 1-day suspension ",
+            "1-5-5": "D) 2-day suspension ",
+            "1-5-6": "E) 3-day suspension ",
+            "1-5-7": "F) 4-day suspension ",
+            "1-5-8": "G) 5-day suspension ",
+            "1-5-9": "You will also need to make it clear to this person that insubordination is unacceptable. In addition, he/she should be aware that, if there is a recurrence, it will be sanctioned in an increasingly severe manner up to and including dismissal.",
+            "1-5-10": "Here Is a Summary of Some of the Best Practices in Imposing Discipline:\n\n1. Arrange a face-to-face meeting with the person (or by a virtual meeting, if it is impossible to do so in person) preferably at the end of the person's work schedule. The presence of another HR person or the employee's manager is recommended. \n\n2. Review the facts that led to this decision during the meeting. Communicate your expectations very clearly. \nRemind the person of past disciplinary actions, if any, and that ultimately may lead to dismissal. \n3. At the end of this meeting, give the disciplinary letter containing what you informed him/her at the meeting. \nFor more details, please refer to the attached document - '' Best Practices in Imposing Discipline (Appendix) ’’.",
+            "1-6-1": "Dismissal of a person approaching 2 years of continuous service\nYou should be aware that the closer the continuous service of the person you wish to terminate approaches 2 years, the more likely he/she would have the opportunity to file a prohibited practice complaint under section 122 of the Act respecting labour standards.\nThis section prohibits you from acting in such a way as to avoid the application of the law.\nThis person could claim that your objective in terminating his/her employment is to deprive him/her of rights under the Act respecting labour standards, i.e. to protect him/her from being dismissed without just and sufficient cause. \nIn fact, when a person has 2 years of continuous service, he/she has the right to contest his/her dismissal before the Commission des normes, de l'équité, de la santé et de la sécurité du travail if he/she believes that it was done without just and sufficient cause.\nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.\nReference: Act respecting labour standards, section 1, subsection 12.\nReference: https: //www.cnesst.gouv.qc.ca/fr/organisation/documentation/acces-linformation/documents-servant-prise-decision/normes-travail/loi-sur-normes-travail/chapitre-v-recours-art-98-135/section-i1-recours-lencontre-certaines-disparites/article-122",
+            "1-6-2": "Dismissal of a person approaching 2 years of continuous service (continued)\nIn addition, if that person filed a complaint, he/she would benefit from a presumption that he/she was terminated for a wrongful reason. \nIn this case, you would have the burden of rebutting this presumption by showing that you had another just and sufficient cause that was not a pretext for terminating his/her employment.\nThe closer the person gets to 2 years of continuous service, the more it is recommended that you consult with an attorney to be sure that you have a record to justify the dismissal of this person. \nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.",
+            "1-6-3": "The Act respecting labour standards provides that the employer must give notice to any person who works for him/her and whose employment is terminated, unless that person has committed a serious fault. It should be noted that a fault that merits dismissal is not necessarily a serious fault within the meaning of the Act. \nThe notice period is calculated based on the length of continuous service (calculated from the date of hire or rehire) of the person with the company:\nless than three months - NO NOTICE\nthree months to less than one year - ONE WEEK NOTICE\none year to less than five years - TWO WEEKS NOTICE\nfive years to less than ten years - FOUR WEEKS NOTICE\nten years and over - EIGHT WEEKS NOTICE\nIf you do not want to give working notice, you must give the equivalent of the notice in money. This compensation must be equal to the regular salary that person would have earned during the period of notice. Overtime must not be included in the calculation of the compensation. You must also pay him/her the amounts due (e.g., salary, overtime, vacation).\nThe annual vacation period is not included in the notice period and the person's benefits must be maintained during the notice period.\nReference: Act respecting labour standards, sections 82 and 82.1.",
+            "1-6-4": "Person's Civil Remedy\nEven if you give the notice or compensation provided for in the Act respecting labour standards, a person who feels that he/she should have more generous compensation because of certain criteria may still be able to file a recourse in the Quebec courts under section 2091 of the Civil Code of Quebec.\nIf you decide to offer more than what is provided for in the Act respecting labour standards, it is suggested that you have the dismissed employee sign a waiver of his/her right to sue before the courts. \nHowever, the person is under no obligation to sign such a waiver.\nReference: Civil Code of Quebec, section 2091.",
+            "1-6-5": "Best Practices for Termination of Employment \nYou have made the decision to terminate that person's employment. How you will deal with this person is important to that person as well as to the employees who remain in your employ. Your actions have much more impact than your words fort the mobilization of your team. If you say you respect your employees, you must show it.\nHere are the steps you need to follow:",
+            "1-6-6": "1. Prepare the termination letter with the reasons for the termination of employment.In this letter, you will have specified the severance pay for this person. This indemnity can never be less than the minimum provided for in the Act respecting Labour Standards. Depending on the position held by this person, the length of his/her continuous service and his/her employment contract, if he/she has one, it is recommended to consult a lawyer or a Human Resources specialist.\nArrange a meeting in person (or virtually if it is not possible to do so in person). Do not inform the employee by phone, email, or text message. Schedule the meeting around lunchtime or at the end of the workday when there is less activity at work.",
+            "1-6-7": "2. At the meeting, review the facts that led to this decision. The purpose of the meeting is not to allow the person to question the merits of your decision, but to inform him/her that it is over and to talk about the terms of the departure.\nDepending on the case, you may decide to be accompanied for this meeting, but you should not ask a colleague of this person. It is suggested that someone related to Human Resources or another manager be present.",
+            "1-6-8": "3. Allow the person who has been terminated to leave with dignity. Unless the termination is for theft or fraud, there is no reason to have the person escorted to the door by a security guard.",
+            "1-6-9": "If the terminated person has a lot of personal belongings in his/her office, you may suggest that he/she comes back outside of working hours to pick them up. Depending on the nature of the position, it is possible that there is a transmission of files to be done. Establish with him/her how this will be done. \nIf you are confident that the person will not cause damage, you can let him/her go to his/her office alone to collect his/her belongings and greet his/her colleagues. He/she can also choose to leave discreetly. Agree together on the message that will be conveyed to the colleagues and to the organization. \nMake sure the person is able to return home safely. Each person reacts differently. Although you may have terminated their employment for good reasons, it affects his/her work life and his/her personal life.",
+            "1-7-0": "I hope I was useful  to you. Have a nice day."
+        },
+        "2": {
+            "0-0": " ",
+            "1-4.1-1": "It is recommended that a policy for the prevention of psychological harassment and the handling of complaints be drafted, including, among other things, a component concerning conduct manifested by words, acts or gestures of a sexual nature.\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.1-2": "This policy must be communicated to all staff.\nIn particular, you must include: \n1) General objectives of the policy \n2) Its scope \n3) Definition of psychological harassment \n4) The employer's commitment to providing a workplace free of all forms of harassment\n5) Employer's expectations of its employees\n6) Processing of complaints and reports\n7) Principles of intervention by the employer\n8) Examples of psychological or sexual harassment \n9) Persons responsible for the application of the policy\n\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.2-1": "You must regularly remind people of this policy and make sure that all employees are aware of it. It must be posted in several places accessible to all employees.\n\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.3-1": "It is not recommended that a person with more than 2 years of continuous service be terminated without following some gradation of discipline, ranging from a written warning, to increasingly severe suspensions to dismissal. \n\nThe exception would be a very serious offence or a person with a very loaded disciplinary record.\n\nOtherwise, it is best to be cautious and proceed with a gradation of disciplinary sanctions. It must be shown that all measures were applied progressively and that the person was asked to change his/her behaviour and knew the consequences of continuing to do so.\n\nIt is recommended that you consult a lawyer to ensure that you have a record of justifying the dismissal of this person. ",
+            "1-4.3-2": "Since that the person has less than 2 years of continuous service and based on the severity of the incident and the personal disciplinary record, you may:\nM) Proceed with progressive discipline\nO) Terminate the employment \n\n\nCAUTION: IF THE PERSON IS APPROACHING 2 YEARS OF CONTINUOUS SERVICE, THERE ARE ADDITIONAL CHECKS TO BE MADE. \n\nReference: Act respecting labour standards, sections 122 and 124.",
+            "1-4.4": "Warning\nLack of Respect for a Colleague and Psychological Harassment\nLack of respect for a colleague, especially in the case of a first offense, does not generally meet the definition of psychological harassment in the Act respecting labour standards. However, it is sometimes a prelude to more deviant behaviour. \nHowever, the fault is more serious if there has been repetition, if the behaviour has continued despite the victim's request to cease and also if the attacks affect the fundamental rights of the victim.\nRemember, at all times, that allegations of lack of respect to a colleague should always be taken seriously. If it is not harassment, the conduct may still be considered inappropriate and may possibly lead to harassment in the medium term. An upstream intervention is always preferable either by a generalized reminder of the applicable policies and/or a 'personalized' meeting with the employee concerned by the complaint of lack of respect in the workplace. ",
+            "1-4.5-1": "It's recommended that you investigate, as soon as possible, to determine whether the alleged conduct could be characterized as lack of respect for a colleague or more seriously harassment.\nIt will then be necessary to meet the alleged victim, the person targeted by the complaint and the witnesses in order to obtain their explanation before drawing any conclusions and judgments. ",
+            "1-4.5-2": "Remember that the collection of testimonies must relate above all to objective facts (nature of the alleged actions, dates and witnesses).\nHere is a standard questionnaire that you can use (QS - disciplinary investigation",
+            "1-4.5-3": "The conclusions drawn from your investigation will influence the steps that will be taken to correct the situation. For the employee who is the subject of allegations of lack of respect for colleagues, you could:\n(1) Impose a disciplinary sanction based on the results of the investigation and the disciplinary record of the offending employee \n(2) Offer activities and training on respect in the workplace and workplace harassment\n(3) Take other reasonable measures to prevent or stop the lack of respect in the workplace      \nReference: Act respecting labour standards, section 123.15.",
+            "1-4.5-4": "With regard to the alleged victim of lack of respect for colleagues, you could, as the case may be:\n(1) Offer psychological support to the employee who is the victim of the deviant behaviour\n(2) Consider means to limit interactions between the person targeted by the allegations and the victim, particularly if the latter has requested it\nReference: Act respecting labour standards, section 123.15.",
+            "1-4.5-5": "It would also be important to suggest to both parties, the alleged victim and the employee affected by the complaint, to sign a non-disclosure and confidentiality agreement in an attempt to prevent rumours from circulating and reputations being tarnished. \nHere is a template you could use (PIÈCE JOINTE D'UNE ENTENTE NDA).",
+            "1-5-1": "Okay, given the information shared today, these are the options you have. Please note that this recommendation takes into account the severity of this person's actions as well as the gradation of discipline you have already given them. You may impose on him/her: ",
+            "1-5-2": "A) Verbal warning",
+            "1-5-3": "B) Written warning",
+            "1-5-4": "C) 1-day suspension ",
+            "1-5-5": "D) 2-day suspension ",
+            "1-5-6": "E) 3-day suspension ",
+            "1-5-7": "F) 4-day suspension ",
+            "1-5-8": "G) 5-day suspension ",
+            "1-5-9": "You will also need to make it clear to this person that insubordination is unacceptable. In addition, he/she should be aware that, if there is a recurrence, it will be sanctioned in an increasingly severe manner up to and including dismissal.",
+            "1-5-10": "Here Is a Summary of Some of the Best Practices in Imposing Discipline:\n\n1. Arrange a face-to-face meeting with the person (or by a virtual meeting, if it is impossible to do so in person) preferably at the end of the person's work schedule. The presence of another HR person or the employee's manager is recommended. \n\n2. Review the facts that led to this decision during the meeting. Communicate your expectations very clearly. \nRemind the person of past disciplinary actions, if any, and that ultimately may lead to dismissal. \n3. At the end of this meeting, give the disciplinary letter containing what you informed him/her at the meeting. \nFor more details, please refer to the attached document - '' Best Practices in Imposing Discipline (Appendix) ’’.",
+            "1-6-1": "Dismissal of a person approaching 2 years of continuous service\nYou should be aware that the closer the continuous service of the person you wish to terminate approaches 2 years, the more likely he/she would have the opportunity to file a prohibited practice complaint under section 122 of the Act respecting labour standards.\nThis section prohibits you from acting in such a way as to avoid the application of the law.\nThis person could claim that your objective in terminating his/her employment is to deprive him/her of rights under the Act respecting labour standards, i.e. to protect him/her from being dismissed without just and sufficient cause. \nIn fact, when a person has 2 years of continuous service, he/she has the right to contest his/her dismissal before the Commission des normes, de l'équité, de la santé et de la sécurité du travail if he/she believes that it was done without just and sufficient cause.\nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.\nReference: Act respecting labour standards, section 1, subsection 12.\nReference: https: //www.cnesst.gouv.qc.ca/fr/organisation/documentation/acces-linformation/documents-servant-prise-decision/normes-travail/loi-sur-normes-travail/chapitre-v-recours-art-98-135/section-i1-recours-lencontre-certaines-disparites/article-122",
+            "1-6-2": "Dismissal of a person approaching 2 years of continuous service (continued)\nIn addition, if that person filed a complaint, he/she would benefit from a presumption that he/she was terminated for a wrongful reason. \nIn this case, you would have the burden of rebutting this presumption by showing that you had another just and sufficient cause that was not a pretext for terminating his/her employment.\nThe closer the person gets to 2 years of continuous service, the more it is recommended that you consult with an attorney to be sure that you have a record to justify the dismissal of this person. \nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.",
+            "1-6-3": "The Act respecting labour standards provides that the employer must give notice to any person who works for him/her and whose employment is terminated, unless that person has committed a serious fault. It should be noted that a fault that merits dismissal is not necessarily a serious fault within the meaning of the Act. \nThe notice period is calculated based on the length of continuous service (calculated from the date of hire or rehire) of the person with the company:\nless than three months - NO NOTICE\nthree months to less than one year - ONE WEEK NOTICE\none year to less than five years - TWO WEEKS NOTICE\nfive years to less than ten years - FOUR WEEKS NOTICE\nten years and over - EIGHT WEEKS NOTICE\nIf you do not want to give working notice, you must give the equivalent of the notice in money. This compensation must be equal to the regular salary that person would have earned during the period of notice. Overtime must not be included in the calculation of the compensation. You must also pay him/her the amounts due (e.g., salary, overtime, vacation).\nThe annual vacation period is not included in the notice period and the person's benefits must be maintained during the notice period.\nReference: Act respecting labour standards, sections 82 and 82.1.",
+            "1-6-4": "Person's Civil Remedy\nEven if you give the notice or compensation provided for in the Act respecting labour standards, a person who feels that he/she should have more generous compensation because of certain criteria may still be able to file a recourse in the Quebec courts under section 2091 of the Civil Code of Quebec.\nIf you decide to offer more than what is provided for in the Act respecting labour standards, it is suggested that you have the dismissed employee sign a waiver of his/her right to sue before the courts. \nHowever, the person is under no obligation to sign such a waiver.\nReference: Civil Code of Quebec, section 2091.",
+            "1-6-5": "Best Practices for Termination of Employment \nYou have made the decision to terminate that person's employment. How you will deal with this person is important to that person as well as to the employees who remain in your employ. Your actions have much more impact than your words fort the mobilization of your team. If you say you respect your employees, you must show it.\nHere are the steps you need to follow:",
+            "1-6-6": "1. Prepare the termination letter with the reasons for the termination of employment.In this letter, you will have specified the severance pay for this person. This indemnity can never be less than the minimum provided for in the Act respecting Labour Standards. Depending on the position held by this person, the length of his/her continuous service and his/her employment contract, if he/she has one, it is recommended to consult a lawyer or a Human Resources specialist.\nArrange a meeting in person (or virtually if it is not possible to do so in person). Do not inform the employee by phone, email, or text message. Schedule the meeting around lunchtime or at the end of the workday when there is less activity at work.",
+            "1-6-7": "2. At the meeting, review the facts that led to this decision. The purpose of the meeting is not to allow the person to question the merits of your decision, but to inform him/her that it is over and to talk about the terms of the departure.\nDepending on the case, you may decide to be accompanied for this meeting, but you should not ask a colleague of this person. It is suggested that someone related to Human Resources or another manager be present.",
+            "1-6-8": "3. Allow the person who has been terminated to leave with dignity. Unless the termination is for theft or fraud, there is no reason to have the person escorted to the door by a security guard.",
+            "1-6-9": "If the terminated person has a lot of personal belongings in his/her office, you may suggest that he/she comes back outside of working hours to pick them up. Depending on the nature of the position, it is possible that there is a transmission of files to be done. Establish with him/her how this will be done. \nIf you are confident that the person will not cause damage, you can let him/her go to his/her office alone to collect his/her belongings and greet his/her colleagues. He/she can also choose to leave discreetly. Agree together on the message that will be conveyed to the colleagues and to the organization. \nMake sure the person is able to return home safely. Each person reacts differently. Although you may have terminated their employment for good reasons, it affects his/her work life and his/her personal life.",
+            "1-7-0": "I hope I was useful  to you. Have a nice day."
+        },
+        "3": {
+            "0-0": " ",
+            "1-4.1-1": "It is recommended that a policy for the prevention of psychological harassment and the handling of complaints be drafted, including, among other things, a component concerning conduct manifested by words, acts or gestures of a sexual nature.\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.1-2": "This policy must be communicated to all staff.\nIn particular, you must include: \n1) General objectives of the policy \n2) Its scope \n3) Definition of psychological harassment \n4) The employer's commitment to providing a workplace free of all forms of harassment\n5) Employer's expectations of its employees\n6) Processing of complaints and reports\n7) Principles of intervention by the employer\n8) Examples of psychological or sexual harassment \n9) Persons responsible for the application of the policy\n\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.2-1": "You must regularly remind people of this policy and make sure that all employees are aware of it. It must be posted in several places accessible to all employees.\n\nReference: Act respecting labour standards, sections 81.18 and 81.19.",
+            "1-4.3-1": "It is not recommended that a person with more than 2 years of continuous service be terminated without following some gradation of discipline, ranging from a written warning, to increasingly severe suspensions to dismissal. \n\nThe exception would be a very serious offence or a person with a very loaded disciplinary record.\n\nOtherwise, it is best to be cautious and proceed with a gradation of disciplinary sanctions. It must be shown that all measures were applied progressively and that the person was asked to change his/her behaviour and knew the consequences of continuing to do so.\n\nIt is recommended that you consult a lawyer to ensure that you have a record of justifying the dismissal of this person. ",
+            "1-4.3-2": "Since that the person has less than 2 years of continuous service and based on the severity of the incident and the personal disciplinary record, you may:\nM) Proceed with progressive discipline\nO) Terminate the employment \n\n\nCAUTION: IF THE PERSON IS APPROACHING 2 YEARS OF CONTINUOUS SERVICE, THERE ARE ADDITIONAL CHECKS TO BE MADE. \n\nReference: Act respecting labour standards, sections 122 and 124.",
+            "1-4.4": "Warning\nLack of Respect for a Colleague and Psychological Harassment\nLack of respect for a colleague, especially in the case of a first offense, does not generally meet the definition of psychological harassment in the Act respecting labour standards. However, it is sometimes a prelude to more deviant behaviour. \nHowever, the fault is more serious if there has been repetition, if the behaviour has continued despite the victim's request to cease and also if the attacks affect the fundamental rights of the victim.\nRemember, at all times, that allegations of lack of respect to a colleague should always be taken seriously. If it is not harassment, the conduct may still be considered inappropriate and may possibly lead to harassment in the medium term. An upstream intervention is always preferable either by a generalized reminder of the applicable policies and/or a 'personalized' meeting with the employee concerned by the complaint of lack of respect in the workplace. ",
+            "1-4.5-1": "It's recommended that you investigate, as soon as possible, to determine whether the alleged conduct could be characterized as lack of respect for a colleague or more seriously harassment.\nIt will then be necessary to meet the alleged victim, the person targeted by the complaint and the witnesses in order to obtain their explanation before drawing any conclusions and judgments. ",
+            "1-4.5-2": "Remember that the collection of testimonies must relate above all to objective facts (nature of the alleged actions, dates and witnesses).\nHere is a standard questionnaire that you can use (QS - disciplinary investigation",
+            "1-4.5-3": "The conclusions drawn from your investigation will influence the steps that will be taken to correct the situation. For the employee who is the subject of allegations of lack of respect for colleagues, you could:\n(1) Impose a disciplinary sanction based on the results of the investigation and the disciplinary record of the offending employee \n(2) Offer activities and training on respect in the workplace and workplace harassment\n(3) Take other reasonable measures to prevent or stop the lack of respect in the workplace      \nReference: Act respecting labour standards, section 123.15.",
+            "1-4.5-4": "With regard to the alleged victim of lack of respect for colleagues, you could, as the case may be:\n(1) Offer psychological support to the employee who is the victim of the deviant behaviour\n(2) Consider means to limit interactions between the person targeted by the allegations and the victim, particularly if the latter has requested it\nReference: Act respecting labour standards, section 123.15.",
+            "1-4.5-5": "It would also be important to suggest to both parties, the alleged victim and the employee affected by the complaint, to sign a non-disclosure and confidentiality agreement in an attempt to prevent rumours from circulating and reputations being tarnished. \nHere is a template you could use (PIÈCE JOINTE D'UNE ENTENTE NDA).",
+            "1-5-1": "Okay, given the information shared today, these are the options you have. Please note that this recommendation takes into account the severity of this person's actions as well as the gradation of discipline you have already given them. You may impose on him/her: ",
+            "1-5-2": "A) Verbal warning",
+            "1-5-3": "B) Written warning",
+            "1-5-4": "C) 1-day suspension ",
+            "1-5-5": "D) 2-day suspension ",
+            "1-5-6": "E) 3-day suspension ",
+            "1-5-7": "F) 4-day suspension ",
+            "1-5-8": "G) 5-day suspension ",
+            "1-5-9": "You will also need to make it clear to this person that insubordination is unacceptable. In addition, he/she should be aware that, if there is a recurrence, it will be sanctioned in an increasingly severe manner up to and including dismissal.",
+            "1-5-10": "Here Is a Summary of Some of the Best Practices in Imposing Discipline:\n\n1. Arrange a face-to-face meeting with the person (or by a virtual meeting, if it is impossible to do so in person) preferably at the end of the person's work schedule. The presence of another HR person or the employee's manager is recommended. \n\n2. Review the facts that led to this decision during the meeting. Communicate your expectations very clearly. \nRemind the person of past disciplinary actions, if any, and that ultimately may lead to dismissal. \n3. At the end of this meeting, give the disciplinary letter containing what you informed him/her at the meeting. \nFor more details, please refer to the attached document - '' Best Practices in Imposing Discipline (Appendix) ’’.",
+            "1-6-1": "Dismissal of a person approaching 2 years of continuous service\nYou should be aware that the closer the continuous service of the person you wish to terminate approaches 2 years, the more likely he/she would have the opportunity to file a prohibited practice complaint under section 122 of the Act respecting labour standards.\nThis section prohibits you from acting in such a way as to avoid the application of the law.\nThis person could claim that your objective in terminating his/her employment is to deprive him/her of rights under the Act respecting labour standards, i.e. to protect him/her from being dismissed without just and sufficient cause. \nIn fact, when a person has 2 years of continuous service, he/she has the right to contest his/her dismissal before the Commission des normes, de l'équité, de la santé et de la sécurité du travail if he/she believes that it was done without just and sufficient cause.\nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.\nReference: Act respecting labour standards, section 1, subsection 12.\nReference: https: //www.cnesst.gouv.qc.ca/fr/organisation/documentation/acces-linformation/documents-servant-prise-decision/normes-travail/loi-sur-normes-travail/chapitre-v-recours-art-98-135/section-i1-recours-lencontre-certaines-disparites/article-122",
+            "1-6-2": "Dismissal of a person approaching 2 years of continuous service (continued)\nIn addition, if that person filed a complaint, he/she would benefit from a presumption that he/she was terminated for a wrongful reason. \nIn this case, you would have the burden of rebutting this presumption by showing that you had another just and sufficient cause that was not a pretext for terminating his/her employment.\nThe closer the person gets to 2 years of continuous service, the more it is recommended that you consult with an attorney to be sure that you have a record to justify the dismissal of this person. \nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.",
+            "1-6-3": "The Act respecting labour standards provides that the employer must give notice to any person who works for him/her and whose employment is terminated, unless that person has committed a serious fault. It should be noted that a fault that merits dismissal is not necessarily a serious fault within the meaning of the Act. \nThe notice period is calculated based on the length of continuous service (calculated from the date of hire or rehire) of the person with the company:\nless than three months - NO NOTICE\nthree months to less than one year - ONE WEEK NOTICE\none year to less than five years - TWO WEEKS NOTICE\nfive years to less than ten years - FOUR WEEKS NOTICE\nten years and over - EIGHT WEEKS NOTICE\nIf you do not want to give working notice, you must give the equivalent of the notice in money. This compensation must be equal to the regular salary that person would have earned during the period of notice. Overtime must not be included in the calculation of the compensation. You must also pay him/her the amounts due (e.g., salary, overtime, vacation).\nThe annual vacation period is not included in the notice period and the person's benefits must be maintained during the notice period.\nReference: Act respecting labour standards, sections 82 and 82.1.",
+            "1-6-4": "Person's Civil Remedy\nEven if you give the notice or compensation provided for in the Act respecting labour standards, a person who feels that he/she should have more generous compensation because of certain criteria may still be able to file a recourse in the Quebec courts under section 2091 of the Civil Code of Quebec.\nIf you decide to offer more than what is provided for in the Act respecting labour standards, it is suggested that you have the dismissed employee sign a waiver of his/her right to sue before the courts. \nHowever, the person is under no obligation to sign such a waiver.\nReference: Civil Code of Quebec, section 2091.",
+            "1-6-5": "Best Practices for Termination of Employment \nYou have made the decision to terminate that person's employment. How you will deal with this person is important to that person as well as to the employees who remain in your employ. Your actions have much more impact than your words fort the mobilization of your team. If you say you respect your employees, you must show it.\nHere are the steps you need to follow:",
+            "1-6-6": "1. Prepare the termination letter with the reasons for the termination of employment.In this letter, you will have specified the severance pay for this person. This indemnity can never be less than the minimum provided for in the Act respecting Labour Standards. Depending on the position held by this person, the length of his/her continuous service and his/her employment contract, if he/she has one, it is recommended to consult a lawyer or a Human Resources specialist.\nArrange a meeting in person (or virtually if it is not possible to do so in person). Do not inform the employee by phone, email, or text message. Schedule the meeting around lunchtime or at the end of the workday when there is less activity at work.",
+            "1-6-7": "2. At the meeting, review the facts that led to this decision. The purpose of the meeting is not to allow the person to question the merits of your decision, but to inform him/her that it is over and to talk about the terms of the departure.\nDepending on the case, you may decide to be accompanied for this meeting, but you should not ask a colleague of this person. It is suggested that someone related to Human Resources or another manager be present.",
+            "1-6-8": "3. Allow the person who has been terminated to leave with dignity. Unless the termination is for theft or fraud, there is no reason to have the person escorted to the door by a security guard.",
+            "1-6-9": "If the terminated person has a lot of personal belongings in his/her office, you may suggest that he/she comes back outside of working hours to pick them up. Depending on the nature of the position, it is possible that there is a transmission of files to be done. Establish with him/her how this will be done. \nIf you are confident that the person will not cause damage, you can let him/her go to his/her office alone to collect his/her belongings and greet his/her colleagues. He/she can also choose to leave discreetly. Agree together on the message that will be conveyed to the colleagues and to the organization. \nMake sure the person is able to return home safely. Each person reacts differently. Although you may have terminated their employment for good reasons, it affects his/her work life and his/her personal life.",
+            "1-7-0": "I hope I was useful  to you. Have a nice day."
+        }
+    }
+}

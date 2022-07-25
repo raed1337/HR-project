@@ -1,0 +1,34 @@
+{
+    "MainProblemCategory": "harassment",
+    "SubCategories": {
+        "Harassement": {
+            "QuestionSet": [
+                "Harassment.Common.RequestName",
+                "Harassment.Common.RequestIsPolicy",
+                "Harassment.Common.RequestIsPolicyPublic",
+                "Harassment.Common.RequestIsPolicyDistributed",
+                "Harassment.Common.RequestIsPolicyReminder",
+                "Harassment.Common.RequestProvePolicyIsKnown",
+                "Harassment.Common.RequestIsComplaint",
+                "Harassment.Common.RequestIsComplaintInWriting",
+                "Harassment.Common.RequestComplaintTime",
+                "Harassment.Common.RequestIsInvestigation",
+                "Haraesment.Common.RequestIsFirstTimeComplaint",
+                "Harassment.Common.RequestTimeDifference",
+                "Harassment.Common.RequestIsWarned",
+                "Harassment.Common.RequestIsActCeased",
+                "Harassment.Common.RequestMeasureTime",
+                "Harassment.Common.RequestIsMeasureNotConsidered",
+                "Harassment.Common.RequestComplaintName",
+                "Harassment.Common.RequestIsComplaintFirstTime",
+                "Harassment.Common.RequestIsExplanation",
+                "Harassment.Common.RequestIsApology",
+                "Harassment.Common.RequestIsWitness",
+                "Harassment.Common.RequestIsWitnessMet",
+                "Harassment.Common.RequestIsWitnessVerified",
+                "Harassment.Common.RequestIsMisjudgement"
+            ],
+            "FlowChange": {}
+        }
+    }
+}

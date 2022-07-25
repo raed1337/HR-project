@@ -1,0 +1,490 @@
+B-greeting I-greeting o o o o o o o o B-problem o o B-negative I-problem
+B-greeting I-greeting o o o o o o o o B-problem o o o B-negative I-problem
+B-greeting I-greeting o o o o o o o B-negative I-negative B-problem I-problem o o B-negative I-problem
+o o o o o o o B-negative I-negative B-problem I-problem o o o I-problem I-problem
+o o o o o o o B-negative I-negative B-problem I-problem o o o B-negative o B-reason I-reason
+B-greeting I-greeting o o o o o o o B-negative I-negative B-problem I-problem o o o B-negative I-problem
+o o o o o o o B-negative I-negative B-problem I-problem o o o B-negative I-problem
+B-greeting I-greeting o o o o o B-problem o B-negative I-problem
+B-greeting I-greeting o o o o o B-problem o o B-negative I-problem
+o o o o o B-problem o o B-negative o B-reason I-reason
+o o o o o B-problem o o I-problem I-problem
+B-greeting I-greeting o o o o o B-problem o o B-negative I-problem
+B-greeting I-greeting o o o o o B-problem I-problem B-negative I-problem
+B-greeting I-greeting o o o o o B-problem I-problem o B-negative I-problem
+o o o o o B-problem I-problem o B-negative o B-reason I-reason
+B-greeting I-greeting o o o o o B-problem I-problem o B-negative I-problem
+o o o o o B-problem I-problem o B-negative I-problem
+B-greeting I-greeting o o o o o B-problem I-problem o
+B-greeting I-greeting o o o o o B-problem I-problem o I-problem o
+o o o o o B-problem I-problem o o
+B-greeting I-greeting o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o B-reason B-problem o I-problem o
+B-greeting I-greeting o o o o o B-reason I-problem o o
+o o o o o o B-problem o o o B-reason I-reason
+B-greeting I-greeting o o o o o o o B-problem o o B-reason I-reason
+B-greeting I-greeting o o o o o o B-problem o o B-reason I-reason
+B-greeting I-greeting o o o o o B-problem I-problem o o B-reason I-reason
+o o o o o B-problem I-problem o B-reason I-reason
+B-greeting I-greeting o o o o o B-reason B-problem o
+o o o o o B-reason B-problem o
+o o o o o B-problem I-problem o
+o o o o o B-problem I-problem o
+o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o B-problem I-problem o
+B-greeting I-greeting o o o o o B-problem I-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+o o o o o o B-reason B-problem o
+o o o o o o B-problem I-problem o
+o o o o o o B-problem I-problem o
+o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-problem I-problem o
+B-greeting I-greeting o o o o o o B-problem I-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem
+B-greeting I-greeting o o o o o o B-reason B-problem o I-problem
+B-greeting I-greeting o o o o o o B-problem B-problem
+B-greeting I-greeting o o o o o o B-problem B-problem o I-problem
+B-greeting I-greeting o o o o o o B-problem o o o B-reason I-reason
+B-greeting I-greeting o o o o o o o B-problem o o B-reason I-reason
+B-greeting I-greeting o o o o o o B-problem o o B-reason I-reason
+B-greeting I-greeting o o o o o B-problem I-problem I-problem o B-reason I-reason
+B-greeting I-greeting o o o o o B-problem I-problem o B-reason I-reason
+B-greeting I-greeting o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem o
+B-greeting I-greeting o o o o o o B-reason B-problem
+B-greeting I-greeting o o o o o o B-reason B-problem o I-problem
+B-greeting I-greeting o o o o o o B-reason B-problem o I-problem
+B-empname o o o o o B-problem o o 
+o o B-empname
+o o o B-empname
+o B-experience o B-number B-time
+o B-experience o B-number B-time
+o o o B-contract
+o o o B-contract
+o o o B-contract o
+o o o B-contract o
+B-name o o B-position o o B-workplace
+o o o o B-position o o B-workplace
+B-name o B-problem o o B-time o I-time I-time
+B-name o B-problem o o B-time o I-time I-time
+B-name o B-problem o o B-time o I-time I-time
+B-name o B-problem o o B-time o I-time I-time
+B-name o B-problem o o B-time o I-time I-time
+B-name o B-problem o o B-time o I-time I-time
+B-name o B-problem o o B-time o I-time I-time
+B-positive o o o B-policy o o o I-policy I-policy I-policy o I-policy
+B-positive o o o B-policy o o o I-policy I-policy I-policy o I-policy
+o o o B-policy o o o I-policy I-policy I-policy o I-policy
+o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o o I-policy I-policy I-policy o I-policy
+B-positive o o o B-policy o o o I-policy I-policy I-policy o I-policy
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o o I-policy I-policy I-policy o I-policy
+B-positive o o o B-policy o o o I-policy I-policy I-policy o I-policy
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-empname o B-problem B-negative I-problem B-number B-time I-time
+B-empname o B-negative B-problem I-problem o o o o B-number o
+B-empname o B-negative B-problem I-problem o o o o B-number o
+B-empname o B-negative B-problem I-problem o o o o B-number o
+B-empname o B-problem o B-time I-time
+B-empname o B-problem o B-time I-time I-time I-time
+B-empname B-problem o o B-time I-time I-time
+B-empname o B-problem I-problem
+B-empname o B-problem I-problem B-negative B-reason I-reason
+B-empname o B-negative B-problem
+B-empname B-negative B-problem o B-negative B-reason I-reason
+B-empname o B-negative B-problem B-negative I-problem
+B-empname o B-negative B-problem B-negative B-reason I-reason
+B-empname o o B-problem B-time I-time
+B-empname o o B-problem B-time I-time
+B-positive B-empname o B-problem B-negative B-reason I-reason
+B-positive B-empname o B-problem B-negative I-problem
+B-positive B-empname o B-problem B-negative B-reason I-reason
+B-positive B-empname o B-problem B-negative I-problem
+B-empname o B-problem o o B-time I-time B-negative B-reason I-reason
+B-empname o B-problem o o B-time I-time
+B-negative B-empname o B-negative B-problem B-negative I-problem
+B-negative B-empname o B-negative B-problem B-negative B-reason
+B-empname o o B-problem B-time I-time B-negative B-reason
+B-empname o B-negative B-problem B-negative B-reason
+B-empname B-negative B-problem o B-negative B-reason
+B-empname B-negative B-problem o B-negative B-reason
+B-empname o B-problem I-problem B-time I-time
+B-empname o B-problem I-problem B-time I-time
+B-negative o o o o B-negative I-negative o B-time o
+B-negative o o o B-negative B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o o B-feeling
+B-positive o o o B-feeling
+B-positive o o o B-feeling
+B-positive o o o B-feeling
+B-positive o o o B-feeling
+B-positive o o o B-feeling
+B-positive o B-feeling o B-problem
+B-positive o B-feeling o B-problem
+B-positive o B-feeling o B-problem
+B-positive o B-feeling o B-problem
+B-positive o B-feeling o B-problem
+B-positive o B-feeling o B-problem
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+B-positive o o B-feeling
+o o B-reason o o o B-feeling
+o o o o B-reason o o o B-feeling
+o o o o B-reason B-reason
+o o o o B-reason o 
+o o o o o B-reason I-reason
+o o o o o B-reason I-reason
+o o o o o B-reason
+o o o o o B-reason
+o o o o B-reason
+o o B-reason
+o o o B-reason
+o o B-reason o 
+o o B-reason o 
+o o o o o o B-reason I-reason
+o o o o o o B-reason I-reason
+o o o o o o B-reason I-reason
+B-positive o o o o o B-reason
+o o o o B-reason o
+o o o o o o B-reason I-reason
+o o o o o o B-reason I-reason
+o o o o o o B-reason I-reason
+o o o o B-reason
+o o o o B-reason
+o o o o B-reason
+o o o o B-reason
+o o o o o B-reason
+o o o o B-reason I-reason o o o B-feeling
+o o o o B-reason o o o o o B-feeling
+o o o o o B-reason I-reason o o o B-feeling
+o o o o o B-reason I-reason o o o B-feeling
+o o o o o B-reason o o o B-feeling
+o o o o o B-reason o o o B-feeling
+o o o o B-reason o o o B-feeling
+B-negative o o B-negative o o o o o o B-pattern o o B-problem o o o 
+B-negative B-negative o o o B-negative o o o o o o B-pattern o o B-problem o o o
+B-positive o o o B-pattern o o B-problem
+B-positive o o o B-pattern o o o B-problem
+o o o o o o o o B-pattern
+o B-negative I-nagative o o o o o o B-pattern
+o o B-negative o o o o o o B-pattern
+o B-negative I-negative B-pattern o 
+o o B-negative B-pattern o
+o o o o B-pattern o o B-problem
+B-positive o o o B-pattern o o o B-problem o o o 
+B-positive o o o B-negative B-feeling o o o B-empname o o o
+B-positive o B-problem o o o o o B-damage o I-damage
+o o B-damage I-damage
+o o B-damage o B-damage
+B-positive o o o B-nagative B-feeling B-damage o o 
+B-positive o o o B-negative B-feeling o o o o o B-damage 
+B-positive o o o B-negative B-feeling o o o B-damage
+o o o o o B-damage
+B-positive o o o o o
+o o o B-damage o o 
+o o o B-damage o o 
+B-positive o o B-damage o 
+B-positive o B-negative B-negative o o B-damage o B-empname
+B-positive o o o B-sanction I-sanction 
+B-negative o B-negative I-negative o B-sanction I-sanction
+o B-sanction B-time o o o B-sanction o B-sanction I-sanction
+o B-sanction B-time o o o B-sanction o B-sanction I-sanction
+o B-sanction B-time o o o B-number B-time B-sanction
+o B-sanction B-time o o o B-number B-time B-sanction
+o B-sanction B-time o o o B-number B-time B-sanction
+o B-sanction B-time o o o B-number B-time B-sanction
+o B-sanction B-time o o o B-number B-time B-sanction
+B-number B-time I-time
+B-number B-time I-time
+o B-time I-time
+B-time I-time
+B-time I-time
+B-time I-time
+B-time I-time
+B-number B-time I-time
+B-time I-time
+B-time I-time
+B-time B-sanction I-sanction o B-time
+B-time B-sanction I-sanction o B-number B-time I-time
+B-time B-sanction I-sanction o B-number B-time I-time
+B-time B-sanction I-sanction o B-number B-time I-time
+B-time B-sanction I-sanction o B-number B-time I-time
+B-time B-sanction I-sanction o B-time I-time
+B-positive o o o B-sanction I-sanction B-number B-time I-time
+B-positive o o o B-sanction I-sanction B-number B-time I-time
+B-positive o o o B-sanction I-sanction B-number B-time I-time
+B-positive o o o B-sanction I-sanction B-time I-time
+B-positive o o o B-number B-time B-santion B-number B-time I-time
+B-positive o o o B-time I-time
+B-negative o o B-negative o o o B-sanction
+B-negative o B-negative I-negative o o o B-sanction
+B-positive o o o B-performance I-performance
+o o o B-performance I-performance
+o o o B-performance I-performance
+B-negative o o B-performance I-performance
+B-negative o o o o 
+B-negative o o B-performance
+B-positive o o B-performance o I-performance
+B-positive o o B-performance o I-performance
+B-positive o o B-performance o o o 
+B-negative o o B-performance
+B-positive o o o o
+B-positive o o B-negative o o o 
+B-negative o B-negative I-negative o o o o o o B-addiction I-addiction o
+B-negative o o B-negative o o o o o o B-addiction I-addiction o
+B-positive o o o o o o o o B-addiction I-addiction o 
+B-positive o o o o o o o B-negative o B-sanction o o o B-reason B-problem
+B-negative o B-negative I-negative o o o o o B-negative o B-sanction o o o B-reason B-problem
+B-negative o o B-negative o o o o B-negative o B-sanction o o o B-reason B-problem 
+B-negative o o o B-negative o B-reason o o o I-reason o B-problem B-negative I-problem
+B-positive o o o o B-reason
+B-positive o o o o B-reason I-reason
+B-positive o o o o B-reason o 
+B-positive o o o o o o B-reason
+B-positive o o B-reason o 
+B-negative B-reason B-reason o o o o o o o o o B-problem I-problem
+B-positive o B-reason o o o o o B-problem I-problem
+B-goal o I-goal o o o o o o o o o o o B-sanction o B-problem I-problem o o o 
+o o o o o o B-workplace o B-number B-time
+o o o o o o B-workplace o B-time o B-number B-time
+o o o o o o B-workplace o B-time o B-number B-time
+o o o o o o B-workplace o B-number B-time
+B-positive o o o B-number B-sanction o o B-problem I-problem
+B-positive o o o B-number B-sanction I-sanction o o B-problem I-problem
+B-positive o o o B-number B-time B-sanction o o B-problem I-problem
+B-positive o o o B-number B-time B-sanction o o B-problem I-problem
+B-positive o o o B-number B-time B-sanction o o B-problem I-problem
+B-positive o o o B-number B-time B-sanction o o B-problem I-problem
+o o o o B-goal o o 
+o o o o B-goal o o 
+o o o B-position o o o B-problem o o o o o o o B-poblem o
+B-empname o B-position o o B-workplace
+B-empname o o o o o o B-number B-time
+B-empname o o B-contract o
+B-empname o o B-contract o
+B-empname o B-workplace B-time B-positon o
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-empname o B-problem B-time I-time
+B-positive o o o o o B-policy o o B-problem
+B-negative o o B-negative o o o o B-empname o o B-problem
+o o o B-empname o o B-problem o B-time o 
+B-positive B-empname o o B-feeling o o o o o o o B-damage
+o o B-sanction I-sanction o B-problem
+B-negative o o o o o o o o 
+B-goal o o 
+B-greeting I-greeting o o o o o o o B-problem o o o B-negative B-reason I-reason
+B-empname o B-position I-position o o B-workplace o 
+B-empname o o o o o B-number I-number
+o o o B-contract o 
+o o o B-contract o 
+B-position I-position o o B-workplace o 
+B-positive o o o B-problem B-policy
+B-positive o o o B-policy o o
+B-positive o o o B-policy o o
+B-negative o o B-problem B-negative B-reason I-reason B-number B-time I-time
+B-positive o B-workplace I-workplace B-position o o o o o o o o B-negative B-feeling
+B-positive B-empname o o B-sanction I-sanction
+B-sanction o B-problem o B-time
+B-empname o o B-performance I-performance
+B-negative o o o o o o B-reason o B-reason o 
+B-goal o o 
+o o o B-sanction I-sanction o o B-problem o o o B-time
+B-number B-time I-time o o B-problem
+B-empname o o o B-performance I-performance o o B-position I-position
+B-goal o I-goal
+B-negative B-empname B-performance o I-performance o o B-time o I-time 
+o o o B-workplace o o o B-problem o o o o o o o B-problem o
+B-empname o o o o o o B-number B-time
+B-workplace B-time B-position
+B-time I-time
+B-time I-time
+B-time I-time
+B-time I-time
+B-time I-time
+B-negative B-empname o o o o o o B-time o o o o o o o o o o o o o o 
+B-positive B-empname o o B-feeling o o o o o o o B-damage
+B-empname o o o o o o B-number B-time
+B-goal o I-goal o o B-sanction I-sanction
+B-empname o B-position I-position o o B-time o
+B-empname o B-number B-time o o
+B-time o B-position I-position
+o o o B-performance I-performance o o o B-problem o 
+B-positive o o o B-sanction I-sanction o o B-problem o o o B-time
+B-positive o o o B-sanction I-sanction o o B-problem
+o o o B-number B-time B-sanction o o B-problem
+B-positive o o o B-number B-time B-sanction o B-problem I-problem
+o o o B-number B-time B-sanction o B-problem I-problem
+o o o B-number B-time B-sanction o B-problem
+B-negative o o B-negative B-problem o o o o o
+B-contract
+B-contract
+B-negative B-thank
+B-request B-positive
+B-request B-positive
+B-request B-positive
+B-request B-positive
+B-request B-positive
+B-negative B-thank
+B-request B-positive
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-negative B-thank
+B-request B-negative
+B-request B-positive
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-negative B-thank
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-negative B-thank
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-request B-negative
+B-negative B-thank
+B-request B-positive
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-positive
+B-request B-negative
+B-negative B-thank
+B-request B-positive
+B-negative B-thank
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-request B-positive
+B-request B-negative
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+B-damage I-damage B-number
+eof

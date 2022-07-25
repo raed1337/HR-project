@@ -1,0 +1,74 @@
+Agent Question,User Response
+Hi Manager. How can I help you today?,disrespect
+"I will be able to help you with your request. Could you please validate the subject related to the Problem. 
+ 1. Absence
+ 2. Leave or holidays 
+ 3. Related to work Time 
+ 4. Harassement 
+ 5. Lack of respect 
+ 6. Insubordination 
+ 7. Performance",lack of respect 
+"Please specify, to the best of your ability, the nature of the problem with your employee. 
+ 1. Lack of respect towards colleagues 
+ 2. Lack of courtesy towards customers",Lack of courtesy towards customers
+Who is the person who has been disrespectful to a customer?,Joe
+Is it a temporary or permanent employee?,Permanent
+What position does the employee occupy in the company?,Call Center Representative
+What is the date of hire of the individual in question (most recent if rehired by your company) (in months)?,20 moths
+Who is the customer victim of the lack of courtesy on the part of the person employee?,Silvester
+Is this a customer who comes into your business regularly?,yes
+"If so, have your other employees ever said that serving this customer was difficult?",no
+Who are the people involved in the event?,Noone
+"What were the explanations provided by the person employee, if any, to explain his/her behaviour and the incident with the customer?",Complain about return policy
+Was the person employee provoked by the customer to say something inappropriate?,no
+Was there physical contact between the protagonists?,no
+"Were there recording means on sites such as a camera, a cell phone or other which would have made it possible to capture the events?",yes
+"Can you describe the altercation that occurred between the person employee and the customer (length of the discussions, words spoken, tone of voice, etc.)?",Inapporpriate words
+Are there any witnesses?,no
+Who are the witnesses?, 
+Have you collected the versions of the witnesses?, 
+Are the witnesses versions similar to the person employee?, 
+Did the person employee spontaneously apologize to the customer victim of lack of courtesy?,no
+Is this the first time this person employee has been disrespectful of this particular customer or another customer?,yes
+"Is the employee subject to difficult personal issues, such as 
+- Substance addiction problem
+- Health or medical issue
+- Family or parental issue
+- Divorce
+- Death or funeral
+- Family or parental issues",no
+"What is the difficult personal problem of this person employee? 
+H) Substance abuse problem 
+I) Health or medical problems 
+J) Divorce 
+K) Death or funeral 
+L) Family or parental problems 
+M) Other", 
+Does the condition of the person employee constitute a ''disability'' according to the meaning of the Charter of human rights and freedoms?, 
+Does he have any necessity for reasonable accommodation?, 
+Is the accommodation unreasonable?, 
+Is there a disciplinary record on this employee?,yes
+"What were the past disciplinary actions for offenses other than current incident type? 
+A) Verbal warning
+B) Written warning
+C) 1 day suspension 
+D) 2 day suspension 
+E) 3 day suspension 
+F) 4 day suspension 
+G) 5 day suspension",verbal warning
+How long ago was the last disciplinary intervention?,3 weeks ago
+Has the employee been sanctioned in the past for the current incident type?,no
+"What was the disciplinary measures for the current incident? 
+A) Verbal warning
+B) Written warning
+C) 1 day suspension 
+D) 2 day suspension 
+E) 3 day suspension 
+F) 4 day suspension 
+G) 5 day suspension", 
+Are you satisfied with his/her performance and attitude?,yes
+Are you in the habit of not intervening when someone is disrespectful to customers?,no
+"In your opinion, do you have sufficient evidence to establish just and sufficient cause to dismiss this person?",no
+"What is your intention with this employee?
+A) Correct his behaviour with progressive disciplinary sanctions 
+B) Terminate the employment?",A

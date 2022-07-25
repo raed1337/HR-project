@@ -1,0 +1,6 @@
+model_checkpoint_path: "_step_5766_epochs_93.ckpt"
+all_model_checkpoint_paths: "_step_5518_epochs_89.ckpt"
+all_model_checkpoint_paths: "_step_5580_epochs_90.ckpt"
+all_model_checkpoint_paths: "_step_5642_epochs_91.ckpt"
+all_model_checkpoint_paths: "_step_5704_epochs_92.ckpt"
+all_model_checkpoint_paths: "_step_5766_epochs_93.ckpt"

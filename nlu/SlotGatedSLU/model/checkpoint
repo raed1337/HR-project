@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:/Users/moham/PycharmProjects/Hermes/nlu/SlotGatedSLU/model/_step_17550_epochs_130.ckpt"
+all_model_checkpoint_paths: "/nlu/SlotGatedSLU/model/_step_17010_epochs_126.ckpt"
+all_model_checkpoint_paths: "C:/Users/moham/PycharmProjects/Hermes/nlu/SlotGatedSLU/model/_step_17145_epochs_127.ckpt"
+all_model_checkpoint_paths: "C:/Users/moham/PycharmProjects/Hermes/nlu/SlotGatedSLU/model/_step_17280_epochs_128.ckpt"
+all_model_checkpoint_paths: "C:/Users/moham/PycharmProjects/Hermes/nlu/SlotGatedSLU/model/_step_17415_epochs_129.ckpt"
+all_model_checkpoint_paths: "C:/Users/moham/PycharmProjects/Hermes/nlu/SlotGatedSLU/model/_step_17550_epochs_130.ckpt"

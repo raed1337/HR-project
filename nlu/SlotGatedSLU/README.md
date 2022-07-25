@@ -1,0 +1,2 @@
+This is where the NLU and its component which we use, is situated.
+Since training and deploying a new NLU version requires multiple steps, please read the manual for in-depth explanation of the process.

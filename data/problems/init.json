@@ -1,0 +1,89 @@
+{
+    "MainProblemCategory": "init",
+    "MainProblem": "Common.RequestProblem",
+    "SubCategories": "None",
+    "QuestionSet": [
+        "Common.RequestProblemConfirmation"
+    ],
+    "FlowChange": {
+        "Common.RequestProblemConfirmation": {
+            "problem": {
+                "action": "add",
+                "flow": {
+                    "absence": [
+                        "Common.RequestConfirmProblem"
+                    ],
+                    "absent": [
+                        "Common.RequestConfirmProblem"
+                    ],
+                    "lack respect": [
+                        "LackOfRespect.RequestConfirmProblem"
+                    ],
+                    "disrespect": [
+                        "LackOfRespect.RequestConfirmProblem"
+                    ],
+                    "work time": [
+                        "WorkTime.Common.RequestConfirmProblem"
+                    ],
+                    "related work time": [
+                        "WorkTime.Common.RequestConfirmProblem"
+                    ],
+                    "holiday": [
+                        "LeaveOrHolidays.Common.RequestConfirmProblem"
+                    ],
+                    "leave": [
+                        "LeaveOrHolidays.Common.RequestConfirmProblem"
+                    ],
+                    "leave or holiday": [
+                        "LeaveOrHolidays.Common.RequestConfirmProblem"
+                    ],
+                    "leave holidays": [
+                        "LeaveOrHolidays.Common.RequestConfirmProblem"
+                    ],
+                    "insubordination": [
+                        "Insubordination.RequestConfirmProblem"
+                    ],
+                    "performance": [
+                        "Incompetence.RequestConfirmProblem"
+                    ]
+                }
+            }
+        },
+        "Common.RequestConfirmProblem": {
+            "problem": {
+                "action": "change_topic",
+                "flow": "absence"
+            }
+        },
+        "LackOfRespect.RequestConfirmProblem": {
+            "problem": {
+                "action": "change_topic",
+                "flow": "disrespect"
+            }
+        },
+        "WorkTime.Common.RequestConfirmProblem": {
+            "problem": {
+                "action": "change_topic",
+                "flow": "worktime"
+            }
+        },
+        "LeaveOrHolidays.Common.RequestConfirmProblem": {
+            "problem": {
+                "action": "change_topic",
+                "flow": "leave"
+            }
+        },
+        "Insubordination.RequestConfirmProblem": {
+            "problem": {
+                "action": "change_topic",
+                "flow": "insubordination"
+            }
+        },
+        "Incompetence.RequestConfirmProblem": {
+            "problem": {
+                "action": "change_topic",
+                "flow": "performance"
+            }
+        }
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "problem": {
+        "1": {
+            "final_goal_terminate": {
+                "work_related_help": {
+                    "work_related_help_steps_plan": {
+                        "action_plan_improvement": {
+                            "True": [
+                                "0-0"
+                            ],
+                            "False": [
+                                "1-4.4-1",
+                                "1-4.4-2",
+                                "1-4.4-3",
+                                "1-4.4-4",
+                                "1-4.4-5",
+                                "1-4.4-6",
+                                "1-4.4-7",
+                                "1-4.4-8",
+                                "1-4.4-9",
+                                "1-7-0",
+                                "1-7-1"
+                            ]
+                        },
+                        "False": {
+                            "True": [
+                                "0-0"
+                            ],
+                            "False": [
+                                "1-4.4-1",
+                                "1-4.4-2",
+                                "1-4.4-3",
+                                "1-4.4-4",
+                                "1-4.4-5",
+                                "1-4.4-6",
+                                "1-4.4-7",
+                                "1-4.4-8",
+                                "1-4.4-9",
+                                "1-7-0",
+                                "1-7-1"
+                            ]
+                        }
+                    },
+                    "False": {}
+                },
+                "False": {
+                    "experience": {
+                        "True": [
+                            "1-4.4-3",
+                            "1-4.4-4",
+                            "1-4.4-5",
+                            "1-4.4-6",
+                            "1-4.4-7",
+                            "1-4.4-8",
+                            "1-4.4-9",
+                            "1-7-0",
+                            "1-7-1"
+                        ],
+                        "False": [
+                            "1-4.4-3",
+                            "1-4.4-4",
+                            "1-4.4-5",
+                            "1-4.4-6",
+                            "1-4.4-7",
+                            "1-4.4-8",
+                            "1-4.4-9",
+                            "1-7-0",
+                            "1-7-1"
+                        ]
+                    }
+                }
+            },
+            "final_goal_correct": {
+                "work_related_help_steps_plan": {
+                    "has_medical_problem": {
+                        "experience": {
+                            "True": [
+                                "1-4.3-1",
+                                "1-4.4-5",
+                                "1-4.4-6",
+                                "1-4.4-7",
+                                "1-4.4-8",
+                                "1-4.4-9",
+                                "1-7-0",
+                                "1-7-1"
+                            ],
+                            "False": [
+                                "1-4.3-1",
+                                "1-4.4-5",
+                                "1-4.4-6",
+                                "1-4.4-7",
+                                "1-4.4-8",
+                                "1-4.4-9",
+                                "1-7-0",
+                                "1-7-1"
+                            ]
+                        },
+                        "False": {
+                            "True": [
+                                "0-0"
+                            ],
+                            "False": [
+                                "0-0"
+                            ]
+                        }
+                    },
+                    "False": {
+                        "experience": {
+                            "True": [
+                                "1-4.2-1",
+                                "1-4.2-2",
+                                "1-4.2-3",
+                                "1-4.2-4",
+                                "1-4.2-5"
+                            ],
+                            "False": [
+                                "1-4.2-1",
+                                "1-4.2-2",
+                                "1-4.2-3",
+                                "1-4.2-4",
+                                "1-4.2-5"
+                            ]
+                        }
+                    }
+                },
+                "False": {
+                    "has_medical_problem": {
+                        "True": [
+                            "1-4.3-1",
+                            "1-4.4-5",
+                            "1-4.4-6",
+                            "1-4.4-7",
+                            "1-4.4-8",
+                            "1-4.4-9",
+                            "1-7-0",
+                            "1-7-1"
+                        ],
+                        "False": [
+                            "0-0"
+                        ]
+                    },
+                    "False": {
+                        "experience": {
+                            "True": [
+                                "1-4.2-1",
+                                "1-4.2-2",
+                                "1-4.2-3",
+                                "1-4.2-4",
+                                "1-4.2-5",
+                                "1-7-0",
+                                "1-7-1"
+                            ],
+                            "False": [
+                                "1-4.2-1",
+                                "1-4.2-2",
+                                "1-4.2-3",
+                                "1-4.2-4",
+                                "1-4.2-5",
+                                "1-7-0",
+                                "1-7-1"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "text_mappings": {
+        "1": {
+            "0-0": " ",
+            "1-4.1-1": "Dismissal of a person approaching 2 years of continuous service\nYou should be aware that the closer the continuous service of the person you wish to terminate approaches 2 years, the more likely he/she would have the opportunity to file a prohibited practice complaint under section 122 of the Act respecting labour standards.\nThis section prohibits you from acting in such a way as to avoid the application of the law.\nThis person could claim that your objective in terminating his/her employment is to deprive him/her of rights under the Act respecting labour standards, i.e. to protect him/her from being dismissed without just and sufficient cause. \nIn fact, when a person has 2 years of continuous service, he/she has the right to contest his/her dismissal before the Commission des normes, de l'équité, de la santé et de la sécurité du travail if he/she believes that it was done without just and sufficient cause.\nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.\nReference: Act respecting labour standards, section 1, subsection 12.\nReference: https: //www.cnesst.gouv.qc.ca/fr/organisation/documentation/acces-linformation/documents-servant-prise-decision/normes-travail/loi-sur-normes-travail/chapitre-v-recours-art-98-135/section-i1-recours-lencontre-certaines-disparites/article-122",
+            "1-4.1-2": "Dismissal of a person approaching 2 years of continuous service (continued)\nIn addition, if that person filed a complaint, he/she would benefit from a presumption that he/she was terminated for a wrongful reason. \nIn this case, you would have the burden of rebutting this presumption by showing that you had another just and sufficient cause that was not a pretext for terminating his/her employment.\nThe closer the person gets to 2 years of continuous service, the more it is recommended that you consult with an attorney to be sure that you have a record to justify the dismissal of this person. \nReference: Payette v. Gestion Mimakar inc, D.T.E. 2009T-173 (C.R.T.)\nReference: Act respecting labour standards, section 122, paragraph 5.\nReference: Act respecting labour standards, section 124.",
+            "1-4.1-3": "Dismissal for underperformance or incompetence - Employee with more than 2 years\nThis person has been employed by your company for more than 2 years. \nTherefore, you cannot terminate for performance issues without meeting the following requirements:\n1. Have you informed the person in writing of your expectations and the requirements of the company?\n2. Have you pointed out in writing what the person deficiencies were?\n3. Have you provided the necessary support for the person you consider incompetent to correct the deficiencies and achieve your goals?\n4. Have you given the person a reasonable amount of time (often a few months) to adjust?\n5. Did you make it clear that the person could be fired if he/she did not improve?\nAdministrative Labour Tribunal points out that an employer who does not follow this procedure is acting in an abusive and unreasonable manner and the dismissal is cancelled. \nReference: Laplante v. Costco Wholesale Canada Ltd, D.T.E. 2003T-1058 (C.R.T.).",
+            "1-4.1-4": "Warning\nSince there has been no improvement in competence as a result of the performance improvement plan (PIP) you made with this individual and you have made the decision to terminate the individual, you must ensure that all steps have been followed and that you can demonstrate the efforts you made to enable the incompetent individual to improve.",
+            "1-4.1-5": "Since the employee has less than 2 years of continuous service, you could terminate the person for poor performance. You can simply indicate that the person does not meet the requirements of the position. You can thus:\nM) Maintain employment and improve job performance\nO) Terminate employment\nCAUTION: IF THE PERSON IS APPROACHING 2 YEARS OF CONTINUOUS SERVICE, THERE ARE ADDITIONAL CHECKS TO BE MADE. \nReference: Act respecting labour standards, sections 122 and 124.",
+            "1-4.1-6": "Warning \nDismissal: a person with a medical condition\nIt is not recommended to terminate a person's employment because of a medical condition such as a handicap, a disability, chronic disease or substance abuse problems.\nIf you do so, you might be in violation of the right of the employee to a reasonable accommodation for his/her medical condition or handicap (see Hydro-Québec c. Syndicat des employés-e-s de techniques professionnelles et de bureau d'Hydro-Québec, section locale 2000 (SCFP-FTQ), 2008, CSC 43.)\nThe person can file a complaint under the Charter of Human Rights and Freedoms if you discriminate against them by terminating  his/her employment for a medical condition.\nIt is recommended that you retain the services of a lawyer specializing in employment law to assist you in assessing the consequences of dismissing this person.\nReference: Charter of Human Rights and Freedoms, sections 10 and 16. ",
+            "1-4.2-1": "Performance Improvement Plan (PIP)\nBased on the information shared today, I recommend that you work jointly with the person on a performance improvement plan (PIP), taking into account the requirements retained by the courts to uphold a dismissal for incompetence.\nThe purpose of a PIP is to promote awareness and accountability in the person whose performance is unsatisfactory.\nIt is a means of mediation to correct gaps in the person's observed performance.",
+            "1-4.2-2": "Procedure for implementing a Performance Improvement Plan (PIP)\nHere are the steps I suggest for implementing a PIP: 1) Meet with that person to discuss your dissatisfaction with his/her performance;\n2) Talk about facts and give examples that support your assessment of his/her performance;\n3) Establish a written plan with specific and realistic goals that the person must achieve to meet your requirements;\n4) Agree with him/her on how you will measure these goals. These should be quantifiable;",
+            "1-4.2-3": "Procedure for implementing a Performance Improvement Plan (PIP) (continued)\n5) Decide together how long it will take to meet your goals. This time frame is usually calculated in months, not weeks. He/she must understand that if the goals are not met, you will have to terminate his/her employment;\n6) Determine together the regular meetings that you will have with his/her in order to help his/her achieve the results you have requested;\n7) Write the PIP agreed upon between you and have the person who needs to improve his/her performance sign it.\nYou have a sample PIP to help you in your writing (supplementary file).",
+            "1-4.2-4": "Change of job position\nBefore writing a PIP (which takes time and energy), check whether your assessment of his/her competence in the current position is shared by this person. \nYou could see with him/her if she is willing to make the effort to improve, being aware that if it doesn't work, you would have to fire him/her. \nSee with her if it would not be possible to transfer her to another position for which he/she has the skills and experience.",
+            "1-4.2-5": "Warning\nIf there has been no improvement in competency as a result of the PIP and you have made the decision to terminate, you must ensure that all steps have been followed and that you can demonstrate the efforts you have made to allow the incompetent person to improve.",
+            "1-4.3-1": "Accommodation Obligations\nIf the person mentions that he/she has a handicap, health or medical problems or substance addiction problems, be a good listener. You should require the person to provide a document signed by a physician attesting to the employee's medical condition.\nIf the person provides such medical evidence, then you must ensure the reliability of that document and make reasonable accommodations, if necessary. \nYou may also want to discuss the situation with the person and see if he/she expresses a desire to move to another position for which he/she has the skills and experience, and which is appropriate for the person's medical condition.\nHowever, it is possible that the accommodation required for this person may be an excessive burden on you, as an employer. It is recommended that you retain the services of an employment lawyer to assist you in the accommodation assessment process.\nReference: see Hydro-Québec c. Syndicat des employés-e-s de techniques professionnelles et de bureau d'Hydro-Québec, section locale 2000 (SCFP-FTQ),2008, CSC 43.",
+            "1-4.4-1": "Dismissal for Underperformance or Incompetence - Notice Period\nIn your file, you established a performance improvement plan (PIP) with the person and he/she knew the consequences if he/she did not meet your requirements. Therefore, you have two choices:\nOption One\nAgree with the person that he/she will continue to work, even if it does not meet the expected quality, for the period of notice provided for in section 82 of the Act respecting labour standards. \nDuring this period, you must maintain the benefits to which the person is entitled.\nThe longer the notice period, the less advantageous this choice is for the company.\nWarning\nThis option of remaining employed during the notice period is very risky and counterproductive. It is far preferable to terminate the employment and pay the notice period compensation as a person who is terminated for incompetence will not be competent to work during the notice period and will likely not be engaged or productive. \nReference: Act respecting labour standards, section 82.",
+            "1-4.4-2": "Dismissal for Underperformance or Incompetence - Notice Period (continued)\nOption Two\nDecide that the statutory notice period will not be worked, but paid in the form of compensation.\nThis is calculated on the individual's regular salary during the notice period.\nOvertime is not included in the calculation of the indemnity.\nReference: Act respecting labour standards, section 82.",
+            "1-4.4-3": "The Act respecting labour standards provides that the employer must give notice to any person who works for him/her and whose employment is terminated, unless that person has committed a serious fault. It should be noted that a fault that merits dismissal is not necessarily a serious fault within the meaning of the Act. \nThe notice period is calculated based on the length of continuous service (calculated from the date of hire or rehire) of the person with the company:\nless than three months - NO NOTICE\nthree months to less than one year - ONE WEEK NOTICE\none year to less than five years - TWO WEEKS NOTICE\nfive years to less than ten years - FOUR WEEKS NOTICE\nten years and over - EIGHT WEEKS NOTICE\nIf you do not want to give working notice, you must give the equivalent of the notice in money. This compensation must be equal to the regular salary that person would have earned during the period of notice. Overtime must not be included in the calculation of the compensation. You must also pay him/her the amounts due (e.g., salary, overtime, vacation).\nThe annual vacation period is not included in the notice period and the person's benefits must be maintained during the notice period.\nReference: Act respecting labour standards, sections 82 and 82.1.",
+            "1-4.4-4": "Dismissal for Underperformance or Incompetence - Individual's Civil Remedy\nEven if you give the notice or compensation provided for in the Act respecting labour standards, a person who feels that he/she should have more generous compensation because of certain criteria may still be able to file a recourse in the Quebec civil courts under section 2091 of the Civil Code of Quebec.\nIf you decide to offer more than what is provided for in the Act respecting labour standards, it is suggested that you have the dismissed employee sign a waiver of his/her right to sue before the courts. \nHowever, the person is under no obligation to sign such a waiver.\nReference: Civil Code of Quebec, section 2091.",
+            "1-4.4-5": "Best Practices for Termination of Employment \nYou have made the decision to terminate that persons employment. How you will deal with this person is important to that person as well as to the employees who remain in your employ. Your actions have much more impact than your words fort the mobilization of your team. If you say you respect your employees, you must show it.\nHere are the steps you need to follow:",
+            "1-4.4-6": "1. Prepare the termination letter with the reasons for the termination of employment. In this letter, you will have specified the severance pay for this person. This indemnity can never be less than the minimum provided for in the Act respecting Labour Standards. Depending on the position held by this person, the length of his/her continuous service and his/her employment contract, if he/she has one, it is recommended to consult a lawyer or a Human Resources specialist.\nArrange a meeting in person (or virtually if it is not possible to do so in person). Do not inform the employee by phone, email, or text message. Schedule the meeting around lunchtime or at the end of the workday when there is less activity at work.",
+            "1-4.4-7": "2. At the meeting, review the facts that led to this decision. The purpose of the meeting is not to allow the person to question the merits of your decision, but to inform him/her that it is over and to talk about the terms of the departure.\nDepending on the case, you may decide to be accompanied for this meeting, but you should not ask a colleague of this person. It is suggested that someone related to Human Resources or another manager be present.",
+            "1-4.4-8": "3. Allow the person who has been terminated to leave with dignity. Unless the termination is for theft or fraud, there is no reason to have the person escorted to the door by a security guard.",
+            "1-4.4-9": "If the terminated person has a lot of personal belongings in his/her office, you may suggest that he/she comes back outside of working hours to pick them up. Depending on the nature of the position, it is possible that there is a transmission of files to be done. Establish with him/her how this will be done. \nIf you are confident that the person will not cause damage, you can let him/her go to his/her office alone to collect his/her belongings and greet his/her colleagues. He/she can also choose to leave discreetly. Agree together on the message that will be conveyed to the colleagues and to the organization. \nMake sure the person is able to return home safely. Each person reacts differently. Although you may have terminated their employment for good reasons, it affects his/her work life and his/her personal life.",
+            "1-7-0": "Great, here is the appropriate documentation. Please refer to the recovery plan (supplementary file).",
+            "1-7-1": "I hope my recommendations were useful to you, have a nice day."
+        }
+    },
+    "notice": {
+        "1": {
+            "goal": {
+                "2": {
+                    "experience": {
+                        "1": [
+                            "1-4.1-3"
+                        ],
+                        "0": [
+                            "1-4.1-5"
+                        ]
+                    },
+                    "work_related_help_steps_plan": {
+                        "action_plan_improvement": {
+                            "0": [
+                                "1-4.1-4"
+                            ],
+                            "1": [
+                                "0-0"
+                            ]
+                        }
+                    },
+                    "has_medical_problem": {
+                        "1": [
+                            "1-4.1-6"
+                        ],
+                        "0": [
+                            "0-0"
+                        ]
+                    },
+                    "has_medical_problem_handicap": {
+                        "1": [
+                            "1-4.3-1"
+                        ],
+                        "0": [
+                            "0-0"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

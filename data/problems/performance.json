@@ -1,0 +1,231 @@
+{
+    "MainProblemCategory": "performance",
+    "SubCategories": {
+        "Incompetence": {
+            "QuestionSet": [
+                "Incompetence.RequestName",
+                "Incompetence.RequestWorkPosition",
+                "Common.RequestSeniority",
+                "Incompetence.RequestLengthOfService",
+                "Incompetence.RequestIsTraining",
+                "Incompetence.RequestIsNewTools",
+                "Incompetence.RequestNoToolsOrTrainingReason",
+                "Incompetence.RequestIsProbationEvaluation",
+                "Incompetence.RequestIsPerformanceEvaluation",
+                "Incompetence.RequestIsPerformanceImprovementDiscussed",
+                "Incompetence.RequestPerformanceImprovementDiscussedMethod",
+                "Incompetence.RequestPerformanceImprovementNotDiscussedReason",
+                "Incompetence.RequestReasonForPositionObtain",
+                "Incompetence.RequestPastPositionPerformance",
+                "Incompetence.RequestIsNonWorkDisciplinaryRecord",
+                "Incompetence.RequestIsDisciplinaryRecord",
+                "Incompetence.RequestIsPerformanceDisciplinaryRecord",
+                "Incompetence.RequestPerformanceDisciplinaryRecordAction",
+                "Incompetence.RequestPerformanceDisciplinaryRecordDuration",
+                "Incompetence.RequestIsPerformanceUnsatisfactionDiscussed",
+                "Incompetence.RequestPerformanceUnsatisfactionDiscussedMethod",
+                "Incompetence.RequestIsEmployeeInformedOfRequirement",
+                "Incompetence.RequestEmployeeInformedOfRequirementMethod",
+                "Incompetence.RequestEmployeeNotInformedOfRequirementReason",
+                "Incompetence.RequestIsCompanyRequirementChange",
+                "Incompetence.RequestIsCompanyRequirementChangePoorCommunication",
+                "Incompetence.RequestCompanyRequirementChangeMethod",
+                "Incompetence.RequestIsNewManager",
+                "Incompetence.RequestNewManagerDuration",
+                "Incompetence.RequestIsNewManagerExpectationClear",
+                "Incompetence.RequestIsNewManagerRequirementLeadTime",
+                "Incompetence.RequestProductionEffectScale",
+                "Incompetence.RequestColleagueEffectScale",
+                "Incompetence.RequestSuppliersEffectScale",
+                "Incompetence.RequestCustomerEffectScale",
+                "Incompetence.RequestIsEmployeeIncompetenceAware",
+                "Incompetence.RequestEmployeeIncompetenceAwareReason",
+                "Incompetence.RequestIsEmployeeIncompetenceAwareMedical",
+                "Incompetence.RequestIsEmployeeIncompetenceMedical",
+                "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEval",
+                "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEvalNegative",
+                "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicap",
+                "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapAcommodation",
+                "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapUnsreasonableAcommodation",
+                "Incompetence.RequestIsProblemWorkRealted",
+                "Incompetence.RequestProblemCorrectionSteps",
+                "Incompetence.RequestProblemCorrectionActionPlan",
+                "Incompetence.RequestIsProblemCorrectionActionReasonableGoals",
+                "Incompetence.RequestIsProblemCorrectionActionMeasurableGoals",
+                "Incompetence.RequestIsProblemCorrectionActionSupporteGoals",
+                "Incompetence.RequestIsProblemCorrectionActionTimeGoals",
+                "Incompetence.RequestIsProblemCorrectionActionConsequenceGoals",
+                "Incompetence.RequestProblemCorrectionNoStepsReason",
+                "Incompetence.RequestIsProblemCorrectionImprovement",
+                "Incompetence.RequestGoal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Incompetence.RequestIsEmployeeIncompetenceAwareMedical": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestIsEmployeeIncompetenceMedical",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEval",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEvalNegative"
+                        ]
+                    }
+                },
+                "Incompetence.RequestLengthOfService": {
+                    "option": {
+                        "action": "remove",
+                        "flow": {
+                            "a": [
+                                "Incompetence.RequestIsProbationEvaluation",
+                                "Incompetence.RequestIsPerformanceEvaluation"
+                            ],
+                            "b": [
+                                "Incompetence.RequestIsPerformanceEvaluation"
+                            ],
+                            "c": [
+                                "Incompetence.RequestIsProbationEvaluation"
+                            ]
+                        }
+                    }
+                },
+                "Incompetence.RequestIsTraining": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestNoToolsOrTrainingReason"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsPerformanceImprovementDiscussed": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestPerformanceImprovementDiscussedMethod"
+                        ]
+                    },
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestPerformanceImprovementNotDiscussedReason"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsPerformanceDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestPerformanceDisciplinaryRecordAction"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsPerformanceUnsatisfactionDiscussed": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestPerformanceUnsatisfactionDiscussedMethod"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsEmployeeInformedOfRequirement": {
+                    "positive": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestEmployeeNotInformedOfRequirementReason"
+                        ]
+                    },
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestEmployeeInformedOfRequirementMethod"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsCompanyRequirementChange": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestIsCompanyRequirementChangePoorCommunication",
+                            "Incompetence.RequestCompanyRequirementChangeMethod"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsNewManager": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestNewManagerDuration",
+                            "Incompetence.RequestIsNewManagerExpectationClear",
+                            "Incompetence.RequestIsNewManagerRequirementLeadTime"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsEmployeeIncompetenceAware": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestEmployeeIncompetenceAwareReason",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedical",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEval",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalEmployerEvalNegative"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsProblemWorkRealted": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestProblemCorrectionSteps",
+                            "Incompetence.RequestProblemCorrectionActionPlan",
+                            "Incompetence.RequestIsProblemCorrectionActionReasonableGoals",
+                            "Incompetence.RequestIsProblemCorrectionActionMeasurableGoals",
+                            "Incompetence.RequestIsProblemCorrectionActionSupporteGoals",
+                            "Incompetence.RequestIsProblemCorrectionActionTimeGoals",
+                            "Incompetence.RequestIsProblemCorrectionActionConsequenceGoals",
+                            "Incompetence.RequestIsProblemCorrectionImprovement",
+                            "Incompetence.RequestProblemCorrectionNoStepsReason"
+                        ]
+                    }
+                },
+                "Incompetence.RequestProblemCorrectionSteps": {
+                    "option": {
+                        "action": "remove",
+                        "flow": {
+                            "a": [
+                                "Incompetence.RequestProblemCorrectionActionPlan",
+                                "Incompetence.RequestIsProblemCorrectionActionReasonableGoals",
+                                "Incompetence.RequestIsProblemCorrectionActionMeasurableGoals",
+                                "Incompetence.RequestIsProblemCorrectionActionSupporteGoals",
+                                "Incompetence.RequestIsProblemCorrectionActionTimeGoals",
+                                "Incompetence.RequestIsProblemCorrectionActionConsequenceGoals",
+                                "Incompetence.RequestIsProblemCorrectionImprovement"
+                            ],
+                            "b": [
+                                "Incompetence.RequestProblemCorrectionNoStepsReason"
+                            ]
+                        }
+                    }
+                },
+                "Incompetence.RequestIsNonWorkDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestIsDisciplinaryRecord",
+                            "Incompetence.RequestIsPerformanceDisciplinaryRecord",
+                            "Incompetence.RequestPerformanceDisciplinaryRecordAction"
+                        ]
+                    }
+                },
+                "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicap": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapReason",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapAcommodation",
+                            "Incompetence.RequestIsEmployeeIncompetenceMedicalHandicapUnsreasonableAcommodation"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

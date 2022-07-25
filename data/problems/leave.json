@@ -1,0 +1,397 @@
+{
+    "MainProblemCategory": "leave",
+    "SubCategories": {
+        "Statuory": {
+            "QuestionSet": [
+                "LeaveOrHolidays.StatutoryHolidays.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LeaveOrHolidays.Common.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LeaveOrHolidays.Common.RequestIsAware",
+                            "LeaveOrHolidays.Common.RequestIsLegal"
+                        ]
+                    }
+                }
+            }
+        },
+        "Annual": {
+            "QuestionSet": [
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LeaveOrHolidays.Common.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LeaveOrHolidays.Common.RequestIsAware",
+                            "LeaveOrHolidays.Common.RequestIsLegal"
+                        ]
+                    }
+                }
+            }
+        },
+        "Vacation": {
+            "QuestionSet": [
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "LeaveOrHolidays.Common.RequestIsPolicy": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "LeaveOrHolidays.Common.RequestIsAware",
+                            "LeaveOrHolidays.Common.RequestIsLegal"
+                        ]
+                    }
+                }
+            }
+        },
+        "Family": {
+            "QuestionSet": [
+                "LeaveOrHolidays.FamilyObligation.RequestProblemCategory",
+                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "LeaveOrHolidays.FamilyObligation.RequestProblemCategory": {
+                    "problem": {
+                        "action": "remove",
+                        "flow": {
+                            "death": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ],
+                            "funeral": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ],
+                            "wedding": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ],
+                            "civil union": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ]
+                        }
+                    }
+                },
+                "LeaveOrHolidays.FamilyObligation.RequestDuration": {
+                    "problem": {
+                        "action": "remove",
+                        "flow": {
+                            "short": [
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Obligation": {
+            "QuestionSet": [
+                "LeaveOrHolidays.FamilyObligation.RequestProblemCategory",
+                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "LeaveOrHolidays.FamilyObligation.RequestProblemCategory": {
+                    "problem": {
+                        "action": "remove",
+                        "flow": {
+                            "death": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ],
+                            "funeral": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ],
+                            "wedding": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ],
+                            "civil union": [
+                                "LeaveOrHolidays.FamilyObligation.RequestTypeFamilyObligation",
+                                "LeaveOrHolidays.FamilyObligation.RequestDuration",
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ]
+                        }
+                    }
+                },
+                "LeaveOrHolidays.FamilyObligation.RequestDuration": {
+                    "problem": {
+                        "action": "remove",
+                        "flow": {
+                            "short": [
+                                "LeaveOrHolidays.FamilyObligation.RequestNatureOfDuration"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Events Not Covered By Law": {
+            "QuestionSet": [
+                "LeaveOrHolidays.EventsNotCoveredByLaw.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Event": {
+            "QuestionSet": [
+                "LeaveOrHolidays.EventsNotCoveredByLaw.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Covered Law": {
+            "QuestionSet": [
+                "LeaveOrHolidays.EventsNotCoveredByLaw.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Non Work Accident Illness": {
+            "QuestionSet": [
+                "LeaveOrHolidays.NonWorkRelatedAccidentOrIllness.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Accident Illness": {
+            "QuestionSet": [
+                "LeaveOrHolidays.NonWorkRelatedAccidentOrIllness.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Situation": {
+            "QuestionSet": [
+                "LeaveOrHolidays.SpecificSituation.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        },
+        "Specific Situation": {
+            "QuestionSet": [
+                "LeaveOrHolidays.SpecificSituation.RequestProblemCategory",
+                "LeaveOrHolidays.Common.RequestIsPolicy",
+                "LeaveOrHolidays.Common.RequestIsAware",
+                "LeaveOrHolidays.Common.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {
+                "Common.RequestIsDisciplinaryRecord": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestOtherSanctions",
+                            "Common.RequestPastSanctionTime",
+                            "Common.RequestIsCurrentSanction",
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                },
+                "Common.RequestIsCurrentSanction": {
+                    "negative": {
+                        "action": "remove",
+                        "flow": [
+                            "Common.RequestCurrentSanction"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

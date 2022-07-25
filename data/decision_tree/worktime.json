@@ -1,0 +1,66 @@
+{
+    "DataFrameColumns": {
+        "problem": {
+            "work_schedule": 3
+        },
+        "sub_problem": {
+            "presence_work": 1,
+            "Work_breaks": 2,
+            "rest_period": 3,
+            "standard_work": 4,
+            "work_overtime": 5,
+            "refuse_work_overtime": 6,
+            "staggered_work": 7,
+            "young_worker": 8,
+            "cigarette_breaks": 9
+        },
+        "policy": "Binary",
+        "isaware": "Binary",
+        "islegal": "Binary"
+    },
+    "KeyWords": {
+        "work_schedule": [
+            "work schedule",
+            "schedule"
+        ],
+        "presence_work": [
+            "presence work",
+            "presence"
+        ],
+        "Work_breaks": [
+            "work breaks",
+            "Work breaks",
+            "work break",
+            "Work break"
+        ],
+        "rest_period": [
+            "rest period"
+        ],
+        "standard_work": [
+            "standard work"
+        ],
+        "work_overtime": [
+            "work overtime"
+        ],
+        "refuse_work_overtime": [
+            "right refuse work overtime",
+            "refuse work overtime"
+        ],
+        "staggered_work": [
+            "staggered work",
+            "Staggered work",
+            "Staggered Work"
+        ],
+        "young_worker": [
+            "young worker",
+            "young workers"
+        ],
+        "cigarette_breaks": [
+            "cigarette breaks",
+            "cigarette break",
+            "Cigarette breaks",
+            "cigarette",
+            "Cigarette"
+        ]
+    }
+}

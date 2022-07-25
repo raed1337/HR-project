@@ -1,0 +1,188 @@
+{
+    "DataFrameColumns": {
+        "problem": {
+            "annual_vacation": 1,
+            "event_not_covered_law": 2,
+            "family_obligation": 3,
+            "non_work_accident_sickness": 4,
+            "specific_situation": 5,
+            "statutory_holiday": 7
+        },
+        "sub_problem": {
+            "statutory_holidays_quebec": 1,
+            "wedding_civil": 1,
+            "non_work_accident_sickness": 1,
+            "leave_reservists": 1,
+            "working_statutory_holiday": 2,
+            "family_obligation": 2,
+            "absence_protected": 2,
+            "leave_event_termination_pregnancy": 2,
+            "pay_statutory_holiday_indemnity": 3,
+            "Death_or_funeral": 3,
+            "absence_pay_days": 3,
+            "Leave_for_organ_or_tissue_donation": 3,
+            "pay_statutory_holiday_indemnity_part_time": 4,
+            "domestic_sexual_violence": 4,
+            "annual_vacation": 5,
+            "Victims_of_crime": 5,
+            "calculation_statutory_holiday_indemnity": 6,
+            "calculation_statutory_holiday_indemnity_annual_vacation": 7
+        },
+        "type_family_obligation": {
+            "family_obligation_health_education": 1,
+            "family_obligations_caregiver_parent_health_illness": 2,
+            "none_above": 5
+        },
+        "policy": "Binary",
+        "isaware": "Binary",
+        "islegal": "Binary",
+        "duration": {
+            "short_leave": 1,
+            "long_leave": 2
+        },
+        "nature_of_duration": {
+            "relative_ill_accident": 1,
+            "minor_child_ill_accident": 2
+        }
+    },
+    "KeyWords": {
+        "statutory_holiday": [
+            "holiday",
+            "holidays",
+            "statutory",
+            "statutory holday",
+            "statutory holidays",
+            "unauthorized absence"
+        ],
+        "annual_vacation": [
+            "annual",
+            "vacation",
+            "annual vacation"
+        ],
+        "Death_or_funeral": [
+            "death",
+            "funeral",
+            "death funeral"
+        ],
+        "statutory_holidays_quebec": [
+            "statutory holidays",
+            "statutory holidays quebec",
+            "statutory holidays"
+        ],
+        "working_statutory_holiday": [
+            "working statutory holiday",
+            "working",
+            "working statutory",
+            "working holiday"
+        ],
+        "pay_statutory_holiday_indemnity": [
+            "pay statutory holiday indemnity",
+            "statutory holiday indemnity",
+            "pay statutory holiday",
+            "pay holiday indemnity"
+        ],
+        "pay_statutory_holiday_indemnity_part_time": [
+            "pay statutory holiday indemnity part-time",
+            "part-time"
+        ],
+        "calculation_statutory_holiday_indemnity": [
+            "calculation statutory holiday indemnity"
+        ],
+        "calculation_statutory_holiday_indemnity_annual_vacation": [
+            "calculation statutory holiday indemnity annual vacation"
+        ],
+        "event_not_covered_law": [
+            "event",
+            "event covered law",
+            "law",
+            "event law"
+        ],
+        "family_obligation": [
+            "family obligation",
+            "family",
+            "obligation",
+            "parental family obligations",
+            "family obligations"
+        ],
+        "non_work_accident_sickness": [
+            "work accident sickness",
+            "accident sickness",
+            "accidents sickness",
+            "work accidents sickness"
+        ],
+        "specific_situation": [
+            "specific situation",
+            "situation",
+            "specific"
+        ],
+        "wedding_civil": [
+            "wedding civil union",
+            "wedding",
+            "civil",
+            "civil union"
+        ],
+        "absence_protected": [
+            "absence protected",
+            "protected"
+        ],
+        "absence_pay_days": [
+            "pay absence pay",
+            "absence pay"
+        ],
+        "leave_reservists": [
+            "leave reservists",
+            "leave reservist"
+        ],
+        "leave_event_termination_pregnancy": [
+            "leave event termination pregnancy"
+        ],
+        "Leave_for_organ_or_tissue_donation": [
+            "leave organ'tissue donation",
+            "leave organ tissue donation"
+        ],
+        "domestic_sexual_violence": [
+            "domestic sexual violence"
+        ],
+        "Victims_of_crime": [
+            "crime"
+        ],
+        "family_obligation_health_education": [
+            "family obligation health education",
+            "health education",
+            "health",
+            "education",
+            "family obligations care health education"
+        ],
+        "family_obligations_caregiver_parent_health_illness": [
+            "family obligations caregiver parent health illness",
+            "parent health illness",
+            "caregiver parent health illness"
+        ],
+        "none_above": [
+            "none above"
+        ],
+        "long_leave": [
+            "long-duration leave",
+            "long leave",
+            "long"
+        ],
+        "short_leave": [
+            "short-duration leave",
+            "short leave",
+            "short"
+        ],
+        "relative_ill_accident": [
+            "relative ill accident"
+        ],
+        "minor_child_ill_accident": [
+            "minor child ill accident"
+        ]
+    },
+    "Mapping": {
+
+        "problem": [
+            "RequestConfirmProblem"
+        ],
+        "sub_problem": []
+    }
+}

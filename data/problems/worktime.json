@@ -1,0 +1,25 @@
+{
+    "MainProblemCategory": "worktime",
+    "SubCategories": {
+        "Related Work Time": {
+            "QuestionSet": [
+                "WorkTime.WorkSchedule.RequestProblemCategory",
+                "WorkTime.WorkSchedule.RequestIsPolicy",
+                "WorkTime.WorkSchedule.RequestIsAware",
+                "WorkTime.WorkSchedule.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {}
+        },
+        "Abuse Work": {
+            "QuestionSet": [
+                "WorkTime.WorkSchedule.RequestProblemCategory",
+                "WorkTime.WorkSchedule.RequestIsPolicy",
+                "WorkTime.WorkSchedule.RequestIsAware",
+                "WorkTime.WorkSchedule.RequestIsLegal",
+                "Common.RequestConcern"
+            ],
+            "FlowChange": {}
+        }
+    }
+}

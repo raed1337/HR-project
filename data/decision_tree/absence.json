@@ -1,0 +1,275 @@
+{
+    "DataFrameColumns": {
+        "problem": {
+            "absent": 1,
+            "absenteeism": 2,
+            "late": 3,
+            "workstation": 4,
+            "time_theft": 5,
+            "refusal_day_off": 6,
+            "job_abandonment": 7
+        },
+        "experience": "Number",
+        "contract": {
+            "temporary": 1,
+            "permanent": 2
+        },
+        "policy": "Binary",
+        "late_duration": "Number",
+        "first_absence": "Binary",
+        "justification": "Binary",
+        "failure": "Binary",
+        "prejudice_production": "Binary",
+        "pattern": "Binary",
+        "company_damage": "Number",
+        "moral_impact": "Binary",
+        "explain_behavior": "Binary",
+        "negligent_schedule": "Binary",
+        "working_condition": "Binary",
+        "production_problem": "Binary",
+        "weather": "Binary",
+        "absence_ratio": "Binary",
+        "absence_freq": "Binary",
+        "medical_reason": "Binary",
+        "medical_prognosis": "Binary",
+        "medical_disability": "Binary",
+        "other_sanctions_suspension": {
+            "suspension": 1
+        },
+        "other_sanctions_verbal": {
+            "verbal": 1
+        },
+        "other_sanctions_written": {
+            "written": 1
+        },
+        "past_sanction_time": "Number",
+        "current_sanctions_suspension": {
+            "suspension": 1
+        },
+        "current_sanctions_verbal": {
+            "verbal": 1
+        },
+        "current_sanctions_written": {
+            "written": 1
+        },
+        "performance": "Binary",
+        "personnel_matters": "Binary",
+        "past_practice": "Binary",
+        "labor_law": "Binary",
+        "reason": "Binary",
+        "goal": {
+            "correct_goal": 1,
+            "terminate_goal": 2
+        },
+        "final_goal": {
+            "none": 0,
+            "correct_goal": 1,
+            "terminate_goal": 2
+        }
+    },
+    "KeyWords": {
+        "absent": [
+            "absent",
+            "unjustified",
+            "unauthorized",
+            "absence",
+            "unjustified absence",
+            "unauthorized absence",
+            "unjustified or unauthorized absence "
+        ],
+        "absenteeism": [
+            "absenteeism",
+            "often absent",
+            "has not reported"
+        ],
+        "late": [
+            "late",
+            "delay",
+            "lateness"
+        ],
+        "time_theft": [
+            "steal time",
+            "steal",
+            "stealing",
+            "time stealing"
+        ],
+        "refusal_day_off": [
+            "vacation",
+            "days off",
+            "weekend"
+        ],
+        "workstation": [
+            "workstation"
+        ],
+        "job_abandonment": [
+            "away",
+            "left",
+            "abandonment",
+            "abandon",
+            "abandoned",
+            "any news"
+        ],
+        "verbal": [
+            "verbal warnings",
+            "verbally warned",
+            "verbal warning",
+            "verbally",
+            "verbal warning",
+            "verbal",
+            "verbal warning"
+        ],
+        "temporary": [
+            "temporary"
+        ],
+        "permanent": [
+            "permanent"
+        ],
+        "written": [
+            "written",
+            "one written",
+            "two written",
+            "three written",
+            "4 written",
+            "5 written",
+            "warning",
+            "warnings",
+            "notice"
+        ],
+        "suspension": [
+            "suspension",
+            "suspended",
+            "suspensions"
+        ],
+        "terminate_goal": [
+            "terminate",
+            "fire",
+            "get rid",
+            "end",
+            "terminate contract",
+            "end contract"
+        ],
+        "correct_goal": [
+            "address situation",
+            "correct situation",
+            "correct performance",
+            "correct",
+            "correct behaviour"
+        ]
+    },
+    "Mapping": {
+        "main_problem": [
+            "RequestProblemConfirmation"
+        ],
+        "problem": [
+            "RequestConfirmProblem"
+        ],
+        "type_family_obligation": [
+            "RequestTypeFamilyObligation"
+        ],
+        "duration": [
+            "RequestDuration"
+        ],
+        "nature_of_duration": [
+            "RequestNatureOfDuration"
+        ],
+        "sub_problem": [
+            "RequestProblemCategory"
+        ],
+        "experience": [
+            "RequestSeniority"
+        ],
+        "late_duration": [
+            "RequestPeriod"
+        ],
+        "contract": [
+            "RequestContractType"
+        ],
+        "policy": [
+            "RequestIsPolicy"
+        ],
+        "first_absence": [
+            "RequestIsFirstAbsence",
+            "RequestIsFirstLate"
+        ],
+        "justification": [
+            "RequestIsJustification",
+            "RequestNotification"
+        ],
+        "failure": [
+            "RequestIsFailure"
+        ],
+        "prejudice_production": [
+            "RequestDamageProduction"
+        ],
+        "pattern": [
+            "RequestIsPattern"
+        ],
+        "company_damage": [
+            "RequestDamageScale"
+        ],
+        "moral_impact": [
+            "RequestIsTeamImpact"
+        ],
+        "working_condition": [
+            "RequestIsWorkConditionReason"
+        ],
+        "production_problem": [
+            "RequestIsWorkProductionReason"
+        ],
+        "explain_behavior": [
+            "RequestIsBehavior"
+        ],
+        "schedule": [
+            "RequestIsNegligent"
+        ],
+        "weather": [
+            "RequestIsWeatherReason"
+        ],
+        "absence_ratio": [
+            "RequestAbsenceRatio"
+        ],
+        "absence_freq": [
+            "RequestAbsenceFerequency"
+        ],
+        "medical_prognosis": [
+            "RequestIsNegativePrognosis"
+        ],
+        "medical_reason": [
+            "RequestIsJustificationMedical"
+        ],
+        "medical_disability": [
+            "RequestIsDisability"
+        ],
+        "other_sanctions": [
+            "RequestOtherSanctions"
+        ],
+        "current_sanctions": [
+            "RequestCurrentSanction"
+        ],
+        "performance": [
+            "RequestIsPerformance"
+        ],
+        "personnel_matters": [
+            "RequestIsPersonalMatters"
+        ],
+        "past_practice": [
+            "RequestIsCompanyPastPractice"
+        ],
+        "labor_law": [
+            "RequestIsLaborLawReasons"
+        ],
+        "reason": [
+            "RequestIsReasons"
+        ],
+        "requestisaware": [
+            "IsAware"
+        ],
+        "islegal": [
+            "RequestIsLegal"
+        ],
+        "goal": [
+            "RequestGoal",
+            "RequestFinalGoal"
+        ]
+    }
+}

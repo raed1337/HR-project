@@ -1,0 +1,60 @@
+Agent Question,User Response
+Hi Manager. How can I help you today?, 
+"I will be able to help you with your request. Could you please validate the subject related to the problem. 
+01. Absence
+02. Leave or holidays 
+03. Related to work Time 
+04. Harassement 
+05. Lack of respect 
+06. Insubordination 
+07. Performance", 
+"I will be able to help you with your request. Just to be sure, could you please validate the subject for which you need information: 
+01 - Insubordination - Refusal to follow manager's instructions 
+02 - Insubordination - Non-compliance with manager's expectations 
+03 - Insubordination - Lack of respect towards a manager", 
+"Alright, please have this person's file in hand. I'm going to ask you some questions about his/her disciplinary record and the current situation.
+Who is the person in question?", 
+What is the date of hire of the individual in question (most recent if rehired by your company) (in months)?, 
+Is this person temporary or permanent?, 
+What is this person's position?, 
+Is it clear in the job description that the person must perform the work requested by his/her supervisor as long as it is not contrary to law or endangers his or her health and safety in the workplace?, 
+Has the person been made aware of the expectations mentioned in the job description?, 
+When did it happen?, 
+Is this the first time the person has refused to follow the directives?, 
+Did this incident happen several times?, 
+Is this a habit or a pattern of the person?, 
+"What are the negative consequences of the person's insubordination for the company? 
+Rate the severity of the situation from 1 (not very serious) to 5 (very serious).", 
+Does the refusal to follow the directives have a negative impact on the team's moral?, 
+Did the refusal to follow the directives endanger the health and safety of the person or the co-workers?, 
+Did the person provide a reasonable explanation for his/her behaviour?, 
+Is there a health or safety explanation that can justify the person's refusal to comply with his/her supervisor's directives?, 
+Is it possible that the person received a contradictory directive from another supervisor?, 
+"Is it possible that the person received a request that conflicted with the directive from a customer, subcontractor or supplier?", 
+Is it possible that the directive was not clear or contradictory?, 
+Is there a disciplinary record on this employee?, 
+"What are the latest disciplinary actions for reasons other than the current incident? 
+A) Verbal warning
+B) Written warning
+C) 1-day suspension 
+D) 2-day suspension 
+E) 3-day suspension 
+F) 4-day suspension 
+G) 5-day suspension", 
+How long ago was the last disciplinary intervention?, 
+Has this person ever been disciplined for insubordination?, 
+"What was the disciplinary measures for the current incident? 
+A) Verbal warning
+B) Written warning
+C) 1-day suspension 
+D) 2-day suspension 
+E) 3-day suspension 
+F) 4-day suspension 
+G) 5-day suspension", 
+Are you satisfied with his/her performance and attitude?, 
+Has his/her performance and attitude changed recently?, 
+Are you in the habit of not intervening when someone is being insubordinate?, 
+"What is your intention with this employee?
+A) Correct his/her behaviour with progressive disciplinary sanctions 
+B) Terminate the employment", 
+"Perfect, thank you.", 
